@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {header,moon,triangleimage ,whatis}from "./UIcomponents";
+// import clouds from './assets/images/clouds.png'
+import './assets/styles/App.css';
+const Header= header;
+const Moon=moon;
+const Triangleimage=triangleimage;
+const Whatis=whatis;
 
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className="mainbackground">
+          <div className="clouds">
+            <div className="contentclouds">
+              <Header className="Header"></Header>
+              <Triangleimage className="Triangle"></Triangleimage>
+              <Moon className="Moon"></Moon>
+              <Whatis className="Whatis"></Whatis>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

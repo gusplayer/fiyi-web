@@ -1,0 +1,37 @@
+.mainbackground{
+  background-image: url("../images/FondoPrincipal.png");
+  background-size: cover;
+  z-index:1;
+  min-height:1000vh;
+  /* background:#fff fixed no-repeat 50% 50%; */
+}
+.Header{
+ grid-area: Header;
+}
+.Triangle{
+grid-area:Triangle;
+}
+.Moon{
+grid-area:Moon;
+}
+.Whatis{
+  grid-area: Whatis;
+}
+.clouds{
+  padding: 50px;
+  min-height: 200vh;
+  background:  fixed no-repeat; 
+  /* fixed */
+  background-size:  cover ;
+  /* contain*/
+  z-index: 2;
+  
+  background-image: url("../images/Nubes.png") ;
+}
+.contentclouds{
+  /* position: fixed; */
+grid-template-areas:"Moon Header"
+                    "Whatis  Triangle"
+                    "Whatis  Triangle";
+  display: grid;
+}

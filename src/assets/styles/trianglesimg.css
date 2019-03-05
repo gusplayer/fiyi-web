@@ -1,0 +1,19 @@
+.contentimgs {
+    width: 300px;
+    /* height: 200px; */
+    z-index: 4;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    /* grid-area: Triangle; */
+    }
+.contentall{
+    grid-area:Triangle;
+    justify-content: right;
+    display: grid;
+}
+.imgtriangle{
+    transform: scale(1.2);
+}
+
+  
+    

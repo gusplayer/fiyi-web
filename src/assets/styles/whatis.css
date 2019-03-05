@@ -1,0 +1,12 @@
+.Contentwhat {
+    z-index: 4;
+    display: grid;
+    justify-content: center;
+    /* align-content: center; */
+    padding-top: 150px;
+    grid-area:Whatis;
+}
+  .imagedescription{
+    transform: scale(1.3);
+  }
+  
