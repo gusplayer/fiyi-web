@@ -1,0 +1,24 @@
+.contentconcept{
+display: grid;
+padding-top:50px;
+grid-template-columns: 300px 500px;
+justify-content:center;
+}
+.conceptimgs{
+    justify-content: center;
+    transform: scale(1.3);
+}
+.conceptimgs #img1{
+    margin-right: 100px;
+}
+.conceptimgs #img2{
+    margin-left: 100px;
+}
+.concepttexts{
+grid-template-rows: .2fr auto;
+ display: grid;
+ justify-content: center;
+}
+.concepttexts #imgtext{
+    transform: scale(1.3);
+}

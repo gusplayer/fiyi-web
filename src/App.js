@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import {header,moon,triangleimage ,whatis}from "./UIcomponents";
+import {header,moon,triangleimage ,whatis,videoplane,ourconcept}from "./UIcomponents";
 // import clouds from './assets/images/clouds.png'
 import './assets/styles/App.css';
 const Header= header;
 const Moon=moon;
 const Triangleimage=triangleimage;
 const Whatis=whatis;
+const Videoplane=videoplane;
+const Ourconcept=ourconcept;
+
 
 class App extends Component {
   
@@ -20,6 +23,12 @@ class App extends Component {
               <Moon className="Moon"></Moon>
               <Whatis className="Whatis"></Whatis>
             </div>
+          </div>
+          <div>
+            <Videoplane/>
+          </div>
+          <div>
+            <Ourconcept/>
           </div>
         </div>
       </div>

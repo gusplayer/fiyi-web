@@ -19,19 +19,17 @@ grid-area:Moon;
 }
 .clouds{
   padding: 50px;
-  min-height: 200vh;
+  /* min-height: 200vh; */
   background:  fixed no-repeat; 
   /* fixed */
   background-size:  cover ;
   /* contain*/
   z-index: 2;
-  
   background-image: url("../images/Nubes.png") ;
 }
 .contentclouds{
-  /* position: fixed; */
-grid-template-areas:"Moon Header"
-                    "Whatis  Triangle"
-                    "Whatis  Triangle";
+  grid-template-areas:"Moon Header"
+                    "Whatis Triangle"
+                    "Whatis Triangle";
   display: grid;
 }
