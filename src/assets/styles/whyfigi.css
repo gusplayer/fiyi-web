@@ -1,0 +1,11 @@
+.contentwhyfigi{
+    display: grid;
+    padding-top:200px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.concepttextwhy{
+  grid-template-rows: 50px 1fr;
+} 
+.conceptimgswhy{
+
+}

@@ -16,15 +16,15 @@ class ourconcept extends Component {
       <div className="contentconcept">    
         <div className="conceptimgs">
             <div>
-                <img src={sun}/>
-                <img id="img1" src={ourconceptimg1}/>
+                <img src={sun} alt="sun"/>
+                <img id="img1" src={ourconceptimg1} alt="ourconceptimg1"/>
             </div>
-                <img  id="img2" src={ourconceptimg2}/>
-                <img  id="img3" src={ourconceptimg3}/>
+                <img  id="img2" src={ourconceptimg2} alt="ourconceptimg2"/>
+                <img  id="img3" src={ourconceptimg3} alt="ourconceptimg3"/>
         </div>    
         <div className="concepttexts">
-            <img src={ourconcepttitle}/>
-            <img id="imgtext" src={ourconcepttext1}/>
+            <img src={ourconcepttitle} alt="ourconcepttitle"/>
+            <img id="imgtext" src={ourconcepttext1} alt="ourconcepttext1"/>
             {/* <img src={ourconcepttext2}/> */}
         </div> 
       </div>

@@ -8,11 +8,11 @@ class videoplane extends Component {
     return (
       <div className="contentvideo">  
             <div className="imgprevideo">
-            <img src={planeprevideo}/> 
+            <img src={planeprevideo} alt="planeprevideo"/> 
             </div>      
-             <iframe src="https://player.vimeo.com/video/320383446" 
+             <iframe  title="videofigi" src="https://player.vimeo.com/video/320383446" 
              width="800" height="300" 
-             frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+             frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
       </div>
     );
   }

@@ -17,6 +17,16 @@ grid-area:Moon;
 .Whatis{
   grid-area: Whatis;
 }
+.DescriptionContent{
+  display: grid;
+  justify-content: center;
+}
+.WhyFigiContent{
+  background-size: cover;
+  z-index:1;
+  min-height:1000vh;
+  background-image: url("../images/Aguaybarco.png") ;
+}
 .clouds{
   padding: 50px;
   /* min-height: 200vh; */

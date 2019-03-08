@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {header,moon,triangleimage ,whatis,videoplane,ourconcept}from "./UIcomponents";
+import {header,moon,triangleimage ,whatis,videoplane,ourconcept,descriptionfigi,whyfigi}from "./UIcomponents";
 // import clouds from './assets/images/clouds.png'
 import './assets/styles/App.css';
 const Header= header;
@@ -8,10 +8,9 @@ const Triangleimage=triangleimage;
 const Whatis=whatis;
 const Videoplane=videoplane;
 const Ourconcept=ourconcept;
-
-
+const Description=descriptionfigi;
+const Whyfigi=whyfigi;
 class App extends Component {
-  
   render() {
     return (
       <div className="App">
@@ -29,6 +28,12 @@ class App extends Component {
           </div>
           <div>
             <Ourconcept/>
+          </div>
+          <div className="DescriptionContent">
+            <Description/>
+          </div>
+          <div className="WhyFigiContent">
+              <Whyfigi/>
           </div>
         </div>
       </div>

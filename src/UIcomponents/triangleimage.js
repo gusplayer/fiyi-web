@@ -10,11 +10,11 @@ class triangleimage extends Component {
     return (
       <div className="contentall">
       <div>
-      <img src={imgentrete} className="imgtexto"/>
+      <img src={imgentrete} className="imgtexto" alt="imgentrete"/>
       </div>
       <div className="contentimgs">         
-             <img src={imgtriangle1} className="imgtriangle"/>
-             <img src={imgtriangle2} className="imgtriangle"/>
+             <img src={imgtriangle1} className="imgtriangle" alt="imgtriangle1"/>
+             <img src={imgtriangle2} className="imgtriangle" alt="imgtriangle2"/>
       </div>
       </div>
     );
