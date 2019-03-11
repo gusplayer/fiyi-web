@@ -1,45 +1,56 @@
 .mainbackground{
-  background-image: url("../images/FondoPrincipal.png");
-  background-size: cover;
-  z-index:1;
-  min-height:1000vh;
-  /* background:#fff fixed no-repeat 50% 50%; */
+  z-index:-1; 
+}
+.mainbackground img{
+  width: 100%;
+  position:absolute;
 }
 .Header{
- grid-area: Header;
+  grid-area: Header;
 }
 .Triangle{
-grid-area:Triangle;
+  grid-area:Triangle;
 }
 .Moon{
-grid-area:Moon;
+  grid-area:Moon;
 }
 .Whatis{
   grid-area: Whatis;
 }
-.DescriptionContent{
-  display: grid;
-  justify-content: center;
-}
-.WhyFigiContent{
-  background-size: cover;
-  z-index:1;
-  min-height:1000vh;
-  background-image: url("../images/Aguaybarco.png") ;
-}
 .clouds{
-  padding: 50px;
-  /* min-height: 200vh; */
-  background:  fixed no-repeat; 
-  /* fixed */
-  background-size:  cover ;
-  /* contain*/
-  z-index: 2;
-  background-image: url("../images/Nubes.png") ;
+  top:65vh;
+  z-index: 1;
+  position:relative;
+}
+.clouds2{
+  top:45vh;
+  z-index: 1;
+  position:relative;
+}
+.mountains{
+  top:100vh;
+  display: grid;
+  grid-template-rows: .5fr 1fr; 
+  z-index: 1;
+  position:relative;
+}
+.shippaper{
+  top:60vh;
+  z-index: 1;
+  position:relative;
+}
+.mountains #mountainsola{
+  padding-top:1000px;
+  position: 
 }
 .contentclouds{
   grid-template-areas:"Moon Header"
-                    "Whatis Triangle"
-                    "Whatis Triangle";
+                      "Whatis Triangle"
+                      "Whatis Triangle";
   display: grid;
+}
+.contentclouds img{
+  width:auto;
+  position: relative;
+  top:-300px;
 }

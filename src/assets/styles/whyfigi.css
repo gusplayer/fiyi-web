@@ -1,11 +1,33 @@
 .contentwhyfigi{
     display: grid;
     padding-top:200px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+  grid-row-gap: 50px;
+    justify-items: center;
+}
+.content1{
+  display: grid;
+grid-template-columns: 1fr 200px 1fr;
+grid-column-gap: 100px;
+}
+.content2{
+  display: grid;
+  grid-column-gap:400px;
+  grid-template-columns: 1fr 1fr;
 }
 .concepttextwhy{
+  display:grid;
   grid-template-rows: 50px 1fr;
 } 
+#imgtop{
+  z-index: 1;
+  display: grid;
+  justify-content: center;
+}
 .conceptimgswhy{
-
+}   
+#imgs{
+  transform: scale(1.2);
+  width: auto;
+  position: relative;
 }

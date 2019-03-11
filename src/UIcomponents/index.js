@@ -5,5 +5,22 @@ import videoplane from "./video.js";
 import whatis from "./whatis.js";
 import ourconcept from "./ourconcept.js";
 import descriptionfigi from "./descriptionfigi.js";
-import whyfigi from "./whyfigi";
- export { header, moon, triangleimage, whatis,videoplane, ourconcept,descriptionfigi,whyfigi};
+import whyfigi from "./whyfigi.js";
+import parkfigi from "./parkfigi.js";
+import cardinfofigi from "./cardinfofigi.js";
+import listparksfigi from "./listparksfigi.js";
+import imgend from "./imgend.js";
+ export { 
+    header, 
+    moon, 
+    triangleimage, 
+    whatis,
+    videoplane, 
+    ourconcept,
+    descriptionfigi,
+    whyfigi,
+    parkfigi,
+    cardinfofigi,
+    listparksfigi,
+    imgend
+   };

@@ -2,14 +2,15 @@
     z-index: 4;
     display: grid;
     grid-template-rows: 250px 1fr;
-    padding-top: 80px;
+    position: sticky;
+ top:0;
 }
 .imagerocket{
     z-index: 5;
     padding-left: 200px;
     margin-bottom: 50px;
     transform: scale(1.2);
-    
+
 }
 .imagemoon{
     transform: scale(1.3);

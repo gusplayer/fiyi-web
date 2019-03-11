@@ -14,27 +14,31 @@ class whyfigi extends Component {
   render() {
     return (
       <div className="contentwhyfigi">    
-        <div>
-        <div className="concepttextwhy">
-            <img src={imgtext1} alt="imgtext1"/>
-            <img src={whyfigitext1} alt="whyfigitext1"/>
+        <div className="content1">
+          <div className="concepttextwhy">
+            <div id="imgtop">
+              <img id="imgs" src={imgtext1} alt="imgtext1"/>
+            </div>
+            <img id="imgs" src={whyfigitext1} alt="whyfigitext1"/>
+          </div>
+          <div>
+            <img id="imgs" src={whyfigitextniños} alt="whyfigitextniños"/>
+          </div>
+          <div className="concepttextwhy">
+            <div id="imgtop">
+              <img id="imgs"  src={imgtext2} alt="imgtext1"/>
+            </div>
+            <img id="imgs" src={whyfigitext2} alt="whyfigitext2"/>
+          </div>
         </div>
-        <div className="concepttextwhy">
-            <img src={imgtext2} alt="imgtext2"/>
-            <img src={whyfigitext2} alt="whyfigitext2"/>
+        <div className="content2">
+          <div>
+            <img id="imgs" src={whyfigitext3} alt="whyfigitext3"/>
+          </div>
+          <div>
+            <img id="imgs" src={whyfigitext4} alt="whyfigitext4"/>
+          </div>
         </div>
-        </div>
-        <div>
-            <img src={whyfigitextniños} alt="whyfigitextniños"/>
-        </div>
-        <div>
-        <div>
-            <img src={whyfigitext3} alt="whyfigitext3"/>
-        </div>
-        <div>
-            <img src={whyfigitext4} alt="whyfigitext4"/>
-         </div>
-         </div>
       </div>
     );
   }

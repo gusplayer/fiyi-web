@@ -1,0 +1,10 @@
+.contentpark{
+    display: grid;
+    padding-top:700px;
+    justify-content: center;
+}
+.contentpark #imgpark{
+    width: auto;
+    position: relative; 
+    transform: scale(1.5);
+}

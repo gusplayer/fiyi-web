@@ -1,0 +1,24 @@
+.contentparksfigi{
+    display: grid;
+    padding-top:450px;
+    justify-content: center;
+    grid-gap: 60px;
+    grid-template-columns: 1fr 1fr;
+}
+#imgcardinfo{
+    width: auto;
+    position: relative; 
+    transform: scale(1.5);
+    z-index: 2;
+}
+.cardinfo{
+    width:800px;
+    background-color:#4c95d5;
+    border-radius: 40px;
+    height: 150px;
+    z-index: 1;
+}
+.contentelementsimgs{
+    display:grid;
+    /* grid-template-rows: 100px 1fr; */
+}

@@ -1,22 +1,21 @@
 .contentimgs {
-    /* width: 300px; */
     z-index: 4;
     display: grid;
-    /* grid-template-rows: 300px 300px; */
-    /* grid-area: Triangle; */
+    top:50px;
     }
-    .imgtexto{
-        transform: scale(1.5);
-        margin-bottom: 50px;
-        display: grid;
-        justify-content: right;
+.imgtexto{
+    transform: scale(1.5);
+    margin-bottom: 20px;
+    display: grid;
+    justify-content: right;
+    margin-right: 35px;
     }
 .contentall{
     grid-area:Triangle;
     justify-content: right;
+    align-content: initial;
     padding-right: 50px;
     display: grid;
-
 }
 .imgtriangle{
     width: auto;

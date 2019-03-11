@@ -6,7 +6,7 @@ class whatis extends Component {
   render() {
     return (
       <div className="Contentwhat">
-             <img src={dequesetrata} className="imagedescription" alt="logo" />
+        <img src={dequesetrata} className="imagedescription" alt="logo" />
       </div>
     );
   }
