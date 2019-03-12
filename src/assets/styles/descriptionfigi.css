@@ -1,18 +1,23 @@
 .contentdescription{
     display: grid;
-    padding-top:100px;
+    margin-top:400px;
     grid-template-columns: .4fr .4fr;
-    grid-gap:70px;
+    grid-gap:150px;
     justify-content: center;
+    z-index:3;
 }
 .concepttextdescription{
     width: auto;
     position: relative;
-    transform: scale(1.1);
+    transform: scale(1.5);
 } 
 .conceptimgsdescription{
     width: auto;
     position: relative;
-    transform: scale(1.1);
+    transform: scale(1.5);
     margin-top: -20px;
+}
+#imgdescrip{
+    width: auto;
+    position: relative;
 }

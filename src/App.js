@@ -26,7 +26,8 @@ class App extends Component {
     return (
       <div>
         <div className="mainbackground">
-       <img src={mainbackground}></img>
+        <img src={mainbackground}></img>
+            <div className="contentallcomponents">
           <div className="clouds">
           <img id="nubes" src={clouds}></img>
             <div className="contentclouds">
@@ -39,20 +40,25 @@ class App extends Component {
           <div className="clouds2"> 
             <img src={clouds2}></img>
             <Videoplane/>
+            <Ourconcept/>
           </div>
           <div className="mountains">
-            <Ourconcept/>
           <img src={mountains}></img>
+          <div>
+          <img id="montana" src={mountainsola}></img>
+          </div>
             <Description/>
+            <Whyfigi/>
           </div>
           <div className="shippaper">
-            <Whyfigi/>
             <img src={shippaper}></img>
+            
             <Parkfigi/>
             <Cardinfofigi/>
           <div><h1>BLEBLEBLELB</h1></div>
             <Listparksfigi/>
             <Imgend/>
+          </div>
           </div>
         </div>
       </div>

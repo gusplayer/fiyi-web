@@ -1,9 +1,10 @@
 .contentwhyfigi{
     display: grid;
-    padding-top:200px;
     grid-template-rows: 300px 300px;
+    padding-top: 500px;
   grid-row-gap: 50px;
     justify-items: center;
+    z-index:2;
 }
 .content1{
   display: grid;

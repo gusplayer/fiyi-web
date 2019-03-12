@@ -1,27 +1,32 @@
 .contentconcept{
 display: grid;
-grid-template-columns: 300px 500px;
+grid-template-columns: 300px 1fr;
 justify-content:center;
 z-index: 2;
-
+margin-top: 350px;
+grid-column-gap: 150px;
 }
 .conceptimgs{
     width: auto;
     justify-content: center;
-    transform: scale(1.3);
+    display: grid;
+    transform: scale(1.5);
     position: relative;
-    margin-bottom: 500px;
-    
-   
+    grid-template-rows: 100px 700px;
+    padding-right: 20px;
+
 }
 .conceptimgs #img1{
-    position: relative;
+    position: sticky;
+    top:0;
     width: auto;
+    padding-left: 150px;
+    padding-top: 70px;
 }
 .concepttexts #imgtext{
     position: relative;
     width: auto;
-    transform: scale(1.3);
+    transform: scale(1.5);
 }
 .concepttexts{
 grid-template-rows: .2fr auto;

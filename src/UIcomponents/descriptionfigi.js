@@ -8,10 +8,10 @@ class descriptionfigi extends Component {
     return (
       <div className="contentdescription">    
         <div className="conceptimgsdescription">
-          <img src={logofigi} alt="logofigi"/>
+          <img id="imgdescrip" src={logofigi} alt="logofigi"/>
         </div>    
         <div className="concepttextdescription">
-          <img src={imgdescriptionfigi} alt="imgdescriptionfigi"/>
+          <img id="imgdescrip" src={imgdescriptionfigi} alt="imgdescriptionfigi"/>
         </div> 
       </div>
     );

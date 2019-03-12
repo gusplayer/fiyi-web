@@ -43,32 +43,26 @@ class cardinfofigi extends Component {
                 </div>
                 <img id="imgcardinfo" src={photo4}/>
             </div> */}
-            <div className="contentelements">
-                <img id="imgcardinfo" src={photo5}/>
+            <div className="contentelements2">
                 <div className="cardinfo">
                     <p>lorem ipsum varsum loream natsus galantis</p>                
                 </div>
+                <img id="imgcardinfo" src={photo5}/>
             </div>
-            <div className="contentelements2">
-                <div className="cardinfo">
-                    <p>123456</p>                
-                </div>
+            <div className="contentelements">
                 <img id="imgcardinfo" src={photo6}/>
+                <div className="cardinfo">
+                    <p>123456</p>                
+                </div>
             </div>
-            <div className="contentelements">
+            <div className="contentelements2">
+                <div className="cardinfo">
+                    <p>123456</p>                
+                </div>
                 <img id="imgcardinfo" src={photo7}/>
-                <div className="cardinfo">
-                    <p>123456</p>                
-                </div>
             </div>
-            <div className="contentelements2">
-                <div className="cardinfo">
-                    <p>123456</p>                
-                </div>
+            <div className="contentelements">
                 <img id="imgcardinfo" src={photo8}/>
-            </div>
-            <div className="contentelements">
-                <img id="imgcardinfo" src={photo9}/>
                 <div className="cardinfo">
                     <p>123456</p>                
                 </div>
@@ -77,13 +71,19 @@ class cardinfofigi extends Component {
                 <div className="cardinfo">
                     <p>123456</p>                
                 </div>
-                <img id="imgcardinfo" src={photo10}/>
+                <img id="imgcardinfo" src={photo9}/>
             </div>
             <div className="contentelements">
-                <img id="imgcardinfo" src={photo11}/>
+                <img id="imgcardinfo" src={photo10}/>
                 <div className="cardinfo">
                     <p>123456</p>                
                 </div>
+            </div>
+            <div className="contentelements2">
+                <div className="cardinfo">
+                    <p>123456</p>                
+                </div>
+                <img id="imgcardinfo" src={photo11}/>
             </div>
         </div>
     );
