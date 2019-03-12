@@ -24,9 +24,25 @@ grid-column-gap: 100px;
   z-index: 1;
   display: grid;
   justify-content: center;
+  transition:transform .8s ease-in-out;
+}
+#imgtop:hover{
+  transform: rotate(360deg);
 }
 .conceptimgswhy{
 }   
+#imgstextniño{
+  /* transform: scale(1.2); */
+  width: auto;
+  position: sticky;
+  top:0;
+  transition:transform .8s ease-in-out;
+
+}
+#imgstextniño:hover{
+  transform: rotate(360deg);
+}
+
 #imgs{
   transform: scale(1.2);
   width: auto;

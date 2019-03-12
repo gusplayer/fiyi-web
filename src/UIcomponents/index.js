@@ -10,6 +10,8 @@ import parkfigi from "./parkfigi.js";
 import cardinfofigi from "./cardinfofigi.js";
 import listparksfigi from "./listparksfigi.js";
 import imgend from "./imgend.js";
+import trend from "./trends.js";
+import imageled from "./imageledls.js";
  export { 
     header, 
     moon, 
@@ -22,5 +24,7 @@ import imgend from "./imgend.js";
     parkfigi,
     cardinfofigi,
     listparksfigi,
-    imgend
+    imgend,
+    trend,
+    imageled
    };

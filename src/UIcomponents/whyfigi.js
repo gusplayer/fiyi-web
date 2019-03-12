@@ -22,7 +22,7 @@ class whyfigi extends Component {
             <img id="imgs" src={whyfigitext1} alt="whyfigitext1"/>
           </div>
           <div>
-            <img id="imgs" src={whyfigitextniños} alt="whyfigitextniños"/>
+            <img id="imgstextniño" src={whyfigitextniños} alt="whyfigitextniños"/>
           </div>
           <div className="concepttextwhy">
             <div id="imgtop">

@@ -1,9 +1,10 @@
-.contentpark{
+.contenttrend{
     display: grid;
-    padding-top:450px;
+    padding-top:150px;
+    width: 100%;
     justify-content: center;
 }
-.contentpark #imgpark{
+.contenttrend #imgpark{
     width: auto;
     position: relative; 
     transform: scale(1.5);

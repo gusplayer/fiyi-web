@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 import smallpark from '../assets/images/parquepequeño.png';
 import bigpark from '../assets/images/parquegrande.png';
-import infobigpark from '../assets/images/infoparquepeque.png';
-import infosmallpark from '../assets/images/infoparquegrande.png';
+import mediumpark from '../assets/images/parquemediano.png';
+
 import '../assets/styles/listparksfigi.css';
 
 class listparksfigi extends Component {
@@ -11,12 +11,11 @@ class listparksfigi extends Component {
     return (
         <div className="contentparksfigi">     
             <div className="contentelementsimgs">
-                <img id="imgcardinfo" src={smallpark}/>
-                <img id="imgcardinfo" src={infosmallpark} />  
+                <img id="imgcardpark" src={smallpark}/>
+                <img id="imgcardpark" src={mediumpark}/>
             </div>
-            <div className="contentelementsimgs">
-                <img id="imgcardinfo" src={bigpark}/>
-                <img id="imgcardinfo" src={infobigpark} />
+            <div className="contentelementsimg">
+                <img id="imgcardpark" src={bigpark}/>
             </div>
            
         </div>

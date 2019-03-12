@@ -1,6 +1,6 @@
 .contentdescription{
     display: grid;
-    margin-top:400px;
+    margin-top:200px;
     grid-template-columns: .4fr .4fr;
     grid-gap:150px;
     justify-content: center;
@@ -9,13 +9,18 @@
 .concepttextdescription{
     width: auto;
     position: relative;
-    transform: scale(1.5);
+    transform: scale(1.3);
 } 
 .conceptimgsdescription{
     width: auto;
     position: relative;
     transform: scale(1.5);
     margin-top: -20px;
+    transition:transform .8s ease-in-out;
+}
+
+.conceptimgsdescription:hover{
+    transform: scale(1.7);
 }
 #imgdescrip{
     width: auto;

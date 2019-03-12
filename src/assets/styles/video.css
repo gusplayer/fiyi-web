@@ -10,4 +10,8 @@
     position: relative;
     display: grid;
     justify-content: center;
+    transition:transform .8s ease-in-out;
+}
+.imgprevideo:hover{
+    transform: translateX(100px);
 }

@@ -21,31 +21,22 @@ class cardinfofigi extends Component {
         <div className="contentinfofigi">     
             <div className="contentelements">
                 <img id="imgcardinfo" src={photo1}/>
-                <div className="cardinfo">
-                    <p>123456</p>                
+                <div className="cardinfo">             
                 </div>
             </div>
             <div className="contentelements2">
-                <div className="cardinfo">
-                    <p>123456</p>                
+                <div className="cardinfo">         
                 </div>
                 <img id="imgcardinfo" src={photo2}/>
             </div>
             <div className="contentelements">
                 <img id="imgcardinfo" src={photo3}/>
                 <div className="cardinfo">
-                    <p>123456</p>                
+                   
                 </div>
             </div>
-            {/* <div className="contentelements2">
-                <div className="cardinfo">
-                    <p>123456</p>                
-                </div>
-                <img id="imgcardinfo" src={photo4}/>
-            </div> */}
             <div className="contentelements2">
-                <div className="cardinfo">
-                    <p>lorem ipsum varsum loream natsus galantis</p>                
+                <div className="cardinfo">                
                 </div>
                 <img id="imgcardinfo" src={photo5}/>
             </div>

@@ -22,6 +22,7 @@ grid-column-gap: 150px;
     width: auto;
     padding-left: 150px;
     padding-top: 70px;
+    transition:transform .8s ease-in-out;
 }
 .concepttexts #imgtext{
     position: relative;

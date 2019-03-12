@@ -1,6 +1,6 @@
 .contentinfofigi{
     display: grid;
-    padding-top:450px;
+    padding-top:200px;
     justify-content: center;
     grid-gap: 60px;
 }
@@ -12,7 +12,7 @@
 }
 .cardinfo{
     width:800px;
-    background-color:#4c95d5;
+    background-color:#4494b194;
     border-radius: 40px;
     height: 150px;
     z-index: 1;

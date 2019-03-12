@@ -20,6 +20,10 @@
 .imgtriangle{
     width: auto;
     transform: scale(1.5);
+    transition:transform .8s ease-in-out;
+}
+.imgtriangle:hover{
+    transform: rotate(360deg);
 }
 
   

@@ -1,12 +1,11 @@
-.contentimgsh{
+.contentledls{
     padding-top:400px;
     z-index: 2;
-    display: flex;
-    flex-direction: column;
+    padding-top: 700px;
     
     /* grid-template-rows: 1fr 1fr; */
 }
-.contentimgsh #imgend{
+.contentledls #imgled{
     width:100%;
     position: relative; 
 }

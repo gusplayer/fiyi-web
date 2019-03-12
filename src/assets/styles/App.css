@@ -1,18 +1,16 @@
 .mainbackground{
   z-index:-1; 
- 
+  display: grid;
+  justify-content: center;
+  margin: 0 auto;
+  top:0;
+  left:0;
 }
 .mainbackground img{
   width: 100%;
   position:absolute;
 }
 .contentallcomponents{
-  display: grid;
-  justify-items: center;
-  margin: 0 auto;
-  top:0;
-  left:0;
-  /* max-width: 1080px; */
 }
 .Header{
   grid-area: Header;
@@ -52,19 +50,21 @@
   width: 100%;
 }
 .shippaper{
-  top:60vh;
+  top:-10vh;
   z-index: 1;
   position:relative;
+  display: grid;
+  justify-content: center;
+  width: 100%;
 }
 #montana{
   top: 0;
     position: -webkit-sticky;
     position: sticky;
     width: 500px;
-    margin-left: 1320px;
+    margin-left: 560px;
     z-index: -1;
     margin-top: -285px;
-    height: 500px;
 }
 .contentclouds{
   grid-template-areas:"Moon Header"
@@ -77,3 +77,6 @@
   position: relative;
   top:-300px;
 }
+/* #nubes{
+  width: auto;
+} */
