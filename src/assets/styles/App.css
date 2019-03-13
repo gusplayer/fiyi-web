@@ -2,15 +2,18 @@
   z-index:-1; 
   display: grid;
   justify-content: center;
+  /* align-items:center; */
   margin: 0 auto;
   top:0;
   left:0;
 }
 .mainbackground img{
   width: 100%;
-  position:absolute;
+  position: absolute;
 }
 .contentallcomponents{
+  /* max-width: 1080px; */
+  width: 100%;
 }
 .Header{
   grid-area: Header;
@@ -25,7 +28,7 @@
   grid-area: Whatis;
 }
 .clouds{
-  top:65vh;
+  top:400px;
   z-index: 1;
   position:relative;
   display: grid;

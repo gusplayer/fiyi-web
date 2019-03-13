@@ -10,18 +10,43 @@
     transform: scale(1.5);
     z-index: 2;
 }
+#imgdecor{
+    width: auto;
+    position: relative;
+    transform: scale(1.4);
+}
+#imgdecor2{
+    width: auto;
+    /* padding-right: 100px;*/
+ transform: scale(1.2);
+    position: relative;
+}
 .cardinfo{
-    width:800px;
-    background-color:#4494b194;
-    border-radius: 40px;
-    height: 150px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
     z-index: 1;
 }
 .contentelements{
     display:grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 200px 600px 100px;
+    width: 900px;
+    background-color:#4494b194;
+    border-radius: 40px;
+    height: 150px;
+    z-index: 3;
+    align-items: center;
+    justify-items: center;
 }
 .contentelements2{
     display:grid;
-    grid-template-columns: 1fr 100px;
+    grid-template-columns: 100px 600px 200px;
+    background-color:#4494b194;
+    width: 900px;
+    border-radius: 40px;
+    height: 150px;
+    z-index: 3;
+    align-items: center;
+    justify-items: center;
 }
