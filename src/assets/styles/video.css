@@ -1,7 +1,7 @@
 .contentvideo{
     padding-top:50px;
     display: grid;
-    grid-gap:200px;
+    grid-gap:140px;
     justify-content: center;
     position: relative;
 }
@@ -10,8 +10,13 @@
     position: relative;
     display: grid;
     justify-content: center;
-    transition:transform .8s ease-in-out;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation: mymove 4s infinite;
+  animation-delay: 1s;
 }
-.imgprevideo:hover{
-    transform: translateX(100px);
-}
+@keyframes mymove {
+    from {left: -200px;
+    }
+    to {left: 200px;}
+  }

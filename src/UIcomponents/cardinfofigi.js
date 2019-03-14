@@ -52,74 +52,74 @@ class cardinfofigi extends Component {
     return (
         <div className="contentinfofigi">     
             <div className="contentelements">
-                <img id="imgcardinfo" src={Card1}/>
-                <img id="imgdecor" src={CardInfo1}/>
-                <img id="imgdecor2" src={Card1_1}/> 
+                <img id="imgcardinfo" alt="img" src={Card1}/>
+                <img id="imgdecor" alt="img" src={CardInfo1}/>
+                <img id="imgdecor2" alt="img" src={Card1_1}/> 
             </div>
             <div className="contentelements2">
-                <img id="imgdecor2" src={Card2_2}/>
-                <img  id="imgdecor" src={CardInfo2}/>   
-                <img id="imgcardinfo" src={Card2}/>
+                <img id="imgdecor2" alt="img" src={Card2_2}/>
+                <img  id="imgdecor"alt="img"  src={CardInfo2}/>   
+                <img id="imgcardinfo" alt="img"  src={Card2}/>
             </div>
             <div className="contentelements">
-                <img id="imgcardinfo" src={Card3}/>
-                    <img  id="imgdecor" src={CardInfo3}/>
-                    <img id="imgdecor2" src={Card3_3}/>    
+                <img id="imgcardinfo" alt="img"  src={Card3}/>
+                    <img  id="imgdecor" alt="img" src={CardInfo3}/>
+                    <img id="imgdecor2" alt="img" src={Card3_3}/>    
             </div>
             <div className="contentelements2">
-                 <img id="imgdecor2" src={Card4_4}/>
-                <img  id="imgdecor" src={CardInfo4}/>                
-                <img id="imgcardinfo" src={Card4}/>
+                 <img id="imgdecor2" alt="img" src={Card4_4}/>
+                <img  id="imgdecor" alt="img" src={CardInfo4}/>                
+                <img id="imgcardinfo" alt="img" src={Card4}/>
             </div>
             <div className="contentelements">
-                <img id="imgcardinfo" src={Card5}/>
-                <img  id="imgdecor" src={CardInfo5}/>
-                <img id="imgdecor2" src={Card5_5}/>               
+                <img id="imgcardinfo" alt="img" src={Card5}/>
+                <img  id="imgdecor" alt="img" src={CardInfo5}/>
+                <img id="imgdecor2" alt="img" src={Card5_5}/>               
             </div>
             <div className="contentelements2">
-                <img id="imgdecor2" src={Card6_6}/> 
-                <img  id="imgdecor" src={CardInfo6}/>              
-                <img id="imgcardinfo" src={Card6}/>
+                <img id="imgdecor2" alt="img" src={Card6_6}/> 
+                <img  id="imgdecor" alt="img" src={CardInfo6}/>              
+                <img id="imgcardinfo" alt="img" src={Card6}/>
             </div>
             <div className="contentelements">
-                <img id="imgcardinfo" src={Card7}/>
-                <img  id="imgdecor" src={CardInfo7}/>
-                <img id="imgdecor2" src={Card7_7}/>                  
+                <img id="imgcardinfo" alt="img" src={Card7}/>
+                <img  id="imgdecor" alt="img" src={CardInfo7}/>
+                <img id="imgdecor2" alt="img" src={Card7_7}/>                  
             </div>
             <div className="contentelements2">
-                <img id="imgdecor2" src={Card8_8}/> 
-                <img  id="imgdecor" src={CardInfo8}/>              
-                <img id="imgcardinfo" src={Card8}/>
+                <img id="imgdecor2" alt="img" src={Card8_8}/> 
+                <img  id="imgdecor" alt="img" src={CardInfo8}/>              
+                <img id="imgcardinfo" alt="img" src={Card8}/>
             </div>
             <div className="contentelements">
-                <img id="imgcardinfo" src={Card9}/>
-                <img  id="imgdecor" src={CardInfo9}/>
-                <img id="imgdecor2" src={Card9_9}/>                 
+                <img id="imgcardinfo" alt="img" src={Card9}/>
+                <img  id="imgdecor" alt="img" src={CardInfo9}/>
+                <img id="imgdecor2" alt="img" src={Card9_9}/>                 
             </div>
             <div className="contentelements2">
-                <img id="imgdecor2" src={Card10_10}/> 
-                <img  id="imgdecor" src={CardInfo10}/>      
-                <img id="imgcardinfo" src={Card10}/>
+                <img id="imgdecor2" alt="img" src={Card10_10}/> 
+                <img  id="imgdecor" alt="img" src={CardInfo10}/>      
+                <img id="imgcardinfo" alt="img" src={Card10}/>
             </div>
             <div className="contentelements">
-            <img id="imgcardinfo" src={Card11}/>
-                <img  id="imgdecor" src={CardInfo11}/>
-                <img id="imgdecor2" src={Card11_11}/>                   
+            <img id="imgcardinfo" alt="img" src={Card11}/>
+                <img  id="imgdecor" alt="img" src={CardInfo11}/>
+                <img id="imgdecor2" alt="img" src={Card11_11}/>                   
             </div>
             <div className="contentelements2">
-                <img id="imgdecor2" src={Card12_12}/>
-                <img  id="imgdecor" src={CardInfo12}/>                 
-                <img id="imgcardinfo" src={Card12}/>
+                <img id="imgdecor2" alt="img" src={Card12_12}/>
+                <img  id="imgdecor" alt="img" src={CardInfo12}/>                 
+                <img id="imgcardinfo" alt="img" src={Card12}/>
             </div>
             <div className="contentelements">
-                <img id="imgcardinfo" src={Card13}/>
-                <img  id="imgdecor" src={CardInfo13}/>
-                <img id="imgdecor2" src={Card13_13}/>             
+                <img id="imgcardinfo" alt="img" src={Card13}/>
+                <img  id="imgdecor" alt="img" src={CardInfo13}/>
+                <img id="imgdecor2" alt="img" src={Card13_13}/>             
             </div>
             <div className="contentelements2">
-                <img id="imgdecor2" src={Card14_14}/>      
-                <img  id="imgdecor" src={CardInfo14}/>           
-                <img id="imgcardinfo" src={Card14}/>
+                <img id="imgdecor2" alt="img" src={Card14_14}/>      
+                <img  id="imgdecor" alt="img" src={CardInfo14}/>           
+                <img id="imgcardinfo" alt="img" src={Card14}/>
             </div>
         </div>
     );

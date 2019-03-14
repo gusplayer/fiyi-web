@@ -28,8 +28,8 @@ class App extends Component {
     return (
       <div>
         <div className="mainbackground">
-        <img src={mainbackground}></img>
             <div className="contentallcomponents">
+            <img  id="mainback" src={mainbackground}/>
               <div className="clouds">
                 <img id="nubes" src={clouds}></img>
                 <div className="contentclouds">

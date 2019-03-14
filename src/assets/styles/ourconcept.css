@@ -14,8 +14,14 @@ grid-column-gap: 150px;
     position: relative;
     grid-template-rows: 100px 700px;
     padding-right: 20px;
-
+    transition: transform 2s;
 }
+
+.conceptimgs:hover{
+    transform: scale(1.6);
+}
+
+
 .conceptimgs #img1{
     position: sticky;
     top:0;

@@ -1,9 +1,6 @@
 .contentledls{
-    padding-top:400px;
     z-index: 2;
-    padding-top: 700px;
-    
-    /* grid-template-rows: 1fr 1fr; */
+    padding-top: 200px;
 }
 .contentledls #imgled{
     width:100%;

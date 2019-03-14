@@ -10,9 +10,10 @@ class videoplane extends Component {
         <div className="imgprevideo">
           <img src={planeprevideo} alt="planeprevideo"/> 
         </div>      
-        <iframe  title="videofigi" src="https://player.vimeo.com/video/320383446" 
-        width="800" height="300" 
-        frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
+        <iframe width="600" height="415" src="https://www.youtube.com/embed/K4DtfUAx3dI" 
+        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; 
+        picture-in-picture" allowfullscreen>
+        </iframe>
       </div>
     );
   }
