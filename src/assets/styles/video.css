@@ -12,11 +12,19 @@
     justify-content: center;
     -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
   -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-  animation: mymove 4s infinite;
-  animation-delay: 1s;
+  animation: mymove 15s infinite;
+  animation-delay: 2s;
 }
 @keyframes mymove {
-    from {left: -200px;
+    0% {left: -600px;
+      opacity: 1;
     }
-    to {left: 200px;}
+    50%{
+      left: 50px;
+      opacity: 1;
+    }
+    100% {
+      left: 400px;
+      opacity: 0;
+    }
   }

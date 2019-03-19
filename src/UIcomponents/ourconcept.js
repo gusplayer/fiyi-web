@@ -20,8 +20,26 @@ class ourconcept extends Component {
         </div>    
         <div className="concepttexts">
             <img  id="imgtext" src={ourconcepttitle} alt="ourconcepttitle"/>
-            <img id="imgtext" src={ourconcepttext1} alt="ourconcepttext1"/>
-            {/* <img src={ourconcepttext2}/> */}
+            <div class="textcontentconcept">
+            <p>
+              Un mundo donde la fantasia se convierte en
+              realidad y la imaginación es el unico límite.
+              Combinamos tecnología de realidad
+              aumentada, rastreo, mapeo, visión por
+              computadora e hicimos tangible el mundo de
+              las fantasías infantiles.
+            </p>
+            <p>
+              Un mundo donde la fantasía se convierte en
+              algo real, un mundo sin limites ni fronteras, un
+              mundo donde los pequeños son inmersos en
+              una experiencia de entretenimiento creativo,
+              un mundo donde la imaginación es el único
+              límite. FiGi hace una combinación única de
+              desarrollo integral, entretenimiento y
+              tecnología de punta…
+            </p>
+            </div>
         </div> 
       </div>
     );

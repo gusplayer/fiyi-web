@@ -1,10 +1,32 @@
 .Contentwhat {
     z-index: 4;
     display: grid;
+    
     justify-content: center;
     /* align-content: center; */
     padding-top: 150px;
     grid-area:Whatis;
+    padding-left: 25px;
+}
+.Contentwhat h1{
+  margin-bottom: 5px;
+  font-size: 45px;
+  font-family: Luckiest guy Regular;
+  color: #5e1a72;
+  -webkit-text-stroke: 1px white;
+}
+.Contentwhat p{
+  font-size: 25px;
+  font-family: Happy Monkey regular;
+  color: #ffffff;
+  margin-top: 20px;
+  line-height: 40px;
+
+}
+.Contentwhat h3{
+  font-size: 26px;
+  font-family: Happy Monkey regular;
+  color: #271552;
 }
   .imagedescription{
     transform: scale(1.5);

@@ -51,7 +51,7 @@
   width: 100%;
 }
 .mountains{
-  top:30vh;
+  top:40vh;
   display: grid;
   justify-items: center;
   grid-template-rows: .5fr 1fr; 
@@ -60,7 +60,7 @@
   width: 100%;
 }
 .shippaper{
-  /* top:-10vh; */
+  top:15vh;
   z-index: 1;
   position:relative;
   display: grid;
@@ -69,12 +69,13 @@
 }
 #montana{
   top: 0;
-    position: relative;
-    width: 500px;
-    margin-left: 560px;
-    z-index: -1;
-    margin-top: -285px;
-    transition: transform 2s;
+  position: relative;
+  width: 500px;
+  margin-left: 900px;
+  z-index: -2;
+  margin-top: -285px;
+  transition: transform 2s;
+  
     
 }
 

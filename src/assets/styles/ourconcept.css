@@ -4,7 +4,7 @@ grid-template-columns: 300px 1fr;
 justify-content:center;
 z-index: 2;
 margin-top: 350px;
-grid-column-gap: 150px;
+grid-column-gap: 100px;
 }
 .conceptimgs{
     width: auto;
@@ -32,11 +32,22 @@ grid-column-gap: 150px;
 }
 .concepttexts #imgtext{
     position: relative;
-    width: auto;
-    transform: scale(1.5);
+    height: 200px;
+    width: 650px;
 }
 .concepttexts{
 grid-template-rows: .2fr auto;
  display: grid;
  justify-content: center;
+}
+.textcontentconcept{
+    width: 500px;
+}
+.concepttexts p{
+    font-size: 23px;
+  font-family: Happy Monkey regular;
+  color: #20386b;
+  margin-top: 0px;
+  line-height: 30px;
+  z-index: 0;
 }
