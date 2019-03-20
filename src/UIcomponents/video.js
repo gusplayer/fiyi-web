@@ -11,8 +11,8 @@ class videoplane extends Component {
           <img src={planeprevideo} alt="planeprevideo"/> 
         </div>      
         <iframe width="600" height="415" src="https://www.youtube.com/embed/K4DtfUAx3dI" 
-        frameborder="0" allow="accelerometer; encrypted-media; gyroscope; 
-        picture-in-picture" allowfullscreen>
+        frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; 
+        picture-in-picture" allowFullScreen>
         </iframe>
       </div>
     );

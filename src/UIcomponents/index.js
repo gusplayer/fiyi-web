@@ -11,7 +11,6 @@ import cardinfofigi from "./cardinfofigi.js";
 import listparksfigi from "./listparksfigi.js";
 import imgend from "./imgend.js";
 import trend from "./trends.js";
-import imageled from "./imageledls.js";
  export { 
     header, 
     moon, 
@@ -26,5 +25,4 @@ import imageled from "./imageledls.js";
     listparksfigi,
     imgend,
     trend,
-    imageled
    };

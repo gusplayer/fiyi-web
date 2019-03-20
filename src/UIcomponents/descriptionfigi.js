@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logofigi from '../assets/images/NombreEmpresaPequeña.png';
-import imgdescriptionfigi from '../assets/images/DescripcionFigi.png';
 import '../assets/styles/descriptionfigi.css';
 
 class descriptionfigi extends Component {

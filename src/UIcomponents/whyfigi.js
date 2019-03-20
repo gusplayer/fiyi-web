@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
-import whyfigitext1 from '../assets/images/PorqueFIGITexto1.png';
-import whyfigitext2 from '../assets/images/PorqueFIGITexto2.png';
-import whyfigitext3 from '../assets/images/PorqueFIGITexto3.png';
-import whyfigitext4 from '../assets/images/PorqueFIGITexto4.png';
 import imgtext1 from '../assets/images/Imagen1Porque.png';
 import imgtext2 from '../assets/images/Imagen2Porque.png';
-import whyfigitextniños from '../assets/images/AlosNiños.png';
-
 
 import '../assets/styles/whyfigi.css';
 
@@ -19,24 +13,74 @@ class whyfigi extends Component {
             <div id="imgtop">
               <img id="imgs" src={imgtext1} alt="imgtext1"/>
             </div>
-            <img id="imgs" src={whyfigitext1} alt="whyfigitext1"/>
+           <div className="contentwhytext">
+             <p>
+              ¡Esto nunca se ha visto!
+             </p>
+             <p>
+               Un formato completamente
+              nuevo que entretiene, edica y
+              fascina tanto a los pèqueños
+              como a sus padres y
+              acompañantes.
+             </p>
+           </div>
           </div>
           <div>
-            <img id="imgstextniño" src={whyfigitextniños} alt="whyfigitextniños"/>
+            <h1 id="encanta">A los niños
+                les encanta!
+                </h1>
+            
           </div>
           <div className="concepttextwhy">
             <div id="imgtop">
               <img id="imgs"  src={imgtext2} alt="imgtext1"/>
             </div>
-            <img id="imgs" src={whyfigitext2} alt="whyfigitext2"/>
+            <div className="contentwhytext">
+             <p>
+             ¡Los niños no se cansan!
+             </p>
+             <p>
+              La experiencia estimula a los
+              pequeños a desarrollar sus
+              habilidades mentales y físicas.
+             </p>
+           </div>
           </div>
         </div>
         <div className="content2">
           <div>
-            <img id="imgs" src={whyfigitext3} alt="whyfigitext3"/>
+          <div id="imgtop">
+              <img id="imgs"  src={imgtext2} alt="imgtext1"/>
+            </div>
+          <div className="contentwhytext">
+             <p>
+             ¡Podemos tener lo imposible!
+             </p>
+             <p>
+             Los niños entran en un mundo de
+              imágenes vivas donde controlan el
+              espacio a través de sus acciones y
+              objetos físicos
+             </p>
+           </div>
           </div>
           <div>
-            <img id="imgs" src={whyfigitext4} alt="whyfigitext4"/>
+          <div id="imgtop">
+              <img id="imgs" src={imgtext1} alt="imgtext1"/>
+            </div>
+          <div className="contentwhytext">
+             <p>
+             ¡Pueden jugar todos juntos!
+             </p>
+             <p>
+               El sistema de cámaras y
+              sensores permiten la
+              interacción en tiempo real con
+              las proyecciones de muchas
+              personas simultáneamente.
+             </p>
+           </div>
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ourconcepttitle from '../assets/images/NuestroConcepto.png';
-import ourconcepttext1 from '../assets/images/NuestroConceptoTexto1.png';
 // import ourconcepttext2 from '../assets/images/NuestroConceptoTexto2.png';
 import sun from '../assets/images/Sol.png';
 import img3svg from '../assets/images/Tresimagenes.svg';
@@ -20,7 +19,7 @@ class ourconcept extends Component {
         </div>    
         <div className="concepttexts">
             <img  id="imgtext" src={ourconcepttitle} alt="ourconcepttitle"/>
-            <div class="textcontentconcept">
+            <div className="textcontentconcept">
             <p>
               Un mundo donde la fantasia se convierte en
               realidad y la imaginación es el unico límite.

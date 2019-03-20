@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import dequesetrata from '../assets/images/Dequesetrata.png';
 import '../assets/styles/whatis.css';
 
 class whatis extends Component {

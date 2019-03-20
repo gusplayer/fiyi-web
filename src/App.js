@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import {header,moon,triangleimage ,whatis,videoplane,ourconcept,
-  descriptionfigi,whyfigi,parkfigi,cardinfofigi,listparksfigi,imgend,trend,imageled}from "./UIcomponents";
+  descriptionfigi,whyfigi,parkfigi,cardinfofigi,listparksfigi,imgend,trend}from "./UIcomponents";
 import mainbackground from "./assets/images/FondoPrincipal.png";
 import clouds from "./assets/images/Nubes.png";
 import clouds2 from "./assets/images/Nubes2.png";
 import mountains from "./assets/images/Montañas.png";
 import mountainsola from "./assets/images/MontañaSola.png";
 import shippaper from "./assets/images/Aguaybarco.png"
-// import clouds from './assets/images/clouds.png'
 import './assets/styles/App.css';
 const Header= header;
 const Moon=moon;
@@ -22,7 +21,6 @@ const Cardinfofigi= cardinfofigi;
 const Listparksfigi= listparksfigi;
 const Imgend= imgend;
 const Trendimg= trend;
-const Imageled= imageled;
 class App extends Component {
   render() {
     return (
@@ -45,10 +43,8 @@ class App extends Component {
                 <Ourconcept/>
               </div>
               <div className="mountains">
+              <img id="montana" src={mountainsola}></img>
                 <img src={mountains}></img>
-                <div>
-                  <img id="montana" src={mountainsola}></img>
-                </div>
                 <Description/>
                 <Whyfigi/>
               </div>
@@ -59,9 +55,7 @@ class App extends Component {
                 <Trendimg/>
                 <Listparksfigi/>
                 <Imgend/>
-                <Imageled/>
               </div>
-
               </div>
         </div>
       </div>

@@ -1,12 +1,19 @@
 .contentimgsh{
-    padding-top:400px;
+    padding-top:750px;
     z-index: 2;
-    display: flex;
-    flex-direction: column;
-    
-    /* grid-template-rows: 1fr 1fr; */
+    display: grid;
+
 }
 .contentimgsh #imgend{
     width:100%;
+    position: relative;
+    top:0;
+    width: 1070px;
+}
+.contentimgsh #imgend2{
+    
+    padding-top: 150px;
+    width:100%;
     position: relative; 
+    top: 0;
 }
