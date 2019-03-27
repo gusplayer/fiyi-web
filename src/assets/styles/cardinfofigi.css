@@ -19,7 +19,7 @@
 }
 .contentelements h1{
     font-size: 20px;
-  font-family: Happy Monkey regular;
+    font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   text-align: left;
   margin-top: 0px;
@@ -30,7 +30,7 @@
 }
 .contentelements2 h1{
     font-size: 20px;
-  font-family: Happy Monkey regular;
+    font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   text-align: right;
   margin-top: 0px;
@@ -47,7 +47,7 @@
 }
 .contentelements p{
     font-size: 18px;
-  font-family: Happy Monkey regular;
+    font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   text-align: left;
   margin-top: 0px;
@@ -57,7 +57,7 @@
 }
 .contentelements2 p{
     font-size: 18px;
-  font-family: Happy Monkey regular;
+    font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   text-align: right;
   margin-top: 0px;

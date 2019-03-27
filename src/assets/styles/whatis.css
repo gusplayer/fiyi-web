@@ -12,13 +12,13 @@
 .Contentwhat h1{
   margin-bottom: 5px;
   font-size: 45px;
-  font-family: Luckiest guy Regular;
+  font-family: 'Luckiest Guy', cursive;
   color: #5e1a72;
   -webkit-text-stroke: 1px white;
 }
 .Contentwhat p{
   font-size: 25px;
-  font-family: Happy Monkey regular;
+  font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   margin-top: 20px;
   line-height: 40px;
@@ -26,7 +26,7 @@
 }
 .Contentwhat h3{
   font-size: 26px;
-  font-family: Happy Monkey regular;
+  font-family: 'Happy Monkey', cursive;
   color: #271552;
 }
   .imagedescription{

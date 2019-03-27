@@ -19,7 +19,7 @@ grid-column-gap: 80px;
 #encanta{
   margin-bottom: 5px;
   font-size: 45px;
-  font-family: Luckiest guy Regular;
+  font-family: 'Luckiest Guy', cursive;
   color:#ffffff;
   -webkit-text-stroke: 2px #415f41;
   width: 300px;
@@ -48,7 +48,7 @@ grid-column-gap: 80px;
 .contentwhytext p{
   text-align: center;
   font-size: 18px;
-  font-family: Happy Monkey regular;
+  font-family: 'Happy Monkey', cursive;
   color: #20386b;
   margin-top: 0px;
   z-index: 0;

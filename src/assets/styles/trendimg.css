@@ -9,16 +9,16 @@
 .contenttrend h1{
     margin-bottom: 5px;
     font-size: 45px;
-    font-family: Luckiest guy Regular;
+    font-family: 'Luckiest Guy', cursive;
     color: #5e1a72;
     -webkit-text-stroke: 1px white
 
 }
 .contenttrend p{
     font-size: 23px;
-  font-family: Happy Monkey regular;
-  color: #ffffff;
-  margin-top: 0px;
-  line-height: 30px;
-  z-index: 0;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    margin-top: 0px;
+    line-height: 30px;
+    z-index: 0;
 }
