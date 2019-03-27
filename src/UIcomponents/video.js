@@ -10,7 +10,7 @@ class videoplane extends Component {
         <div className="imgprevideo">
           <img src={planeprevideo} alt="planeprevideo"/> 
         </div>      
-        <iframe width="600" height="415" src="https://www.youtube.com/embed/K4DtfUAx3dI" 
+        <iframe width="850" height="515" src="https://www.youtube.com/embed/K4DtfUAx3dI" 
         frameBorder="0" allow="accelerometer; encrypted-media; gyroscope; 
         picture-in-picture" allowFullScreen>
         </iframe>

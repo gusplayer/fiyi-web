@@ -1,6 +1,6 @@
 .contentparksfigi{
     display: grid;
-    padding-top:350px;
+    padding-top: 130px;
     grid-template-columns: .8fr .9fr;
     justify-items: center;
     grid-column-gap: 100px;
@@ -15,4 +15,7 @@
     grid-row-gap: 150px;
     display: grid;
     /* grid-template-rows: 100px 1fr; */
+}
+P{
+    z-index:5 ;
 }

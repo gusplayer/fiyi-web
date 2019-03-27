@@ -10,8 +10,9 @@
     padding-left: 200px;
     margin-bottom: 50px;
     transform: scale(1.2);
-    animation: rocket 10s infinite;
-    animation-delay: 5s;
+    animation: rocket infinite;
+    animation-duration:20s;
+    animation-delay:15s;
 }
 
 

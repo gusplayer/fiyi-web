@@ -3,7 +3,7 @@ display: grid;
 grid-template-columns: 300px 1fr;
 justify-content:center;
 z-index: 2;
-margin-top: 350px;
+margin-top: 250px;
 grid-column-gap: 100px;
 }
 .conceptimgs{
@@ -20,11 +20,8 @@ grid-column-gap: 100px;
 .conceptimgs:hover{
     transform: scale(1.6);
 }
-
-
 .conceptimgs #img1{
-    position: sticky;
-    top:0;
+    position: relative;
     width: auto;
     padding-left: 150px;
     padding-top: 70px;

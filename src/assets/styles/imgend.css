@@ -2,18 +2,14 @@
     padding-top:750px;
     z-index: 2;
     display: grid;
-
 }
 .contentimgsh #imgend{
     width:100%;
-    position: relative;
-    top:0;
-    width: 1070px;
+    position: absolute;
+    top: 98%;
 }
 .contentimgsh #imgend2{
-    
-    padding-top: 150px;
-    width:100%;
-    position: relative; 
-    top: 0;
+    padding-top: 500px;
+    position: absolute; 
+    top: 98%;
 }

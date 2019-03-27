@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/styles/trendimg.css';
+import pececito from '../assets/images/Pececito.png';
 
 class trends extends Component {
   render() {
@@ -17,6 +18,12 @@ class trends extends Component {
         estas demandas dentro de una esfera de
         entretenimiento educativo.
         </p>
+        </div>
+        <div class="parksdesign">
+        <h3>
+        Diferentes diseños de Parques
+        </h3>
+        <p>Definido por el numero de atracciones y metros cuadrados</p>
         </div>
       </div>
     );

@@ -15,6 +15,7 @@ class listparksfigi extends Component {
                 <img id="imgcardpark" src={mediumpark}/>
             </div>
             <div className="contentelementsimg">
+              <p>HOLA</p>
                 <img id="imgcardpark" src={bigpark}/>
             </div>
            
