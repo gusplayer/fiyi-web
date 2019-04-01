@@ -11,8 +11,9 @@
     margin-bottom: 50px;
     transform: scale(1.2);
     animation: rocket infinite;
-    animation-duration:20s;
+    animation-duration:15s;
     animation-delay:15s;
+    transform: rotate(-20deg);
 }
 
 
@@ -20,8 +21,8 @@
   0% {top:-300px;
   }
   30% {
-      top:-600px;
-      transform: rotate(-30deg);
+      top:-700px;
+      transform: rotate(-20deg);
     }
 }
 

@@ -11,12 +11,11 @@ class listparksfigi extends Component {
     return (
         <div className="contentparksfigi">     
             <div className="contentelementsimgs">
-                <img id="imgcardpark" src={smallpark}/>
-                <img id="imgcardpark" src={mediumpark}/>
+                <img id="imgparkp" src={smallpark}/>
+                <img id="imgparkp2" src={bigpark}/>
             </div>
             <div className="contentelementsimg">
-              <p>HOLA</p>
-                <img id="imgcardpark" src={bigpark}/>
+                <img id="imgcardparkbig" src={mediumpark}/>
             </div>
            
         </div>

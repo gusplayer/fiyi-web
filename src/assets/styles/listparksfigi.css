@@ -1,16 +1,28 @@
 .contentparksfigi{
     display: grid;
-    padding-top: 130px;
+    padding-top: 80px;
     grid-template-columns: .8fr .9fr;
-    justify-items: center;
-    grid-column-gap: 100px;
+    justify-content: center;
+    grid-column-gap: 120px;
 }
-#imgcardpark{
+#imgparkp{
     width:100%;
     position: relative; 
     z-index: 2;
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
+#imgparkp2{
+    width:100%;
+    position: relative; 
+    z-index: 2;
+    transform: scale(1.2);
+}
+#imgcardparkbig{
+    padding-top: 100px;
+    width:600px;
+    position: relative; 
+}
+
 .contentelementsimgs{
     grid-row-gap: 150px;
     display: grid;
