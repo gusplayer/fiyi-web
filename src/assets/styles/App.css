@@ -5,8 +5,7 @@
   margin: 0 auto;
   top:0;
   left:0;
-  background-size: cover;
-  background-image:  url("../images/FondoFondo.png");
+
 }
 .mainbackground img{
   width: 100%;
@@ -16,11 +15,12 @@
 #mainback{
   position: absolute;
 }
+.backgroundpart1{
+  background-image: url("../images/FondoPart1.png");
+}
 .contentallcomponents{
   position: relative;
-  max-width: 1400px;
-  width: 100%;
-
+  max-width: 1920px;
 }
 .Header{
   grid-area: Header;
@@ -42,13 +42,43 @@
   justify-content: center;
   width: 100%;
 }
+.contentclouds{
+  grid-template-areas:"Moon Header"
+                      "Whatis Triangle"
+                      "Whatis Triangle";
+  display: grid;
+}
+.contentclouds img{
+  width:auto;
+  position: relative;
+  top:-300px;
+}
+.nubescapa1{
+padding-top: 100px;
+}
+
 .clouds2{
   top:35vh;
   z-index: 1;
   position:relative;
   display: grid;
-  justify-content: center;
+  /* justify-content: center; */
   width: 100%;
+}
+.contentclouds2{
+  width:auto;
+  position: relative;
+  justify-content: center;
+  display: grid;
+}
+.tinyclouds{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tinyclouds img{
+  width: auto;
+  position: relative;
 }
 .mountains{
   top:30vh;
@@ -81,15 +111,4 @@
 
 #montana:hover{
   transform: translateY(100px);
-}
-.contentclouds{
-  grid-template-areas:"Moon Header"
-                      "Whatis Triangle"
-                      "Whatis Triangle";
-  display: grid;
-}
-.contentclouds img{
-  width:auto;
-  position: relative;
-  top:-300px;
 }

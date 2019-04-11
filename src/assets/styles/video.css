@@ -10,14 +10,15 @@
     position: relative;
     display: grid;
     justify-content: center;
-    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-  animation: mymove 15s infinite;
-  animation-delay: 2s;
-  transform: scale(1.1);
-  padding-bottom: 50px;
+    padding-bottom:50px;
+     /*-webkit-animation: mymove 5s infinite;
+    -webkit-animation-delay: 2s; 
+    animation: mymove 15s infinite;
+    animation-delay: 2s;Safari 4.0 - 8.0 
+    transform: scale(1.1); 
+    padding-bottom: 50px; */
 }
-@keyframes mymove {
+/* @keyframes mymove {
     0% {left: -600px;
       opacity: 1;
     }
@@ -29,4 +30,4 @@
       left: 400px;
       opacity: 0;
     }
-  }
+  } */

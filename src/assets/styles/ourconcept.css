@@ -1,6 +1,6 @@
 .contentconcept{
 display: grid;
-grid-template-columns: 300px 1fr;
+grid-template-columns: 300px 1fr 50px;
 justify-content:center;
 z-index: 2;
 margin-top: 250px;
@@ -10,15 +10,9 @@ grid-column-gap: 100px;
     width: auto;
     justify-content: center;
     display: grid;
-    transform: scale(1.5);
     position: relative;
     grid-template-rows: 100px 700px;
     padding-right: 20px;
-    transition: transform 2s;
-}
-
-.conceptimgs:hover{
-    transform: scale(1.6);
 }
 .conceptimgs #img1{
     position: relative;
@@ -29,21 +23,20 @@ grid-column-gap: 100px;
 }
 .concepttexts #imgtext{
     position: relative;
-    height: 200px;
-    width: 650px;
 }
 .concepttexts{
 grid-template-rows: .2fr auto;
  display: grid;
- justify-content: center;
+ justify-items: center;
 }
 .textcontentconcept{
     width: 500px;
+    padding-top: 50px;
 }
 .concepttexts p{
     font-size: 23px;
     font-family: 'Happy Monkey', cursive;
-  color: #20386b;
+  color: #ffffff;
   margin-top: 0px;
   line-height: 30px;
   z-index: 0;

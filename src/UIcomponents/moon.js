@@ -7,7 +7,7 @@ class moon extends Component {
   render() {
     return (
       <div className="Moon">
-            <img src={rocketimg} className="imagerocket" alt="logo" />
+            {/* <img src={rocketimg} className="imagerocket" alt="logo" /> */}
             <img src={moonimg} className="imagemoon" alt="logo" />
       </div>
     );
