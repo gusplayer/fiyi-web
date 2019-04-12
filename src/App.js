@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import {header,moon,triangleimage ,whatis,videoplane,ourconcept,
   descriptionfigi,whyfigi,parkfigi,cardinfofigi,listparksfigi,imgend,trend}from "./UIcomponents";
+  import fondopart1 from "./assets/images/FondoPart1.png";
+  import fondopart1estrellas from "./assets/images/estrellas.png";
+  import fondoazul from "./assets/images/fondoazul.png";
 import cloudscapa2 from "./assets/images/NubesCapa2.png";
 import cloudscapa1 from "./assets/images/NubesCapa1.png";
 import clouds2capa2 from "./assets/images/Nubes2Capa1.png";
-import tinycloud1 from "./assets/images/tinycloud1.png";
-import tinycloud2 from "./assets/images/tinycloud2.png";
-import tinycloud3 from "./assets/images/tinycloud3.png";
+import tinycloud from "./assets/images/tinycloud.png";
+
 import clouds3capa1 from "./assets/images/Nubes3Capa1.png";
 import clouds3capa2 from "./assets/images/Nubes3Capa2.png";
 import clouds3capa3 from "./assets/images/Nubes3Capa3.png";
-import mountainsola from "./assets/images/MontañaSola.png";
+import montanaback from "./assets/images/montanaback.png";
+import montanafront from "./assets/images/montanafront.png";
 import shippaper from "./assets/images/Aguaybarco.png"
 import './assets/styles/App.css';
 const Header= header;
@@ -51,13 +54,13 @@ class App extends Component {
         <div className="mainbackground">
             <div className="contentallcomponents">
             <div className="backgroundpart1">
+            <img src={fondopart1}></img>
+            <img src={fondopart1estrellas}></img>
               <div className="clouds">
-               <div id="containnubes">
-                <img className="nubescapa2" src={cloudscapa2}></img>
-                <img className="nubescapa1" src={cloudscapa1}></img>
-               </div>
-                {/* <img id="nubes" src={clouds}></img>
-               */}
+                <div id="containnubes1">
+                  <img className="nubescapa2" src={cloudscapa2}></img>
+                  <img className="nubescapa1" src={cloudscapa1}></img>
+                </div>
                 <div className="contentclouds">
                   <Header className="Header"></Header>
                   <Triangleimage className="Triangle"></Triangleimage>
@@ -66,31 +69,36 @@ class App extends Component {
                 </div>
               </div>
               <div className="clouds2"> 
-              <div>
-                <div className="tinyclouds">
-                  <div><img src={tinycloud1}></img></div>
-                  <div><img src={tinycloud2}></img></div>
-                  <div><img src={tinycloud3}></img></div>
+                <div>
+                  <div className="tinyclouds">
+                    <div><img src={tinycloud}></img></div>
+                  </div>
+                  <div id="containnubes2">
+                    <img src={clouds2capa2}></img>
+                  </div>
                 </div>
-                <img src={clouds2capa2}></img>
-              </div>
                 <div className="contentclouds2">
-                <Videoplane/>
-                <Ourconcept/>
+                  <Videoplane/>
+                  <Ourconcept/>
                 </div>
               </div>
             </div>
               
-              <div className="mountains">
-                <div>
-                  <div><img src={clouds3capa1}></img></div>
-                  <div><img src={clouds3capa2}></img></div>
-                  <div><img src={clouds3capa3}></img></div>
-                </div>               
-                 <img id="montana" src={mountainsola}></img>
-                  <Description/>
-                  <Whyfigi/>
+            <div className="mountains">
+              <div id="containnubes3">
+                <div id="montanaback" ><img  src={montanaback}></img></div>
+                <div><img  id="nubes3capa3" src={clouds3capa3}></img></div>
+                <div ><img id="nubes3capa2" src={clouds3capa2}></img></div>
+                <div id="montanafront"><img src={montanafront}></img></div>
+                <div ><img id="nubes3capa1" src={clouds3capa1}></img></div>
               </div>
+              
+              <div className="contentclouds3">
+              <img src={fondoazul}></img>
+                <Description/>
+                <Whyfigi/>
+              </div>                
+            </div>
               <div className="shippaper">
                 <img src={shippaper}></img>
                 <Parkfigi/>

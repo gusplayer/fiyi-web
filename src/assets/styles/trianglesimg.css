@@ -1,14 +1,11 @@
 .contentimgs {
     z-index: 4;
     display: grid;
-    top:50px;
+    padding-top: 150px;
     }
 .imgtexto{
-    transform: scale(1.5);
-    margin-bottom: 20px;
-    display: grid;
-    justify-content: right;
-    margin-right: 35px;
+    position:absolute;
+    right: 0;
     }
 .contentall{
     grid-area:Triangle;
@@ -19,11 +16,6 @@
 }
 .imgtriangle{
     width: auto;
-    transform: scale(1.5);
-    transition:transform .8s ease-in-out;
-}
-.imgtriangle:hover{
-    transform: rotate(360deg);
 }
 
   

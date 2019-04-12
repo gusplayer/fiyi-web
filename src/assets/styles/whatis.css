@@ -4,14 +4,14 @@
     
     justify-content: center;
     /* align-content: center; */
-    padding-top: 150px;
+    padding-top: 400px;
     grid-area:Whatis;
-    padding-left: 60px;
+    padding-left: 250px;
     
 }
 .Contentwhat h1{
   margin-bottom: 5px;
-  font-size: 45px;
+  font-size: 50px;
   font-family: 'Luckiest Guy', cursive;
   color: #5e1a72;
   -webkit-text-stroke: 1px white;
@@ -29,7 +29,3 @@
   font-family: 'Happy Monkey', cursive;
   color: #271552;
 }
-  .imagedescription{
-    transform: scale(1.5);
-  }
-  

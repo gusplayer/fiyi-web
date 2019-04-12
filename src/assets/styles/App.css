@@ -16,7 +16,7 @@
   position: absolute;
 }
 .backgroundpart1{
-  background-image: url("../images/FondoPart1.png");
+  /* background-image: url("../images/FondoPart1.png"); */
 }
 .contentallcomponents{
   position: relative;
@@ -47,6 +47,7 @@
                       "Whatis Triangle"
                       "Whatis Triangle";
   display: grid;
+  padding-top: 90px;
 }
 .contentclouds img{
   width:auto;
@@ -73,17 +74,14 @@ padding-top: 100px;
 }
 .tinyclouds{
   display: grid;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
 }
 .tinyclouds img{
   width: auto;
   position: relative;
 }
 .mountains{
-  top:30vh;
   display: grid;
-  justify-items: center;
   grid-template-rows: .5fr 1fr; 
   z-index: 2;
   position:relative;
@@ -97,18 +95,25 @@ padding-top: 100px;
   justify-content: center;
   width: 100%;
 }
-#montana{
-  top: 0;
+#montanaback{
   position: relative;
   width: 500px;
-  margin-left: 900px;
-  z-index: -2;
-  margin-top: -285px;
-  transition: transform 2s;
-  
-    
-}
+  margin-left: 1400px;
+  top:-200px;
 
-#montana:hover{
-  transform: translateY(100px);
+}
+#montanafront{
+  position: relative;
+  width: 500px;
+  left: 500px;
+  top: 50px;
+}
+#nubes3capa3{
+  top:-100px;
+}
+#nubes3capa2{
+  top:50px;
+}
+#nubes3capa1{
+top:200px;
 }

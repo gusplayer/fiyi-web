@@ -1,9 +1,6 @@
 .Header {
-  padding-right:100px; 
+  padding-right:300px; 
   z-index: 4;
+  display: grid;
+  justify-items: center;
   }
-.imagefigi{
-}
-
-  
-  
