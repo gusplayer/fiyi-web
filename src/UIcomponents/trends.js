@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../assets/styles/trendimg.css';
-import pececito from '../assets/images/Pececito.png';
 
 class trends extends Component {
   render() {

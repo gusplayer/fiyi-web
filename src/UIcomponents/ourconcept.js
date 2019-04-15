@@ -12,7 +12,7 @@ class ourconcept extends Component {
       <div className="contentconcept">    
         <div className="conceptimgs">
         
-            <div>
+            <div className="imgsniños">
                 <img src={img3svg} />
             </div>
             

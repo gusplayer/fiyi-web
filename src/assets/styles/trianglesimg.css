@@ -11,12 +11,14 @@
     grid-area:Triangle;
     justify-content: right;
     align-content: initial;
-    padding-right: 50px;
     display: grid;
 }
 .imgtriangle{
     width: auto;
 }
-
+.contentimgtext{
+    padding-top: 70px;
+    width: 700px;
+}
   
     

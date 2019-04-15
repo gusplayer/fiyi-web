@@ -1,6 +1,10 @@
 .Header {
   padding-right:300px; 
+  width: 700px;
   z-index: 4;
   display: grid;
   justify-items: center;
+  }
+  .Header img{
+    width: 100%;
   }

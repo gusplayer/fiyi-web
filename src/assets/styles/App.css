@@ -50,7 +50,7 @@
   padding-top: 90px;
 }
 .contentclouds img{
-  width:auto;
+  width:100%;
   position: relative;
   top:-300px;
 }
@@ -59,7 +59,7 @@ padding-top: 100px;
 }
 
 .clouds2{
-  top:35vh;
+  top:20vh;
   z-index: 1;
   position:relative;
   display: grid;
@@ -92,21 +92,21 @@ padding-top: 100px;
   z-index: 1;
   position:relative;
   display: grid;
-  justify-content: center;
+
   width: 100%;
 }
 #montanaback{
   position: relative;
-  width: 500px;
-  margin-left: 1400px;
-  top:-200px;
+  width: 550px;
+  margin-left: 1350px;
+  top:-360px;
 
 }
 #montanafront{
   position: relative;
-  width: 500px;
-  left: 500px;
-  top: 50px;
+  width: 650px;
+  left: 550px;
+  top: -80px;
 }
 #nubes3capa3{
   top:-100px;
@@ -116,4 +116,19 @@ padding-top: 100px;
 }
 #nubes3capa1{
 top:200px;
+}
+#nubes2capa1{
+  top:360px;
+}
+#watercapa1{
+  top:1000px;
+}
+#watercapa2{
+  top:270px;
+}
+#watercapa3{
+  top:180px;
+}
+#deep{
+  top:5100px;
 }

@@ -1,7 +1,6 @@
 .contentparksfigi{
     display: grid;
     padding-top: 80px;
-    grid-template-columns: .8fr .9fr;
     justify-content: center;
     grid-column-gap: 120px;
 }
@@ -9,24 +8,21 @@
     width:100%;
     position: relative; 
     z-index: 2;
-    transform: scale(1.1);
 }
 #imgparkp2{
     width:100%;
     position: relative; 
     z-index: 2;
-    transform: scale(1.2);
 }
 #imgcardparkbig{
     padding-top: 100px;
     width:600px;
     position: relative; 
 }
-
 .contentelementsimgs{
-    grid-row-gap: 150px;
     display: grid;
-    /* grid-template-rows: 100px 1fr; */
+
+    grid-template-columns: 1fr 1fr;
 }
 P{
     z-index:5 ;

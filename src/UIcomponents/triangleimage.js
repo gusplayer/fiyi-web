@@ -8,7 +8,7 @@ class triangleimage extends Component {
   render() {
     return (
       <div className="contentall">
-        <div>
+        <div className="contentimgtext">
           <img src={imgentrete} className="imgtexto" alt="imgentrete"/>
         </div>
         <div className="contentimgs">         

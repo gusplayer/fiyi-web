@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import smallpark from '../assets/images/parquepequeño.png';
-import bigpark from '../assets/images/parquegrande.png';
-import mediumpark from '../assets/images/parquemediano.png';
+import smallpark from '../assets/images/ParquePequeño.png';
+import bigpark from '../assets/images/ParqueGrande.png';
+import mediumpark from '../assets/images/ParqueMediano.png';
 
 import '../assets/styles/listparksfigi.css';
 
@@ -11,12 +11,12 @@ class listparksfigi extends Component {
     return (
         <div className="contentparksfigi">     
             <div className="contentelementsimgs">
-                <img id="imgparkp" src={smallpark}/>
-                <img id="imgparkp2" src={bigpark}/>
+            <img id="imgcardparkbig" src={mediumpark}/>
+              <img id="imgparkp" src={smallpark}/>
+              
             </div>
-            <div className="contentelementsimg">
-                <img id="imgcardparkbig" src={mediumpark}/>
-            </div>
+
+            <img id="imgparkp2" src={bigpark}/>
            
         </div>
     );

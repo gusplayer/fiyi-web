@@ -1,7 +1,7 @@
 .contentvideo{
-    padding-top:50px;
+    padding-top:20px;
     display: grid;
-    grid-gap:140px;
+    grid-gap:150px;
     justify-content: center;
     position: relative;
 }
