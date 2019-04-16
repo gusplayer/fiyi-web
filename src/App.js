@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {header,moon,triangleimage ,whatis,videoplane,ourconcept,
   descriptionfigi,whyfigi,parkfigi,cardinfofigi,listparksfigi,imgend,trend}from "./UIcomponents";
+  import lax from 'lax.js'
   import fondopart1 from "./assets/images/FondoPart1.png";
   import fondopart1estrellas from "./assets/images/estrellas.png";
   import fondoazul from "./assets/images/fondoazul.png";
@@ -38,25 +39,17 @@ const Cardinfofigi= cardinfofigi;
 const Listparksfigi= listparksfigi;
 const Imgend= imgend;
 const Trendimg= trend;
+window.onload = function() {
+	lax.setup() // init
 
-//   var container = document.getElementById('containnubes');
-//   var windowHeight = window.innerHeight;
-//   var windowWidth = window.innerWidth;
-//   var scrollArea = 1000 - windowHeight;
-//   var nubescapa1 = document.getElementsByClassName('nubescapa1');
-//   var nubescapa2 = document.getElementsByClassName('nubescapa2');
-//  console.log()
-// // update position of square 1 and square 2 when scroll event fires.
-//   window.addEventListener('scroll', function() {
-//   var scrollTop = window.pageYOffset || window.scrollTop;
-//   var scrollPercent = scrollTop/scrollArea || 0;
-  
-//   nubescapa1.style.left = scrollPercent*window.innerWidth + 'px';
-//   nubescapa2.style.left = 100 - scrollPercent*window.innerWidth*0.6 + 'px';
-// });
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
 
+	window.requestAnimationFrame(updateLax)
+}
 class App extends Component {
-  
   render() {
     return (
       <div>
@@ -67,8 +60,8 @@ class App extends Component {
                 <img src={fondopart1estrellas}></img>
                   <div className="clouds">
                     <div id="containnubes1">
-                      <img className="nubescapa2" src={cloudscapa2}></img>
-                      <img className="nubescapa1" src={cloudscapa1}></img>
+                      <img className="lax" data-lax-translate-x="0 -100, 1000 0" src={cloudscapa2}></img>
+                      <img className="nubescapa1 lax" data-lax-translate-x="0 100, 800 0" src={cloudscapa1}></img>
                     </div>
                     <div className="contentclouds">
                       <Header className="Header"></Header>
@@ -83,8 +76,8 @@ class App extends Component {
                         <div><img src={tinycloud}></img></div>
                       </div>
                       <div id="containnubes2">
-                        <img id="nubes2capa2" src={clouds2capa2}></img>
-                        <img id="nubes2capa1"src={clouds2capa1}></img>
+                        <img id="nubes2capa2 lax" data-lax-translate-x="0 -100, 1000 0" src={clouds2capa2}></img>
+                        <img id="nubes2capa1" data-lax-translate-x="0 100, 800 0" src={clouds2capa1}></img>
                       </div>
                     </div>
                     <div className="contentclouds2">
@@ -103,15 +96,16 @@ class App extends Component {
                   <div ><img id="nubes3capa1" src={clouds3capa1}></img></div>
                 </div>
                 <div className="contentclouds3">
-                <img src={fondoazul}></img>
-                <img src={hills}></img>
+                <img className="fondoazul" src={fondoazul}></img>
+                <img  className="colinas" src={hills}></img>
                   <Description/>
                   <Whyfigi/>
+                  
                 </div>                
               </div>
               <div className="shippaper">
                 <div className="containhill">
-                <img src={arena}></img>
+                <img className="arena" src={arena}></img>
                   <img src={shipwater}></img>
                   <img id="watercapa3" src={watercapa3}></img>
                   <img id="watercapa2" src={watercapa2}></img>

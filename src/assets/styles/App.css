@@ -132,3 +132,14 @@ top:200px;
 #deep{
   top:5100px;
 }
+.fondoazul{
+  z-index: -2;
+  margin-top:-233px;
+}
+.colinas{
+  z-index: -1;
+  padding-top: 400px;
+}
+.arena{
+  top:-650px;
+}

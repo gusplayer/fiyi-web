@@ -3,8 +3,9 @@
     grid-template-columns: .4fr .4fr;
     justify-items: center;
     z-index:3;
+    grid-gap:65px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: -125px;
 }
 .concepttextdescription{
     width: auto;
@@ -20,6 +21,6 @@
     z-index: 0;
 }
 #imgdescrip{
-    width: auto;
+    width: 650px;
     position: relative;
 }

@@ -1,10 +1,15 @@
 .contentpark{
     display: grid;
-    padding-top:650px;
-    justify-content: center;
+    padding-top:550px;
+    justify-items: center;
+
 }
 .contentpark #imgpark{
     width: auto;
     position: relative; 
-    transform: scale(1.5);
+}
+.contentpark #imgpark2{
+    padding-bottom: 25px;
+    width: auto;
+    position: relative; 
 }
