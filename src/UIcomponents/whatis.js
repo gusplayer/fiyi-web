@@ -1,12 +1,23 @@
 import React, { Component } from 'react';
 import '../assets/styles/whatis.css';
+import lax from 'lax.js'
 
+window.onload = function() {
+	lax.setup() // init
+
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}
 class whatis extends Component {
   render() {
     return (
       <div className="Contentwhat">
       <div>
-      <h1>
+      <h1 className="lax" data-lax-preset="fadeInOut zoomIn 800">
         ¿DE QUÉ SE TRATA FIGI?
       </h1>
       <p>

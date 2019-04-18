@@ -7,18 +7,14 @@
 #imgcardinfo{
     width: auto;
     position: relative; 
-    transform: scale(1.5);
     z-index: 2;
-    transition: transform 1s;
 }
 #imgdecor{
     width: auto;
     position: relative;
-    transform: scale(1.4);
-
 }
 .contentelements h1{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   text-align: left;
@@ -29,7 +25,7 @@
   margin-bottom: auto;
 }
 .contentelements2 h1{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   text-align: right;
@@ -46,7 +42,7 @@
   padding-right:20px;
 }
 .contentelements p{
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   text-align: left;
@@ -56,7 +52,7 @@
   margin-bottom: 0px;
 }
 .contentelements2 p{
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   text-align: right;
@@ -89,22 +85,22 @@
 }
 .contentelements{
     display:grid;
-    grid-template-columns: 200px 600px 100px;
-    width: 900px;
+    grid-template-columns: 200px 800px 100px;
+    width: 1150px;
     background-color:#1d657f94;
-    border-radius: 40px;
-    height: 160px;
+    border-radius: 50px;
+    height: 220px;
     z-index: 3;
     align-items: center;
     justify-items: center;
 }
 .contentelements2{
     display:grid;
-    grid-template-columns: 100px 600px 200px;
+    grid-template-columns: 200px 800px 100px;
     background-color:#1d657f94;
-    width: 900px;
-    border-radius: 40px;
-    height: 160px;
+    width: 1150px;
+    border-radius: 50px;
+    height: 220px;
     z-index: 3;
     align-items: center;
     justify-items: center;

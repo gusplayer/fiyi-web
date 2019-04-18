@@ -23,6 +23,7 @@ import shipwater from "./assets/images/shipwater.png"
 import watercapa1 from "./assets/images/watercapa1.png"
 import watercapa2 from "./assets/images/watercapa2.png"
 import watercapa3 from "./assets/images/watercapa3.png"
+import watercapa4 from "./assets/images/watercapa4.png"
 import deep from "./assets/images/deep.png"
 import './assets/styles/App.css';
 
@@ -49,6 +50,15 @@ window.onload = function() {
 
 	window.requestAnimationFrame(updateLax)
 }
+
+lax.addPreset("myCoolPreset", function() {
+	return { 
+    "data-lax-translate": "0 200, 0 50",
+    "data-lax-translate": "0 400, 0 200"
+    
+	}
+})
+
 class App extends Component {
   render() {
     return (
@@ -60,8 +70,8 @@ class App extends Component {
                 <img src={fondopart1estrellas}></img>
                   <div className="clouds">
                     <div id="containnubes1">
-                      <img className="lax" data-lax-translate-x="0 -100, 1000 0" src={cloudscapa2}></img>
-                      <img className="nubescapa1 lax" data-lax-translate-x="0 100, 800 0" src={cloudscapa1}></img>
+                      <img className="lax" data-lax-translate-y="0 200, 0 50" src={cloudscapa2}></img>
+                      <img className="nubescapa1 lax" data-lax-translate-y="200 250, 1000 0" src={cloudscapa1}></img>
                     </div>
                     <div className="contentclouds">
                       <Header className="Header"></Header>
@@ -73,11 +83,11 @@ class App extends Component {
                   <div className="clouds2"> 
                     <div>
                       <div className="tinyclouds">
-                        <div><img src={tinycloud}></img></div>
+                        <div><img className="lax" data-lax-preset="fadeInOut" src={tinycloud}></img></div>
                       </div>
                       <div id="containnubes2">
-                        <img id="nubes2capa2 lax" data-lax-translate-x="0 -100, 1000 0" src={clouds2capa2}></img>
-                        <img id="nubes2capa1" data-lax-translate-x="0 100, 800 0" src={clouds2capa1}></img>
+                        <img id="nubes2capa2" className="lax"  data-lax-translate-y="(vh*0.7) 0, 0 200, -500 0" src={clouds2capa2}></img>
+                        <img id="nubes2capa1" className="lax" data-lax-translate-y="(vh*0.7) 0, 0 200, -500 0" src={clouds2capa1}></img>
                       </div>
                     </div>
                     <div className="contentclouds2">
@@ -90,10 +100,10 @@ class App extends Component {
               <div className="mountains">
                 <div id="containnubes3">
                   <div id="montanaback" ><img  src={montanaback}></img></div>
-                  <div><img  id="nubes3capa3" src={clouds3capa3}></img></div>
-                  <div ><img id="nubes3capa2" src={clouds3capa2}></img></div>
+                  <div><img  id="nubes3capa3"  className="lax"  data-lax-preset="linger" data-lax-anchor="self" src={clouds3capa3}></img></div>
+                  <div ><img id="nubes3capa2" className="lax"  data-lax-preset="linger" data-lax-anchor="self" src={clouds3capa2}></img></div>
                   <div id="montanafront"><img src={montanafront}></img></div>
-                  <div ><img id="nubes3capa1" src={clouds3capa1}></img></div>
+                  <div ><img id="nubes3capa1" className="lax"  data-lax-preset="linger" data-lax-anchor="self" src={clouds3capa1}></img></div>
                 </div>
                 <div className="contentclouds3">
                 <img className="fondoazul" src={fondoazul}></img>
@@ -107,6 +117,7 @@ class App extends Component {
                 <div className="containhill">
                 <img className="arena" src={arena}></img>
                   <img src={shipwater}></img>
+                  <img id="watercapa4" src={watercapa4}></img>
                   <img id="watercapa3" src={watercapa3}></img>
                   <img id="watercapa2" src={watercapa2}></img>
                   <img id="watercapa1" src={watercapa1}></img>

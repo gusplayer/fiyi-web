@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import smallpark from '../assets/images/ParquePequeño.png';
 import bigpark from '../assets/images/ParqueGrande.png';
 import mediumpark from '../assets/images/ParqueMediano.png';
+import diferentesparkes from '../assets/images/diferentesparques.png';
 
 import '../assets/styles/listparksfigi.css';
 
@@ -12,7 +13,11 @@ class listparksfigi extends Component {
         <div className="contentparksfigi">     
             <div className="contentelementsimgs">
             <img id="imgcardparkbig" src={mediumpark}/>
-              <img id="imgparkp" src={smallpark}/>
+          <div>
+            <img id="imgcardparkbig" src={diferentesparkes}/> 
+          <img id="imgparkp" src={smallpark}/>
+          </div>
+              
               
             </div>
 
