@@ -16,7 +16,7 @@ class whatis extends Component {
   render() {
     return (
       <div className="Contentwhat">
-      <div>
+      <div className="divcontent">
       <h1 className="lax" data-lax-preset="fadeInOut zoomIn 800">
         ¿DE QUÉ SE TRATA FIGI?
       </h1>

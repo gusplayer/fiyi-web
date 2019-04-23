@@ -21,6 +21,7 @@
 .contentallcomponents{
   position: relative;
   max-width: 1920px;
+  overflow: hidden;
 }
 .Header{
   grid-area: Header;
@@ -109,39 +110,59 @@ padding-top: 100px;
   top: -80px;
 }
 #nubes3capa3{
+  margin-left: -100px;
+  width: 2100px;
   top:-100px;
 }
 #nubes3capa2{
+  margin-left: -100px;
+  width: 2100px;
   top:50px;
 }
 #nubes3capa1{
-top:200px;
+  margin-left: -100px;
+  width: 2100px;
+  top:220px;
+}
+#nubes2capa2{
+  transition:1s;
 }
 #nubes2capa1{
   top:360px;
+  transition:1s;
 }
 #watercapa1{
+  width: auto;
+  margin-left: -100px;
   top:2880px;
 }
 #watercapa2{
+  width: auto;
+  margin-left: -100px;
   top:1300px;
 }
 #watercapa3{
+  width: auto;
+  margin-left: -200px;
   top:300px;
 }
 #watercapa4{
+  width: auto;
+  margin-left: -200px;
   top:200px;
 }
 #deep{
-  top:5100px;
+  top:6500px;
 }
 .fondoazul{
   z-index: -2;
   margin-top:-233px;
 }
-.colinas{
+#colinas{
+  width: 2100px;
+  margin-left: -90px;
   z-index: -1;
-  padding-top: 400px;
+  padding-top: 350px;
 }
 .arena{
   top:-650px;

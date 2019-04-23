@@ -1,23 +1,23 @@
 .Contentwhat {
     z-index: 4;
-    display: grid;
-    
+    display: grid; 
     justify-content: center;
-    /* align-content: center; */
-    padding-top: 400px;
     grid-area:Whatis;
     padding-left: 250px;
-    
+    padding-top: 400px;
+}
+.divcontent{
+  width: 750px;
 }
 .Contentwhat h1{
   margin-bottom: 5px;
-  font-size: 50px;
+  font-size: 55px;
   font-family: 'Luckiest Guy', cursive;
   color: #5e1a72;
   -webkit-text-stroke: 1px white;
 }
 .Contentwhat p{
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Happy Monkey', cursive;
   color: #ffffff;
   margin-top: 20px;
@@ -25,7 +25,7 @@
 
 }
 .Contentwhat h3{
-  font-size: 26px;
+  font-size: 30px;
   font-family: 'Happy Monkey', cursive;
   color: #271552;
 }

@@ -70,8 +70,8 @@ class App extends Component {
                 <img src={fondopart1estrellas}></img>
                   <div className="clouds">
                     <div id="containnubes1">
-                      <img className="lax" data-lax-translate-y="0 200, 0 50" src={cloudscapa2}></img>
-                      <img className="nubescapa1 lax" data-lax-translate-y="200 250, 1000 0" src={cloudscapa1}></img>
+                      <img className="lax" data-lax-translate-y="0 30,500 200 speed=0.5" src={cloudscapa2}></img>
+                      <img className="nubescapa1 lax" data-lax-translate-y= "0 50,300 150 speed=0.5" src={cloudscapa1}></img>
                     </div>
                     <div className="contentclouds">
                       <Header className="Header"></Header>
@@ -86,8 +86,8 @@ class App extends Component {
                         <div><img className="lax" data-lax-preset="fadeInOut" src={tinycloud}></img></div>
                       </div>
                       <div id="containnubes2">
-                        <img id="nubes2capa2" className="lax"  data-lax-translate-y="(vh*0.7) 0, 0 200, -500 0" src={clouds2capa2}></img>
-                        <img id="nubes2capa1" className="lax" data-lax-translate-y="(vh*0.7) 0, 0 200, -500 0" src={clouds2capa1}></img>
+                        <img id="nubes2capa2" className="lax"  data-lax-translate-y="500 200,500 100 speed=0.5 | loop=1000 " src={clouds2capa2}></img>
+                        <img id="nubes2capa1" className="lax" data-lax-translate-y="500 150,500 120 speed=0.5 | loop=1000" src={clouds2capa1}></img>
                       </div>
                     </div>
                     <div className="contentclouds2">
@@ -99,15 +99,15 @@ class App extends Component {
               
               <div className="mountains">
                 <div id="containnubes3">
-                  <div id="montanaback" ><img  src={montanaback}></img></div>
-                  <div><img  id="nubes3capa3"  className="lax"  data-lax-preset="linger" data-lax-anchor="self" src={clouds3capa3}></img></div>
-                  <div ><img id="nubes3capa2" className="lax"  data-lax-preset="linger" data-lax-anchor="self" src={clouds3capa2}></img></div>
+                  <div id="montanaback"  ><img  src={montanaback}></img></div>
+                  <div><img  id="nubes3capa3"  className="lax"  className="lax" data-lax-preset="driftLeft" src={clouds3capa3}></img></div>
+                  <div ><img id="nubes3capa2" className="lax" data-lax-preset="driftRight"  src={clouds3capa2}></img></div>
                   <div id="montanafront"><img src={montanafront}></img></div>
-                  <div ><img id="nubes3capa1" className="lax"  data-lax-preset="linger" data-lax-anchor="self" src={clouds3capa1}></img></div>
+                  <div ><img id="nubes3capa1" className="lax" data-lax-preset="driftLeft"  src={clouds3capa1}></img></div>
                 </div>
                 <div className="contentclouds3">
                 <img className="fondoazul" src={fondoazul}></img>
-                <img  className="colinas" src={hills}></img>
+                <img  id="colinas" src={hills}></img>
                   <Description/>
                   <Whyfigi/>
                   
@@ -117,13 +117,10 @@ class App extends Component {
                 <div className="containhill">
                 <img className="arena" src={arena}></img>
                   <img src={shipwater}></img>
-                  <img id="watercapa4" src={watercapa4}></img>
-                  <img id="watercapa3" src={watercapa3}></img>
+                  <img id="watercapa4" className="lax" data-lax-preset="driftLeft" src={watercapa4}></img>
+                  <img id="watercapa3" className="lax" data-lax-preset="driftRight" src={watercapa3}></img>
                   <img id="watercapa2" src={watercapa2}></img>
                   <img id="watercapa1" src={watercapa1}></img>
-                  
-                  
-                  
                 </div>
                 <div className="contentshippaper">
                 <img id="deep" src={deep}></img>

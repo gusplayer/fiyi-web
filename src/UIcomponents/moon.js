@@ -1,13 +1,23 @@
 import React, { Component } from 'react';
 import moonimg from '../assets/images/Luna.png';
-// import rocketimg from '../assets/images/CoheteLuna.png';
+import rocketimg from '../assets/images/CoheteLuna.png';
 import '../assets/styles/moon.css';
+import lax from 'lax.js'
+window.onload = function() {
+	lax.setup() // init
 
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}
 class moon extends Component {
   render() {
     return (
       <div className="Moon">
-             {/* <img src={rocketimg} className="imagerocket" alt="logo" />  */}
+             <img src={rocketimg} className="lax" data-lax-preset="slalom" id="imagerocket" alt="logo" /> 
             <img src={moonimg} className="imagemoon" alt="logo" /> */}
       </div>
     );

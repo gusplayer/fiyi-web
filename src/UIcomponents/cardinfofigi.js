@@ -38,7 +38,9 @@ class cardinfofigi extends Component {
     return (
         <div className="contentinfofigi">     
             <div className="contentelements">
+            <div>
                 <img id="imgcardinfo" alt="img" src={Card1}/>
+                </div>
                 <div id="contentinfo">
                     <h1>LANZAMIENTO KIDALKI</h1>
                     <p>¡Nunca ha sido tan divertido luchar contra alienígenas! Las

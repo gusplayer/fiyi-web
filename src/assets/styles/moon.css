@@ -1,32 +1,16 @@
 .Moon {
     z-index: 4;
     display: grid;
-    grid-template-rows: 250px 1fr;
+    grid-template-rows: 250px 450px;
     /* position: sticky; */
  top:0;
 }
-.imagerocket{
+#imagerocket{
     z-index: 5;
-    padding-left: 200px;
+    padding-left: 300px;
     margin-bottom: 50px;
-    /* transform: scale(1.2);
-    animation: rocket infinite;
-    animation-duration:15s;
-    animation-delay:15s;
-    transform: rotate(-20deg); */
+    width: auto;
 }
-
-
-/* @keyframes rocket {
-  0% {top:-300px;
-  }
-  30% {
-      top:-700px;
-      transform: rotate(-20deg);
-    }
-} */
-
 .imagemoon{
     padding-top: 100px;
-    /* transition: transform 2s; */
 }

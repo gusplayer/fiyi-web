@@ -1,28 +1,40 @@
 .contentparksfigi{
     display: grid;
-    padding-top: 80px;
-    justify-content: center;
-    grid-column-gap: 120px;
-}
-#imgparkp{
-    width:100%;
-    position: relative; 
-    z-index: 2;
-}
-#imgparkp2{
-    width:100%;
-    position: relative; 
-    z-index: 2;
+    padding-top: 100px;
+    justify-items: center;
 }
 #imgcardparkbig{
-    padding-top: 100px;
-    width:600px;
+    grid-area: c;
+    display: grid;
+    width:auto;
     position: relative; 
+}
+#imgcardparkmedium{
+    width: auto;
+    position: relative;
+    display: grid;
+    grid-area: a;
+}
+#imgcardparksmall{
+    width: auto;
+    position: relative;
+}
+.contentapairimg{
+    display: grid;
+    grid-area: b;
+    grid-template-rows: 200px 1fr;
+    justify-items: center;
 }
 .contentelementsimgs{
     display: grid;
-
     grid-template-columns: 1fr 1fr;
+    grid-template:"a b"
+                    "c c";
+    justify-items: center;
+}
+#textimg{
+    position: relative;
+    width: 850px;
 }
 P{
     z-index:5 ;
