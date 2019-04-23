@@ -28,7 +28,7 @@ import Card13 from '../assets/images/Card13.png';
 import Card13_13 from '../assets/images/Card13-13.png';
 import Card14 from '../assets/images/Card14.png';
 import Card14_14 from '../assets/images/Card14-14.png';
-
+import atracciones from '../assets/images/atracciones.png';
 
 
 import '../assets/styles/cardinfofigi.css';
@@ -36,7 +36,10 @@ import '../assets/styles/cardinfofigi.css';
 class cardinfofigi extends Component {
   render() {
     return (
-        <div className="contentinfofigi">     
+        <div className="contentinfofigi"> 
+            <div className="atracciones">
+                <img id="imgatracciones" alt="img" src={atracciones}/>
+            </div>    
             <div className="contentelements">
             <div>
                 <img id="imgcardinfo" alt="img" src={Card1}/>
@@ -48,7 +51,6 @@ class cardinfofigi extends Component {
                         reales, lo principal es mantenerse al día y llegar al objetivo.
                     </p>
                 </div>
-                {/* <img id="imgdecor" alt="img" src={CardInfo1}/> */}
                 <img id="imgdecor2" alt="img" src={Card1_1}/> 
             </div>
             <div className="contentelements2">

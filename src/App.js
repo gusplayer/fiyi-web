@@ -70,8 +70,8 @@ class App extends Component {
                 <img src={fondopart1estrellas}></img>
                   <div className="clouds">
                     <div id="containnubes1">
-                      <img className="lax" data-lax-translate-y="0 30,500 200 speed=0.5" src={cloudscapa2}></img>
-                      <img className="nubescapa1 lax" data-lax-translate-y= "0 50,300 150 speed=0.5" src={cloudscapa1}></img>
+                      <img  id="nubescapa2" className="lax" data-lax-translate-y="0 30,500 200 speed=0.5" src={cloudscapa2}></img>
+                      <img id="nubescapa1" className="nubescapa1 lax" data-lax-translate-y= "0 50,300 150 speed=0.5" src={cloudscapa1}></img>
                     </div>
                     <div className="contentclouds">
                       <Header className="Header"></Header>

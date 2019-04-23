@@ -24,3 +24,17 @@
     width: 650px;
     position: relative;
 }
+@media screen and (max-width:1280px){
+    .contentdescription{
+        grid-template-columns: 500px 600px;
+        justify-content: inherit;
+        margin-top: -180px;
+        padding-left: 80px;
+    }
+    .concepttextdescription p{
+        font-size: 25px;
+    }
+    #imgdescrip{
+        width: 500px;
+    }
+  }

@@ -1,5 +1,5 @@
 .contentimgsh{
-    padding-top:300px;
+    margin-top:1450px;
     z-index: 2;
     display: grid;
 }
@@ -9,9 +9,9 @@
     top: 98%;
 }
 .contentimgsh #imgend2{
-    padding-top: 300px;
+    padding-top: 600px;
     position: absolute; 
     top: 98%;
-    width: 900px;
-    padding-left: 250px;
+    width: 1000px;
+    padding-left: 450px;
 }

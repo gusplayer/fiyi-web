@@ -47,3 +47,20 @@ grid-template-rows: .2fr auto;
 .imgsniños img{
     width: 500px;
 }
+
+@media screen and (max-width:1280px){
+    .contentconcept{
+        grid-template-columns: 1fr;
+    }
+    .conceptimgs{
+        
+        display: none;
+    }
+    .conceptimgs #img1{
+        padding-left: 0px;
+        display: none;
+    }
+    .imgsniños{
+        display: none;
+    }
+  }

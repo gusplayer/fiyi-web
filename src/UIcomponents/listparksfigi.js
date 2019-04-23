@@ -15,15 +15,21 @@ class listparksfigi extends Component {
     return (
       <div className="contentparksfigi">     
         <div className="contentelementsimgs">
-          <img id="imgcardparkmedium" src={mediumpark}/>
-          <img id="imgcardparkmediumtext" src={parque200}/>
+        <div className="contentmediumpark">
+        <img id="imgcardparkmedium" src={mediumpark}/>
+        <img id="imgcardparkmediumtext" src={parque200}/>
+        </div>
+          
           <div className="contentapairimg" >
             <img id="textimg"src={diferentesparkes}/> 
             <img id="imgcardparksmall" src={smallpark}/>
             <img id="imgcardparksmalltext" src={parque500}/>
           </div>
+          <div className="contentbigpark">
           <img id="imgcardparkbig" src={bigpark}/>
           <img id="imgcardparkbigtext" src={parque1000}/>
+          </div>
+          
         </div>
         
       </div>

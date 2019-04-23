@@ -75,17 +75,25 @@
     align-items: center;
     z-index: 1;
 }
+.atracciones{
+  justify-content: center;
+  display: grid;
+}
+#imgatracciones{
+  position: relative;
+  width: auto;
+}
 .contentelements #imgcardinfo{
-  padding-right: 50px;
+  padding-right: 100px;
 }
 .contentelements2 #imgcardinfo{
   padding-left: 130px;
 }
 .contentelements{
     display:grid;
-    grid-template-columns: 200px 800px 100px;
+    grid-template-columns: 150px 800px 150px;
     width: 1150px;
-    background-color:#1d657f94;
+    background-color:#225e8b;
     border-radius: 50px;
     height: 220px;
     z-index: 3;
@@ -96,7 +104,7 @@
 .contentelements2{
     display:grid;
     grid-template-columns: 200px 800px 100px;
-    background-color:#1d657f94;
+    background-color:#225e8b;
     width: 1150px;
     border-radius: 50px;
     height: 220px;

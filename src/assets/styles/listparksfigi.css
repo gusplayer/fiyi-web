@@ -4,25 +4,46 @@
     justify-items: center;
 }
 #imgcardparkbig{
-    grid-area: c;
-    display: grid;
+    
     width:auto;
     position: relative; 
 }
 #imgcardparkmedium{
     width: auto;
     position: relative;
-    display: grid;
-    grid-area: a;
 }
 #imgcardparksmall{
     width: auto;
     position: relative;
 }
+#imgcardparkbigtext{
+    display: grid;
+    width:auto;
+    position: relative; 
+}
+#imgcardparkmediumtext{
+    width: auto;
+    position: relative;
+    display: grid;
+}
+#imgcardparksmalltext{
+    width: auto;
+    position: relative;
+}
+.contentbigpark{
+    grid-area: c;
+    display: grid;
+    justify-items: center;
+}
+.contentmediumpark{
+    display: grid;
+    grid-area: a;
+    justify-items: center;
+}
 .contentapairimg{
     display: grid;
     grid-area: b;
-    grid-template-rows: 200px 1fr;
+    grid-template-rows: 200px .5fr 200px;
     justify-items: center;
 }
 .contentelementsimgs{

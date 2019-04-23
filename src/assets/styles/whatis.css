@@ -29,3 +29,11 @@
   font-family: 'Happy Monkey', cursive;
   color: #271552;
 }
+@media screen and (max-width:1280px){
+  .Contentwhat{
+    padding-left: 50px;
+  }
+  .divcontent{
+    width: 500px;
+  }
+}
