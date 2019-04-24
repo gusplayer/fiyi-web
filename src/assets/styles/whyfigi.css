@@ -81,3 +81,16 @@ grid-column-gap: 80px;
   width: auto;
   position: relative;
 }
+@media screen and (max-width:1290px){
+  .content1{
+    grid-gap: 30px;
+  }
+  .contentwhyfigi{
+
+    grid-gap: 30px;
+  }
+  .content2{
+    grid-column-gap:350px;
+  }
+
+}

@@ -49,8 +49,16 @@ grid-template-rows: .2fr auto;
 }
 
 @media screen and (max-width:1280px){
+    .concepttexts #imgtext{
+       width: auto;
+    }
     .contentconcept{
+        margin-top: 55px;
+        margin-bottom: 270px;
         grid-template-columns: 1fr;
+    }
+    .concepttexts p{
+        font-size: 22px;
     }
     .conceptimgs{
         

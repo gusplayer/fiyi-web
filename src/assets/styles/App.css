@@ -5,7 +5,9 @@
   margin: 0 auto;
   top:0;
   left:0;
-
+  height: 100%;
+  overflow-y: visible;
+  overflow-x: hidden;
 }
 .mainbackground img{
   width: 100%;
@@ -21,13 +23,9 @@
 .contentallcomponents{
   position: relative;
   max-width: 1920px;
-  overflow-x: hidden;
-  
-  /* height: 1760vh;*/
   height: 100%;
-}
-.contentallcomponents::-webkit-scrollbar { 
-  display: none; 
+  overflow-y: visible;
+  overflow-x: hidden;
 }
 .Header{
   grid-area: Header;
@@ -179,9 +177,28 @@ padding-top: 100px;
   .mainbackground{
     width: auto;
   }
+  #montanaback{
+    width: 300px;
+    margin-left: 850px;
+    top: -265px;
+}
+#montanafront{
+  width: 300px;
+  margin-left: -250px;
+  top: 150px;
+}
+  .mainbackground #fondopart1{
+    width: auto;
+  }
   .contentallcomponents{
     max-width: 1280px;
     height: 1760vh;
+  }
+  .clouds2{
+    justify-content: center;
+  }
+  .clouds{
+    top:300px;
   }
   #nubescapa1 {
     width: auto;
@@ -193,7 +210,33 @@ padding-top: 100px;
     margin-top: -120px;
   }
   .arena{
-    top:-400px;
+    top:-700px;
+    width: auto;
+    height: 900px;
+  }
+  #nubes2capa1{
+    width: auto;
+  }
+  #nubes2capa2{
+    width: auto;
+  }
+  #nubes2capa2{
+    transform: translateY(150px);
+  }
+  #nubes3capa3{
+    width: 1400px;
+    top: -100px;
+    margin-left: -110px;
+  }
+  #nubes3capa2{
+    top:50px;
+    width: 1400px;
+    margin-left: 5px;
+  }
+  #nubes3capa1{
+    width: 1280px;
+    top:220px;
+    margin-left:0px;
   }
 
 }

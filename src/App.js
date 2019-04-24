@@ -66,7 +66,7 @@ class App extends Component {
         <div className="mainbackground">
             <div className="contentallcomponents">
               <div className="backgroundpart1">
-                <img src={fondopart1}></img>
+                <img id="fondopart1" src={fondopart1}></img>
                 <img src={fondopart1estrellas}></img>
                   <div className="clouds">
                     <div id="containnubes1">

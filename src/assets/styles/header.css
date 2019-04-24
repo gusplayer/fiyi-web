@@ -5,3 +5,9 @@
   .Header img{
     width: 100%;
   }
+
+  @media screen and (max-width:1290px){
+    .Header{
+      padding-right: 250px;
+    }
+  }

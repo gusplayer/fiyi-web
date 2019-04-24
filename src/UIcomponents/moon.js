@@ -17,8 +17,8 @@ class moon extends Component {
   render() {
     return (
       <div className="Moon">
-             <img src={rocketimg} className="lax" data-lax-preset="slalom" id="imagerocket" alt="logo" /> 
-            <img src={moonimg} className="imagemoon" alt="logo" /> */}
+             <img src={rocketimg} className="lax" data-lax-translate-y="0 50, 300 -200, 400 -400" id="imagerocket" alt="logo" /> 
+            <img src={moonimg} className="imagemoon" alt="logo" />
       </div>
     );
   }

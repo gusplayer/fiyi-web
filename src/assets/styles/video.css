@@ -12,3 +12,13 @@
     justify-content: center;
     padding-bottom:70px;
 }
+.iframevideo{
+    width:1000px ;
+    height:600px;
+}
+@media screen and (max-width:1290px){
+    .iframevideo{
+        width:800px;
+        height:500px;
+    }
+}
