@@ -113,3 +113,14 @@
     align-items: center;
     justify-items: center;
 }
+@media screen and (max-width:1290px){
+  .contentelements{
+    grid-template-columns: 150px 800px 150px;
+    width: 1100px;
+}
+.contentelements2{
+    grid-template-columns: 200px 800px 90px;
+    width: 1100px;
+    
+}
+}

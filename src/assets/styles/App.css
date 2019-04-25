@@ -5,9 +5,9 @@
   margin: 0 auto;
   top:0;
   left:0;
-  height: 100%;
-  overflow-y: visible;
-  overflow-x: hidden;
+  /* height: 100%; */
+  /* overflow-y: visible;
+  overflow-x: hidden; */
 }
 .mainbackground img{
   width: 100%;
@@ -23,9 +23,10 @@
 .contentallcomponents{
   position: relative;
   max-width: 1920px;
-  height: 100%;
-  overflow-y: visible;
-  overflow-x: hidden;
+  /* height: 100%; */
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
+  overflow: hidden;
 }
 .Header{
   grid-area: Header;
@@ -180,12 +181,12 @@ padding-top: 100px;
   #montanaback{
     width: 300px;
     margin-left: 850px;
-    top: -265px;
+    top: -280px;
 }
 #montanafront{
   width: 300px;
   margin-left: -250px;
-  top: 150px;
+  top: 100px;
 }
   .mainbackground #fondopart1{
     width: auto;
@@ -196,6 +197,7 @@ padding-top: 100px;
   }
   .clouds2{
     justify-content: center;
+    top: 15vh;
   }
   .clouds{
     top:300px;
@@ -225,18 +227,18 @@ padding-top: 100px;
   }
   #nubes3capa3{
     width: 1400px;
-    top: -100px;
-    margin-left: -110px;
+    top: -184px;
+    margin-left: -80px;
   }
   #nubes3capa2{
-    top:50px;
+    top:5px;
     width: 1400px;
     margin-left: 5px;
   }
   #nubes3capa1{
     width: 1280px;
-    top:220px;
-    margin-left:0px;
+    top:150px;
+    margin-left:-100px;
   }
 
 }

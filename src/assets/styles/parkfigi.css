@@ -13,3 +13,14 @@
     width: auto;
     position: relative; 
 }
+@media screen and (max-width:1290px){
+    .contentpark{
+        justify-items:initial;
+    }
+    .contentpark #imgpark{
+        padding-left: 100px;
+    }
+    .contentpark #imgpark2{
+        padding-left: 300px;
+    }
+}
