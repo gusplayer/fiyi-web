@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden !important;
+}
 .mainbackground{
   z-index:-1; 
   display: grid;
@@ -17,16 +20,12 @@
 #mainback{
   position: absolute;
 }
-.backgroundpart1{
-  /* background-image: url("../images/FondoPart1.png"); */
-}
 .contentallcomponents{
-  position: relative;
+  /* position: relative; */
   max-width: 1920px;
-  /* height: 100%; */
-  /* overflow-y: hidden;
-  overflow-x: hidden; */
-  overflow: hidden;
+  /* overflow: hidden; */
+  /* visibility: hidden; */
+
 }
 .Header{
   grid-area: Header;
@@ -94,7 +93,7 @@ padding-top: 100px;
   width: 100%;
 }
 .shippaper{
-  top:15vh;
+  top:50px;
   z-index: 1;
   position:relative;
   display: grid;
