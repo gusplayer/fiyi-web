@@ -123,13 +123,13 @@ class App extends Component {
                   <img id="watercapa1" src={watercapa1}></img>
                 </div>
                 <div className="contentshippaper">
+                <div className="containdeep">
                 <img id="deep" src={deep}></img>
-                  
+                </div>
                   <Parkfigi/>
                   <Cardinfofigi/>
                   <Listparksfigi/>
                   <Imgend/>
-                  
                 </div>
               </div>
             </div>

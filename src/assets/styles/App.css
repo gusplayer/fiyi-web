@@ -21,9 +21,9 @@ body {
   position: absolute;
 }
 .contentallcomponents{
-  /* position: relative; */
+  position: relative;
   max-width: 1920px;
-  /* overflow: hidden; */
+  overflow: hidden;
   /* visibility: hidden; */
 
 }
@@ -98,6 +98,7 @@ padding-top: 100px;
   position:relative;
   display: grid;
   width: 100%;
+  margin-bottom: 900px;
 }
 #montanaback{
   position: relative;
@@ -239,5 +240,7 @@ padding-top: 100px;
     top:150px;
     margin-left:-100px;
   }
-
+  .shippaper{
+    margin-bottom: 1200px;
+  }
 }
