@@ -27,10 +27,10 @@ class whyfigi extends Component {
            </div>
           </div>
           <div>
-            <h1 id="encanta">A los niños
-                les encanta!
-                </h1>
-            
+            <h1 id="encanta">
+              ¡A los niños
+              les encanta!
+            </h1>
           </div>
           <div className="concepttextwhy">
             <div id="imgtop">

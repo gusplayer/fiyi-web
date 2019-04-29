@@ -30,8 +30,19 @@ import Card14 from '../assets/images/Card14.png';
 import Card14_14 from '../assets/images/Card14-14.png';
 import atracciones from '../assets/images/atracciones.png';
 
-
 import '../assets/styles/cardinfofigi.css';
+import lax from 'lax.js'
+
+window.onload = function() {
+	lax.setup() // init
+
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}
 
 class cardinfofigi extends Component {
   render() {
@@ -41,8 +52,8 @@ class cardinfofigi extends Component {
                 <img id="imgatracciones" alt="img" src={atracciones}/>
             </div>    
             <div className="contentelements">
-            <div>
-                <img id="imgcardinfo" alt="img" src={Card1}/>
+                <div>
+                    <img id="imgcardinfo" alt="img" src={Card1}/>
                 </div>
                 <div id="contentinfo">
                     <h1>LANZAMIENTO KIDALKI</h1>
@@ -51,7 +62,7 @@ class cardinfofigi extends Component {
                         reales, lo principal es mantenerse al día y llegar al objetivo.
                     </p>
                 </div>
-                <img id="imgdecor2" alt="img" src={Card1_1}/> 
+                <img id="imgdecor2"  alt="img" src={Card1_1}/> 
             </div>
             <div className="contentelements2">
                 <img id="imgdecor2" alt="img" src={Card2_2}/>
@@ -97,7 +108,7 @@ class cardinfofigi extends Component {
                         tus pies.
                     </p>
                 </div> 
-                <img id="imgdecor2" alt="img" src={Card5_5}/>               
+                <img id="imgdecor2" alt="img"  src={Card5_5}/>               
             </div>
             <div className="contentelements2">
                 <img id="imgdecor2" alt="img" src={Card6_6}/> 

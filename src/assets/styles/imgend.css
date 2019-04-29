@@ -15,7 +15,7 @@
     width: 1000px;
     padding-left: 450px;
 }
-#texto{
+/* #texto{
     z-index: 1;
     font-size: 25px;
     font-family: 'Happy Monkey', cursive;
@@ -29,7 +29,7 @@
   justify-content: center;
   display: grid;
   width: 800px;
-}
+} */
 @media screen and (max-width:1290px){
     .contentimgsh #imgend2{
         padding-top: 210px;

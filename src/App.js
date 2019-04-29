@@ -50,15 +50,6 @@ window.onload = function() {
 
 	window.requestAnimationFrame(updateLax)
 }
-
-lax.addPreset("myCoolPreset", function() {
-	return { 
-    "data-lax-translate": "0 200, 0 50",
-    "data-lax-translate": "0 400, 0 200"
-    
-	}
-})
-
 class App extends Component {
   render() {
     return (
@@ -106,16 +97,15 @@ class App extends Component {
                   <div ><img id="nubes3capa1" className="lax" data-lax-preset="driftLeft"  src={clouds3capa1}></img></div>
                 </div>
                 <div className="contentclouds3">
-                <img className="fondoazul" src={fondoazul}></img>
-                <img  id="colinas" src={hills}></img>
+                  <img className="fondoazul" src={fondoazul}></img>
+                  <img  id="colinas" src={hills}></img>
                   <Description/>
                   <Whyfigi/>
-                  
                 </div>                
               </div>
               <div className="shippaper">
                 <div className="containhill">
-                <img className="arena" src={arena}></img>
+                  <img className="arena" src={arena}></img>
                   <img src={shipwater}></img>
                   <img id="watercapa4" className="lax" data-lax-preset="driftLeft" src={watercapa4}></img>
                   <img id="watercapa3" className="lax" data-lax-preset="driftRight" src={watercapa3}></img>
@@ -123,9 +113,9 @@ class App extends Component {
                   <img id="watercapa1" src={watercapa1}></img>
                 </div>
                 <div className="contentshippaper">
-                <div className="containdeep">
-                <img id="deep" src={deep}></img>
-                </div>
+                  <div className="containdeep">
+                  <img id="deep" src={deep}></img>
+                  </div>
                   <Parkfigi/>
                   <Cardinfofigi/>
                   <Listparksfigi/>

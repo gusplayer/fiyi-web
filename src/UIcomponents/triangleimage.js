@@ -23,8 +23,8 @@ class triangleimage extends Component {
           <img src={imgentrete} className="imgtexto" alt="imgentrete"/>
         </div>
         <div className="contentimgs">         
-          <img src={imgtriangle1} className="imgtriangle lax" data-lax-preset="fadeInOut" alt="imgtriangle1"/>
-          <img src={imgtriangle2} className="imgtriangle lax" data-lax-preset="fadeInOut " alt="imgtriangle2"/>
+          <img src={imgtriangle2} id="imgtriangleuno" className="imgtriangle lax" data-lax-preset="fadeInOut " alt="imgtriangle2"/>
+          <img src={imgtriangle1} id="imgtriangleuno" className="imgtriangle lax" data-lax-preset="fadeInOut" alt="imgtriangle1"/>
         </div>
       </div>
     );

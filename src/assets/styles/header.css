@@ -11,3 +11,9 @@
       padding-right: 250px;
     }
   }
+  
+  @media screen and (max-width:1370px){
+    .Header{
+      padding-right: 200px;
+    }
+  }

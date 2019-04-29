@@ -27,6 +27,7 @@ body {
   position: relative;
   max-width: 1920px;
   overflow: hidden;
+  height: 100%;
   /* visibility: hidden; */
 
 }
@@ -161,7 +162,7 @@ padding-top: 100px;
 #deep{
   width: 2000px;
   margin-left: -50px;
-  top:6850px;
+  top:7300px;
 }
 .fondoazul{
   z-index: -2;
@@ -176,11 +177,36 @@ padding-top: 100px;
 .arena{
   top:-650px;
 }
-
+@media screen and (max-width:1370px){
+  #nubescapa1 {
+    width: auto;
+  }
+  #nubescapa2 {
+    width: auto;
+  }
+  #nubes2capa1 {
+    width: auto;
+    padding-left: 100px;
+  }
+  #nubes2capa2 {
+    width: auto;
+    padding-left: 100px;
+  }
+  .clouds2{
+    justify-content: center;
+  }
+  .mainbackground{
+    width: auto;
+  }
+  .mainbackground #fondopart1{
+    width: auto;
+  }
+}
 @media screen and (max-width:1290px){
   .mainbackground{
     width: auto;
   }
+  
   #montanaback{
     width: 300px;
     margin-left: 850px;
@@ -191,12 +217,17 @@ padding-top: 100px;
   margin-left: -250px;
   top: 100px;
 }
+#deep{
+  width: 1400px;
+  margin-left: -50px;
+  top:7350px;
+}
   .mainbackground #fondopart1{
     width: auto;
   }
   .contentallcomponents{
     max-width: 1280px;
-    height: 1760vh;
+    height: 100%;
   }
   .clouds2{
     justify-content: center;
@@ -237,7 +268,7 @@ padding-top: 100px;
   #nubes3capa2{
     top:5px;
     width: 1400px;
-    margin-left: 5px;
+    margin-left:-80px;
   }
   #nubes3capa1{
     width: 1280px;
