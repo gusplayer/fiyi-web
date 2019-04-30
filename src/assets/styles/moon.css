@@ -13,10 +13,13 @@
 .imagemoon{
     padding-top: 100px;
 }
-@media screen and (max-width:1280px){
-    #imagerocket{
-        padding-left: 200px;
-        width: 180px;
+@media screen and (max-width:1610px){
+    #imgmoon{
+        width: auto;
+    }
+    #imagerocket {
+        width: 200px;
+        padding-left: 350px;
     }
 }
 @media screen and (max-width:1370px){
@@ -29,12 +32,10 @@
     margin-bottom: 100px;
     }
 }
-@media screen and (max-width:1610px){
-    #imgmoon{
-        width: auto;
-    }
-    #imagerocket {
-        width: 200px;
-        padding-left: 350px;
+@media screen and (max-width:1280px){
+    #imagerocket{
+        padding-left: 200px;
+        width: 180px;
     }
 }
+
