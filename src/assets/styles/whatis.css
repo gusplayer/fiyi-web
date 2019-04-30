@@ -30,23 +30,10 @@
   font-family: 'Happy Monkey', cursive;
   color: #271552;
 }
-@media screen and (max-width:1280px){
+@media screen and (max-width:1610px){
   .Contentwhat{
-    padding-left: 50px;
-    padding-top: 100px;
-  }
-  .divcontent{
-    width: 500px;
-  }
-  .Contentwhat p{
-    font-size: 20px;
-  }
-  .Contentwhat h1{
-    font-size: 45px;
-    white-space: nowrap;
-  }
-  .Contentwhat h3{
-    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 250px;
   }
 }
 @media screen and (max-width:1370px){
@@ -66,5 +53,24 @@
   }
   .Contentwhat h3{
     font-size: 30px;
+  }
+}
+@media screen and (max-width:1280px){
+  .Contentwhat{
+    padding-left: 50px;
+    padding-top: 100px;
+  }
+  .divcontent{
+    width: 500px;
+  }
+  .Contentwhat p{
+    font-size: 20px;
+  }
+  .Contentwhat h1{
+    font-size: 45px;
+    white-space: nowrap;
+  }
+  .Contentwhat h3{
+    font-size: 25px;
   }
 }

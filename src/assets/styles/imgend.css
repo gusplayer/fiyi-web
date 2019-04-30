@@ -15,6 +15,12 @@
     width: 1000px;
     padding-left: 450px;
 }
+@media screen and (max-width:1610px){
+    .contentimgsh #imgend2{
+        top: 97%;
+        padding-left: 300px;
+    }
+}
 @media screen and (max-width:1370px){
     .contentimgsh #imgend2{
         top: 96%;

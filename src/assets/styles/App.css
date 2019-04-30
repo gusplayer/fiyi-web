@@ -48,7 +48,7 @@ body {
   z-index: 1;
   position:relative;
   display: grid;
-  justify-content: center;
+  /* justify-content: center; */
   width: 100%;
 }
 .contentclouds{
@@ -176,6 +176,18 @@ padding-top: 100px;
 }
 .arena{
   top:-650px;
+}
+@media screen and (max-width:1610px){
+  #montanafront{
+    width: 500px;
+    left: 320px;
+    top: 140px;
+  }
+  #montanaback{
+    width: 500px;
+    margin-left: 1100px;
+    top: -360px;
+}
 }
 @media screen and (max-width:1370px){
   #nubescapa1 {

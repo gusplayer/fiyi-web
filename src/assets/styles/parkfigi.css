@@ -13,6 +13,15 @@
     width: auto;
     position: relative; 
 }
+@media screen and (max-width:1610px){
+    
+    .contentpark #imgpark{
+        margin-left: -100px
+    }
+    .contentpark #imgpark2{
+        margin-left: -100px
+    }
+}
 @media screen and (max-width:1370px){
     .contentpark{
         justify-items:initial;

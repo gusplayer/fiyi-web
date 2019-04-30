@@ -47,6 +47,18 @@ grid-template-rows: .2fr auto;
 .imgsniños img{
     width: 500px;
 }
+@media screen and (max-width:1610px){
+    .contentconcept{
+        margin-top: 150px;
+        grid-template-columns: 400px 1fr 200px;
+        grid-column-gap: 40px;
+    }
+    .conceptimgs #img1{
+        padding-left: 80px;
+    }
+    
+
+}
 @media screen and (max-width:1370px){
     .contentconcept{
         margin-top: 70px;

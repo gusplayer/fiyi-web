@@ -20,6 +20,14 @@
     padding-top: 20px;
     width: 700px;
 }
+@media screen and (max-width:1610px){
+    #imgtriangleuno{
+        width: 550px;
+    }
+    .contentimgtext{
+     width:600px;
+     padding-top: 20px;
+    } 
 @media screen and (max-width:1370px){
     #imgtriangleuno{
         width: 550px;
@@ -34,10 +42,11 @@
        padding-left: 100px;
    }
    .contentimgtext{
-    width:500px;
     padding-top: 0px;
     padding-left: 100px;
 } 
 }
+
+ }
 
     
