@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import smallpark from '../assets/images/ParquePequeño.png';
-import bigpark from '../assets/images/ParqueGrande.png';
-import mediumpark from '../assets/images/ParqueMediano.png';
+import smallpark from '../assets/images/parquepequeño.png';
+import bigpark from '../assets/images/parquegrande.png';
+import mediumpark from '../assets/images/parquemediano.png';
 import diferentesparkes from '../assets/images/diferentesparques.png';
 import parque200 from '../assets/images/parque200.png';
 import parque500 from '../assets/images/parque500.png';
