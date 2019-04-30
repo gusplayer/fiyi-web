@@ -1,7 +1,7 @@
 .contentimgs {
     z-index: 4;
     display: grid;
-    padding-top: 150px;
+    padding-top: 100px;
     }
 .imgtexto{
     position:absolute;
@@ -13,11 +13,11 @@
     align-content: initial;
     display: grid;
 }
-.imgtriangle{
-    width: auto;
+#imgtriangleuno{
+    width: 650px;
 }
 .contentimgtext{
-    padding-top: 70px;
+    padding-top: 20px;
     width: 700px;
 }
 @media screen and (max-width:1370px){

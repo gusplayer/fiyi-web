@@ -3,18 +3,7 @@ import imgtriangle1 from '../assets/images/Imagenestriangular1.png';
 import imgtriangle2 from '../assets/images/Imagenestriangular2.png';
 import imgentrete from '../assets/images/Entretenimiento creativo.png';
 import '../assets/styles/trianglesimg.css';
-import lax from 'lax.js'
 
-window.onload = function() {
-	lax.setup() // init
-
-	const updateLax = () => {
-		lax.update(window.scrollY)
-		window.requestAnimationFrame(updateLax)
-	}
-
-	window.requestAnimationFrame(updateLax)
-}
 class triangleimage extends Component {
   render() {
     return (
@@ -23,8 +12,8 @@ class triangleimage extends Component {
           <img src={imgentrete} className="imgtexto" alt="imgentrete"/>
         </div>
         <div className="contentimgs">         
-          <img src={imgtriangle2} id="imgtriangleuno" className="imgtriangle lax" data-lax-preset="fadeInOut " alt="imgtriangle2"/>
-          <img src={imgtriangle1} id="imgtriangleuno" className="imgtriangle lax" data-lax-preset="fadeInOut" alt="imgtriangle1"/>
+          <img src={imgtriangle2} id="imgtriangleuno" className="imgtriangle" alt="imgtriangle2"/>
+          <img src={imgtriangle1} id="imgtriangleuno" className="imgtriangle" alt="imgtriangle1"/>
         </div>
       </div>
     );

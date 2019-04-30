@@ -24,6 +24,16 @@
     width: 650px;
     position: relative;
 }
+@media screen and (max-width:1370px){
+    .contentdescription{
+        grid-template-columns: .4fr .5fr;
+        grid-gap:0px;
+        margin-top: -180px;
+    }
+    #imgdescrip{
+        width: 500px;
+    }
+}
 @media screen and (max-width:1280px){
     .contentdescription{
         grid-template-columns: 500px 600px;

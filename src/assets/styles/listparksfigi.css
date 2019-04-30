@@ -60,7 +60,16 @@
 P{
     z-index:5 ;
 }
-@media screen and (max-width:1290px){
+@media screen and (max-width:1370px){
+    #imgcardparkmedium{
+        width: 700px;
+    }
+    #textimg{
+        position: relative;
+        width: 600px;
+    }
+}
+@media only screen and (max-width:1280px){
     #imgcardparkmedium{
         width: 625px;
     }

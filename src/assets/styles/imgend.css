@@ -15,27 +15,18 @@
     width: 1000px;
     padding-left: 450px;
 }
-/* #texto{
-    z-index: 1;
-    font-size: 25px;
-    font-family: 'Happy Monkey', cursive;
-  color: #ffffff;
-  line-height: 30px;
-  text-align: justify;
-  z-index: 0;
-  margin-bottom: 0px;
-  margin-top: -1200px;
-  padding-left: 300px;
-  justify-content: center;
-  display: grid;
-  width: 800px;
-} */
+@media screen and (max-width:1370px){
+    .contentimgsh #imgend2{
+        top: 96%;
+        padding-left: 210px;
+    }
+}
 @media screen and (max-width:1290px){
     .contentimgsh #imgend2{
         padding-top: 210px;
         padding-left: 100px;
     }
     .contentimgsh #imgend{
-        top: 96%;
+        top: 94%;
     }
 }

@@ -186,11 +186,29 @@ padding-top: 100px;
   }
   #nubes2capa1 {
     width: auto;
-    padding-left: 100px;
   }
   #nubes2capa2 {
     width: auto;
-    padding-left: 100px;
+  }
+  #nubes3capa3{
+    width: 1600px;
+    top: -150px;
+    margin-left: -80px;
+  }
+  #nubes3capa2{
+    top: 100px;
+    width: 1600px;
+    margin-left: -102px;
+  }
+  #nubes3capa1{
+    width: 1600px;
+    top: 250px;
+    margin-left: -100px;
+  }
+  .fondoazul {
+    margin-top: -322px;
+    height: 858px;
+
   }
   .clouds2{
     justify-content: center;
@@ -201,6 +219,20 @@ padding-top: 100px;
   .mainbackground #fondopart1{
     width: auto;
   }
+  #montanafront{
+    width: 400px;
+    left: 320px;
+    top: 140px;
+  }
+  #montanaback{
+    width: 400px;
+    margin-left: 1000px;
+    top: -360px;
+}
+.arena{
+  top:-500px;
+  width: auto;
+}
 }
 @media screen and (max-width:1290px){
   .mainbackground{
@@ -276,6 +308,6 @@ padding-top: 100px;
     margin-left:-100px;
   }
   .shippaper{
-    margin-bottom: 1000px;
+    margin-bottom: 300px;
   }
 }

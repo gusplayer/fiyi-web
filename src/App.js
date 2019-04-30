@@ -77,8 +77,8 @@ class App extends Component {
                         <div><img className="lax" data-lax-preset="fadeInOut" src={tinycloud}></img></div>
                       </div>
                       <div id="containnubes2">
-                        <img id="nubes2capa2" className="lax"  data-lax-translate-y="500 200,500 100 speed=0.5 | loop=1000 " src={clouds2capa2}></img>
-                        <img id="nubes2capa1" className="lax" data-lax-translate-y="500 150,500 120 speed=0.5 | loop=1000" src={clouds2capa1}></img>
+                        <img id="nubes2capa2" className="lax"  data-lax-translate-y="500 200,500 100 | loop=1000 speed=0.5 " src={clouds2capa2}></img>
+                        <img id="nubes2capa1" className="lax" data-lax-translate-y="500 150,500 120 | loop=1000 speed=0.5" src={clouds2capa1}></img>
                       </div>
                     </div>
                     <div className="contentclouds2">
@@ -91,10 +91,10 @@ class App extends Component {
               <div className="mountains">
                 <div id="containnubes3">
                   <div id="montanaback"  ><img  src={montanaback}></img></div>
-                  <div><img  id="nubes3capa3"  className="lax"  className="lax" data-lax-preset="driftLeft" src={clouds3capa3}></img></div>
-                  <div ><img id="nubes3capa2" className="lax" data-lax-preset="driftRight"  src={clouds3capa2}></img></div>
+                  <div><img  id="nubes3capa3"  className="lax"  className="lax" data-lax-preset="driftLeft | speed=0.5 " src={clouds3capa3}></img></div>
+                  <div ><img id="nubes3capa2"  src={clouds3capa2}></img></div>
                   <div id="montanafront"><img src={montanafront}></img></div>
-                  <div ><img id="nubes3capa1" className="lax" data-lax-preset="driftLeft"  src={clouds3capa1}></img></div>
+                  <div ><img id="nubes3capa1" className="lax" data-lax-preset="driftRight | speed=0.5"  src={clouds3capa1}></img></div>
                 </div>
                 <div className="contentclouds3">
                   <img className="fondoazul" src={fondoazul}></img>
