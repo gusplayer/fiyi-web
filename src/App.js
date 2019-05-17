@@ -114,7 +114,9 @@ class App extends Component {
                 </div>
                 <div className="contentshippaper">
                   <div className="containdeep">
+                  
                   <img id="deep" src={deep}></img>
+                  <img id="watercapaoculta" src={watercapa1}></img>
                   </div>
                   <Parkfigi/>
                   <Cardinfofigi/>

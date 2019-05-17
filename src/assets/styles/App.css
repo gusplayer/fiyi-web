@@ -2,7 +2,7 @@ body {
   overflow-x: hidden !important;
   background-image: linear-gradient(#815b8e
   								  ,#9098b0,#f4f8fc,#36a955,#ecdda3,#afbbce,
-  									#94adcf,#6583a7,#1a2d53,#d4956b,#221915); 
+  									#94adcf,#6583a7,#687e99,#b7d9fe,#d4956b); 
 }
 .mainbackground{
   z-index:-1; 
@@ -68,7 +68,7 @@ padding-top: 100px;
 }
 
 .clouds2{
-  top:20vh;
+  top:15vh;
   z-index: 1;
   position:relative;
   display: grid;
@@ -143,6 +143,12 @@ padding-top: 100px;
   width: auto;
   margin-left: -100px;
   top:3030px;
+}
+#watercapaoculta{
+  width: auto;
+  margin-left: -100px;
+  top:4000px;
+  z-index:-1;
 }
 #watercapa2{
   width: auto;

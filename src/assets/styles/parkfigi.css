@@ -24,7 +24,7 @@
 }
 @media screen and (max-width:1370px){
     .contentpark{
-        justify-items:initial;
+        /* justify-items:initial; */
     }
     .contentpark #imgpark{
         padding-left: 180px;
@@ -35,13 +35,13 @@
 }
 @media screen and (max-width:1290px){
     .contentpark{
-        justify-items:initial;
+        /* justify-items:initial; */
     }
     .contentpark #imgpark{
         padding-left: 100px;
     }
     .contentpark #imgpark2{
-        padding-left: 300px;
+        padding-left: 200px;
     }
 }
 
