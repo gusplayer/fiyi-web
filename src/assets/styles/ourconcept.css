@@ -31,7 +31,6 @@ grid-template-rows: .2fr auto;
 .textcontentconcept{
     width: 650px;
     text-align: justify;
-    padding-top: 50px;
 }
 .concepttexts p{
     font-size: 27px;
