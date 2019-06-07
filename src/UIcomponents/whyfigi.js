@@ -59,9 +59,11 @@ class whyfigi extends Component {
              </p>
              <p>
              Los niños entran en un mundo de
-              imágenes vivas donde controlan el
-              espacio a través de sus acciones y
-              objetos físicos
+            imágenes vivas donde controlan el
+            espacio a través de sus acciones y
+            objetos físicos, mientras juegan e
+            interactúan con personajes llenos
+            de vida y color
              </p>
            </div>
           </div>

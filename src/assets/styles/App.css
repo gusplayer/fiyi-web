@@ -142,7 +142,7 @@ padding-top: 100px;
 #watercapa1{
   width: auto;
   margin-left: -100px;
-  top:3030px;
+  top:2950px;
 }
 #watercapaoculta{
   width: auto;
@@ -281,7 +281,7 @@ padding-top: 100px;
   }
   .clouds2{
     justify-content: center;
-    top: 15vh;
+    top: 5vh;
   }
   .clouds{
     top:300px;
@@ -297,7 +297,7 @@ padding-top: 100px;
     height: 860px;
   }
   .arena{
-    top:-700px;
+    top:-620px;
     width: auto;
     height: 900px;
   }

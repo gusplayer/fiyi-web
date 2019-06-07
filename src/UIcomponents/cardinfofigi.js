@@ -110,6 +110,9 @@ class cardinfofigi extends Component {
                 </div> 
                 <img id="imgdecor2" alt="img"  src={Card5_5}/>               
             </div>
+            <div className="Separador">
+                
+            </div>
             <div className="contentelements2">
                 <img id="imgdecor2" alt="img" src={Card6_6}/> 
                 <div>
@@ -127,7 +130,7 @@ class cardinfofigi extends Component {
                 <div>
                     <h1>¿QUÉ COME LA BALLENA?</h1>
                     <p>¿Cuales tesoros se pueden conseguir en la barriga de una
-                        ballena?
+                        ballena?<br></br>
                         ¡Enciende tu linterna para averiguarlo!
                         Asegúrate de ser el más curioso y rápido para acumular puntos.
                     </p>

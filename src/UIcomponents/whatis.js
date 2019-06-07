@@ -18,7 +18,7 @@ class whatis extends Component {
       <div className="Contentwhat">
         <div className="divcontent">
           <h1 className="lax" data-lax-preset="fadeInOut zoomIn 800">
-            ¿DE QUÉ SE TRATA FIGI?
+            ¿De QUé Se TRATA FIGI?
           </h1>
           <p>
           La palabra surge de la unión de Físico y Digital…

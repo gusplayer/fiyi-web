@@ -20,6 +20,8 @@
     display: grid;
     width:auto;
     position: relative; 
+    margin-right: 630px;
+    margin-top: -150px;
 }
 #imgcardparkmediumtext{
     width: auto;
@@ -84,6 +86,9 @@ P{
     }
     #textimg{
         position: relative;
+        width: 600px;
+    }
+    #imgcardparkbigtext{
         width: 600px;
     }
 }
