@@ -17,16 +17,25 @@ class listparksfigi extends Component {
         <div className="contentelementsimgs">
           <div className="contentmediumpark">
             <img id="imgcardparkmedium" src={mediumpark}/>
-            <img id="imgcardparkmediumtext" src={parque200}/>
+            <div id="imgcardparkmediumtext">
+              <p>200 m2  6 atracciones - 60 visitantes</p>
+            </div>
+            {/* <img id="imgcardparkmediumtext" src={parque200}/> */}
           </div>
           <div className="contentapairimg" >
             <img id="textimg"src={diferentesparkes}/> 
             <img id="imgcardparksmall" src={smallpark}/>
-            <img id="imgcardparksmalltext" src={parque500}/>
+            <div id="imdcardparksmalltext">
+              <p>500 m2  10 atracciones -120 visitantes</p>
+            </div>
+            {/* <img id="imgcardparksmalltext" src={parque500}/> */}
           </div>
           <div className="contentbigpark">
             <img id="imgcardparkbig" src={bigpark}/>
-            <img id="imgcardparkbigtext" src={parque1000}/>
+            <div id="imgcardparkbigtext">
+              <p>1000 m2  15 a 20 atracciones - 300 visitantes</p>
+            </div>
+            {/* <img id="imgcardparkbigtext" src={parque1000}/> */}
           </div> 
         </div>
       </div>

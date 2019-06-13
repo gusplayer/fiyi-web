@@ -17,20 +17,52 @@
     position: relative;
 }
 #imgcardparkbigtext{
-    display: grid;
-    width:auto;
-    position: relative; 
+    display: grid; 
     margin-right: 630px;
     margin-top: -150px;
+    width: 500px;
+    height:45px;
+    position: relative;
+    background-color: #265b7f;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Happy Monkey', cursive;
+  color: #ffffff;
+}
+#imgcardparkbigtext p{
+    margin:0;
+    padding: 10px;
 }
 #imgcardparkmediumtext{
-    width: auto;
+    width: 500px;
+    height:45px;
     position: relative;
-    display: grid;
+    background-color: #265b7f;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Happy Monkey', cursive;
+  color: #ffffff;
 }
-#imgcardparksmalltext{
-    width: auto;
+#imgcardparkmediumtext p{
+    margin:0;
+    padding: 10px;
+}
+#imdcardparksmalltext{
+    width: 500px;
+    height:45px;
     position: relative;
+    background-color: #265b7f;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Happy Monkey', cursive;
+  color: #ffffff;
+}
+#imdcardparksmalltext p{
+    margin:0;
+    padding: 10px;
 }
 .contentbigpark{
     grid-area: c;
@@ -41,6 +73,7 @@
     display: grid;
     grid-area: a;
     justify-items: center;
+    grid-template-rows: 1fr .5fr;
 }
 .contentapairimg{
     display: grid;
