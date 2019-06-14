@@ -23,10 +23,10 @@
 }
 @media screen and (max-width:1370px){
     .contentimgsh #imgend{
-        top: 101%;
+        top: 100%;
     }
     .contentimgsh #imgend2{
-        top: 99%;
+        top: 98.5%;
         padding-left: 210px;
     }
 }
