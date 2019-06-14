@@ -28,7 +28,7 @@ grid-column-gap: 80px;
 }
 .concepttextwhy{
   display:grid;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 80px 1fr;
 } 
 #imgtop{
   z-index: 1;
@@ -78,8 +78,7 @@ grid-column-gap: 80px;
 }
 
 #imgs{
-  transform: scale(1.2);
-  width: auto;
+  width: 120px;
   position: relative;
 }
 @media screen and (max-width:1290px){

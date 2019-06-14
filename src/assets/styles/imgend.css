@@ -6,12 +6,12 @@
 .contentimgsh #imgend{
     width:100%;
     position: absolute;
-    top: 98.5%;
+    top: 99%;
 }
 .contentimgsh #imgend2{
     padding-top: 600px;
     position: absolute; 
-    top: 98%;
+    top: 99.5%;
     width: 1000px;
     padding-left: 450px;
 }
@@ -22,8 +22,11 @@
     }
 }
 @media screen and (max-width:1370px){
+    .contentimgsh #imgend{
+        top: 101%;
+    }
     .contentimgsh #imgend2{
-        top: 96%;
+        top: 99%;
         padding-left: 210px;
     }
 }

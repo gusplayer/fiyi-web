@@ -2,46 +2,26 @@
     display: grid;
     padding-top:450px;
     justify-items: center;
-
+    max-width: 1920px;
 }
 .contentpark #imgpark{
     width: auto;
     position: relative; 
+    width: 1200px;
 }
 .contentpark #imgpark2{
     padding-bottom: 25px;
-    width: auto;
+    width: 750px;
     position: relative; 
 }
 @media screen and (max-width:1610px){
-    
-    .contentpark #imgpark{
-        margin-left: -100px
-    }
-    .contentpark #imgpark2{
-        margin-left: -100px
+    .contentpark{
     }
 }
 @media screen and (max-width:1370px){
-    .contentpark{
-        /* justify-items:initial; */
-    }
-    .contentpark #imgpark{
-        padding-left: 180px;
-    }
-    .contentpark #imgpark2{
-        padding-left: 380px;
-    }
+    
 }
 @media screen and (max-width:1290px){
-    .contentpark{
-        /* justify-items:initial; */
-    }
-    .contentpark #imgpark{
-        padding-left: 100px;
-    }
-    .contentpark #imgpark2{
-        padding-left: 200px;
-    }
+    
 }
 

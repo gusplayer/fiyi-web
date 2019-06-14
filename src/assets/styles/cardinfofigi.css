@@ -1,14 +1,13 @@
 .contentinfofigi{
     display: grid;
-    padding-top:250px;
+    padding-top:125px;
     justify-content: center;
     grid-gap: 55px;
 }
 #imgcardinfo{
-    width: auto;
+    width: 350px;
     position: relative; 
     z-index: 2;
-
 }
 #imgdecor{
     width: auto;
@@ -141,7 +140,7 @@
     width: 1100px;
 }
 .contentelements2{
-    grid-template-columns: 200px 700px 90px;
+    grid-template-columns: 200px 700px 110px;
     width: 1100px;
     
 }

@@ -20,6 +20,7 @@ import montanafront from "./assets/images/montanafront.png";
 import hills from "./assets/images/hills.png"
 import arena from "./assets/images/arena.png"
 import shipwater from "./assets/images/shipwater.png"
+
 import watercapa1 from "./assets/images/watercapa1.png"
 import watercapa2 from "./assets/images/watercapa2.png"
 import watercapa3 from "./assets/images/watercapa3.png"

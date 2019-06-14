@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import imgtext1 from '../assets/images/Imagen1Porque.png';
-import imgtext2 from '../assets/images/Imagen2Porque.png';
-
+import imgtext1 from '../assets/images/icono1.png';
+import imgtext2 from '../assets/images/icono2.png';
+import imgtext3 from '../assets/images/icono3.png';
+import imgtext4 from '../assets/images/icono4.png';
 import '../assets/styles/whyfigi.css';
 
 class whyfigi extends Component {
@@ -49,9 +50,9 @@ class whyfigi extends Component {
           </div>
         </div>
         <div className="content2">
-          <div>
+          <div className="concepttextwhy">
           <div id="imgtop">
-              <img id="imgs"  src={imgtext2} alt="imgtext1"/>
+              <img id="imgs"  src={imgtext3} alt="imgtext1"/>
             </div>
           <div className="contentwhytext">
              <p>
@@ -67,9 +68,9 @@ class whyfigi extends Component {
              </p>
            </div>
           </div>
-          <div>
+          <div className="concepttextwhy">
           <div id="imgtop">
-              <img id="imgs" src={imgtext1} alt="imgtext1"/>
+              <img id="imgs" src={imgtext4} alt="imgtext1"/>
             </div>
           <div className="contentwhytext">
              <p>
