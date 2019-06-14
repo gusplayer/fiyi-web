@@ -11,12 +11,11 @@
 }
 .Contentwhat h1{
   margin-bottom: 5px;
-  font-size: 45px;
+  font-size: 50px;
   font-family: 'Luckiest Guy', cursive;
   color: #5e1a72;
   letter-spacing: 2px;
-  /* -webkit-text-stroke: 2.5px white; */
-  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff;
+  -webkit-text-stroke: 1px white;
   text-overflow: ellipsis;
 }
 .Contentwhat p{
@@ -69,7 +68,7 @@
     font-size: 20px;
   }
   .Contentwhat h1{
-    font-size: 45px;
+    font-size: 50px;
     white-space: nowrap;
   }
   .Contentwhat h3{

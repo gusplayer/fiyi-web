@@ -57,14 +57,14 @@
 }
 #textimg{
     position: relative;
-    width: 850px;
+    /* width: 850px; */
 }
 P{
     z-index:5 ;
 }
 @media screen and (max-width:1610px){
     #imgcardparkmedium{
-        width: 900px;
+        width: 800px;
     }
     #textimg{
         position: relative;
@@ -80,7 +80,7 @@ P{
         width: 600px;
     }
 }
-@media only screen and (max-width:1280px){
+@media screen and (max-width:1290px){
     #imgcardparkmedium{
         width: 625px;
     }

@@ -16,7 +16,7 @@ body {
   overflow-x: hidden; */
 }
 .mainbackground img{
-  width: 100%;
+  width: 101%;
   position: absolute;
   /* height: 1500vh; */
 }
@@ -115,7 +115,7 @@ padding-top: 100px;
   position: relative;
   width: 650px;
   left: 550px;
-  top: -50px;
+  top: -20px;
 }
 #nubes3capa3{
   margin-left: -100px;
