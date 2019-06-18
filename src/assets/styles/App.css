@@ -102,7 +102,7 @@ padding-top: 100px;
   position:relative;
   display: grid;
   width: 100%;
-  margin-bottom: 900px;
+  margin-bottom: 870px;
 }
 #montanaback{
   position: relative;
@@ -143,32 +143,37 @@ padding-top: 100px;
   width: auto;
   margin-left: -100px;
   top:2950px;
+  z-index: -1;
 }
 #watercapaoculta{
   width: auto;
   margin-left: -100px;
   top:4000px;
-  z-index:-1;
+  z-index:-2;
 }
 #watercapa2{
   width: auto;
   margin-left: -100px;
   top:1300px;
+  z-index: -1;
 }
 #watercapa3{
   width: auto;
   margin-left: -200px;
   top:300px;
+  z-index: -1;
 }
 #watercapa4{
   width: auto;
   margin-left: -200px;
   top:200px;
+  z-index: -1;
 }
 #deep{
   width: 2000px;
   margin-left: -50px;
   top:7300px;
+  z-index: -1;
 }
 .fondoazul{
   z-index: -2;
@@ -182,6 +187,10 @@ padding-top: 100px;
 }
 .arena{
   top:-650px;
+  z-index: -1;
+}
+.shipwater{
+  z-index: -1;
 }
 @media screen and (max-width:1610px){
   #montanafront{
@@ -271,6 +280,7 @@ padding-top: 100px;
   width: 1400px;
   margin-left: -50px;
   top:7350px;
+  z-index:-1
 }
   .mainbackground #fondopart1{
     width: auto;
@@ -326,6 +336,6 @@ padding-top: 100px;
     margin-left:-100px;
   }
   .shippaper{
-    margin-bottom: 200px;
+    margin-bottom: 70px;
   }
 }

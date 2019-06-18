@@ -107,7 +107,7 @@ class App extends Component {
               <div className="shippaper">
                 <div className="containhill">
                   <img className="arena" src={arena}></img>
-                  <img src={shipwater}></img>
+                  <img  className="shipwater"src={shipwater}></img>
                   <img id="watercapa4" className="lax" data-lax-preset="driftLeft" src={watercapa4}></img>
                   <img id="watercapa3" className="lax" data-lax-preset="driftRight" src={watercapa3}></img>
                   <img id="watercapa2" src={watercapa2}></img>
@@ -122,6 +122,7 @@ class App extends Component {
                   <Parkfigi/>
                   <Cardinfofigi/>
                   <Listparksfigi/>
+                  <Trendimg/>
                   <Imgend/>
                 </div>
               </div>
