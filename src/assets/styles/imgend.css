@@ -13,7 +13,7 @@
     position: absolute; 
     top: 95.5%;
     width: auto;
-    left: 10%;
+    padding-left: 450px;
 }
 @media screen and (max-width:1400px){
     .contentimgsh #imgend{
@@ -30,6 +30,6 @@
     }
     .contentimgsh #imgend2{
         top: 90%;
-        /* padding-left: 110px; */
+        padding-left: 110px;
     }
 }
