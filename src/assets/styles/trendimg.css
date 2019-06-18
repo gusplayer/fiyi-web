@@ -26,7 +26,7 @@
     line-height: 40px;
     z-index: 0;
 }
-@media screen and (max-width:1380px){
+@media screen and (max-width:1300px){
     .contenttrend{
         top: 350px;
         left:200px;

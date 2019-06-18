@@ -9,12 +9,11 @@ class trends extends Component {
         <div> 
         <h1>TenDenciAs GLoBALeS</h1>  
           <p>
-            Los padres buscan que sus hijos disfruten de
-            actividades fisicas, creativas y de grupo, lo mismo que
-            de actividaes artisticas y de aprendizaje… FiGi es una
-            respuesta a este clamor colectivo, combinando todas
-            estas demandas dentro de una esfera de
-            entretenimiento educativo..
+          Los padres buscan que sus hijos disfruten de actividades
+          físicas, creativas y grupales, así como también de actividades
+          artísticas y de aprendizaje… FiGi es una respuesta a esta
+          necesidad, combinando todas estas demandas dentro de
+          una esfera de entretenimiento educativo.
           </p>
         </div>
       </div>
