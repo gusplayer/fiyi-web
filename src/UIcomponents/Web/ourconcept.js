@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ourconcepttitle from '../assets/images/NuestroConcepto.png';
+import ourconcepttitle from '../../assets/images/Web/NuestroConcepto.png';
 // import ourconcepttext2 from '../assets/images/NuestroConceptoTexto2.png';
-import sun from '../assets/images/Sol.png';
-import img3svg from '../assets/images/Tresimagenes.png';
+import sun from '../../assets/images/Web/Sol.png';
+import img3svg from '../../assets/images/Web/Tresimagenes.png';
 
-import '../assets/styles/ourconcept.css';
+import '../../assets/styles/ourconcept.css';
 
 class ourconcept extends Component {
   render() {

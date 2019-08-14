@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import imgtriangle1 from '../assets/images/Imagenestriangular1.png';
-import imgentrete from '../assets/images/Entretenimiento creativo.png';
-import '../assets/styles/trianglesimg.css';
+import imgtriangle1 from '../../assets/images/Web/Imagenestriangular1.png';
+import imgentrete from '../../assets/images/Web/Entretenimiento creativo.png';
+import '../../assets/styles/trianglesimg.css';
 
 class triangleimage extends Component {
   render() {

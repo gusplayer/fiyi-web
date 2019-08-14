@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 
-import imageled1 from '../assets/images/final.png';
-import imgfinal from '../assets/images/imagenfinal.png';
+import imageled1 from '../../assets/images/Web/final.png';
+import imgfinal from '../../assets/images/Web/imagenfinal.png';
 
-import '../assets/styles/imgend.css';
+import '../../assets/styles/imgend.css';
 
 class imgend extends Component {
   render() {

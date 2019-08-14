@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import imgtext1 from '../assets/images/icono1.png';
-import imgtext2 from '../assets/images/icono2.png';
-import imgtext3 from '../assets/images/icono3.png';
-import imgtext4 from '../assets/images/icono4.png';
-import '../assets/styles/whyfigi.css';
+import imgtext1 from '../../assets/images/Web/icono1.png';
+import imgtext2 from '../../assets/images/Web/icono2.png';
+import imgtext3 from '../../assets/images/Web/icono3.png';
+import imgtext4 from '../../assets/images/Web/icono4.png';
+import '../../assets/styles/whyfigi.css';
 
 class whyfigi extends Component {
   render() {

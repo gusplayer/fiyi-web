@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import moonimg from '../assets/images/Luna.png';
-import rocketimg from '../assets/images/CoheteLuna.png';
-import '../assets/styles/moon.css';
+import moonimg from '../../assets/images/Web/Luna.png';
+import rocketimg from '../../assets/images/Web/CoheteLuna.png';
+import '../../assets/styles/moon.css';
 import lax from 'lax.js'
 window.onload = function() {
 	lax.setup() // init

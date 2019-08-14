@@ -1,28 +1,34 @@
-import header from "./header.js";
-import moon from "./moon.js";
-import triangleimage from "./triangleimage.js";
-import videoplane from "./video.js";
-import whatis from "./whatis.js";
-import ourconcept from "./ourconcept.js";
-import descriptionfigi from "./descriptionfigi.js";
-import whyfigi from "./whyfigi.js";
-import parkfigi from "./parkfigi.js";
-import cardinfofigi from "./cardinfofigi.js";
-import listparksfigi from "./listparksfigi.js";
-import imgend from "./imgend.js";
-import trend from "./trends.js";
+//Web
+import header from "./Web/header.js";
+import moon from "./Web/moon.js";
+import triangleimage from "./Web/triangleimage.js";
+import videoplane from "./Web/video.js";
+import whatis from "./Web/whatis.js";
+import ourconcept from "./Web/ourconcept.js";
+import descriptionfigi from "./Web/descriptionfigi.js";
+import whyfigi from "./Web/whyfigi.js";
+import parkfigi from "./Web/parkfigi.js";
+import cardinfofigi from "./Web/cardinfofigi.js";
+import listparksfigi from "./Web/listparksfigi.js";
+import imgend from "./Web/imgend.js";
+import trend from "./Web/trends.js";
+//Responsive
+import headerR from "./Responsive/Header/headerR.js";
  export { 
-    header, 
-    moon, 
-    triangleimage, 
-    whatis,
-    videoplane, 
-    ourconcept,
-    descriptionfigi,
-    whyfigi,
-    parkfigi,
-    cardinfofigi,
-    listparksfigi,
-    imgend,
-    trend,
+   //Web
+   header, 
+   moon, 
+   triangleimage, 
+   whatis,
+   videoplane, 
+   ourconcept,
+   descriptionfigi,
+   whyfigi,
+   parkfigi,
+   cardinfofigi,
+   listparksfigi,
+   imgend,
+   trend,
+   //Responsive
+   headerR
    };

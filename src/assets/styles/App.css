@@ -4,6 +4,7 @@ body {
   								  ,#9098b0,#f4f8fc,#36a955,#ecdda3,#afbbce,
   									#94adcf,#6583a7,#687e99,#b7d9fe,#d4956b); 
 }
+/*Web*/
 .mainbackground{
   z-index:-1; 
   display: grid;
@@ -338,4 +339,17 @@ padding-top: 100px;
   .shippaper{
     margin-bottom: 70px;
   }
+}
+.Responsive{
+  display: none;
+}
+/*Responsive*/
+@media screen and (max-width:700px){
+  .Responsive{
+    display: grid;
+  }
+  .Web{
+    display: none;
+  }
+
 }

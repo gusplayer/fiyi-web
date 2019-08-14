@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-import smallpark from '../assets/images/parquepequeño.png';
-import bigpark from '../assets/images/parquegrande.png';
-import mediumpark from '../assets/images/parquemediano.png';
-import diferentesparkes from '../assets/images/diferentesparques.png';
-import parque200 from '../assets/images/parque200.png';
-import parque500 from '../assets/images/parque500.png';
-import parque1000 from '../assets/images/parque1000.png';
-import pez from "../assets/images/peceburbu.png"
-import '../assets/styles/listparksfigi.css';
+import smallpark from '../../assets/images/Web/parquepequeño.png';
+import bigpark from '../../assets/images/Web/parquegrande.png';
+import mediumpark from '../../assets/images/Web/parquemediano.png';
+import diferentesparkes from '../../assets/images/Web/diferentesparques.png';
+import parque200 from '../../assets/images/Web/parque200.png';
+import parque500 from '../../assets/images/Web/parque500.png';
+import parque1000 from '../../assets/images/Web/parque1000.png';
+import pez from "../../assets/images/Web/peceburbu.png"
+import '../../assets/styles/listparksfigi.css';
 
 class listparksfigi extends Component {
   render() {

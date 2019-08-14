@@ -1,33 +1,51 @@
 import React, { Component } from 'react';
-import {header,moon,triangleimage ,whatis,videoplane,ourconcept,
-  descriptionfigi,whyfigi,parkfigi,cardinfofigi,listparksfigi,imgend,trend}from "./UIcomponents";
-  import lax from 'lax.js'
-  import fondopart1 from "./assets/images/FondoPart1.png";
-  import fondopart1estrellas from "./assets/images/estrellas.png";
-  import fondoazul from "./assets/images/fondoazul.png";
-import cloudscapa2 from "./assets/images/NubesCapa2.png";
-import cloudscapa1 from "./assets/images/NubesCapa1.png";
-import clouds2capa1 from "./assets/images/Nubes2Capa1.png";
-import clouds2capa2 from "./assets/images/Nubes2Capa2.png";
-import tinycloud from "./assets/images/tinycloud.png";
+import {
+  //Web
+  header,
+  moon,
+  triangleimage,
+  whatis,
+  videoplane,
+  ourconcept,
+  descriptionfigi,
+  whyfigi,
+  parkfigi,
+  cardinfofigi,
+  listparksfigi,
+  imgend,
+  trend,
+  //Responsive
+  headerR,
+  }from "./UIcomponents";
 
-import clouds3capa1 from "./assets/images/Nubes3Capa1.png";
-import clouds3capa2 from "./assets/images/Nubes3Capa2.png";
-import clouds3capa3 from "./assets/images/Nubes3Capa3.png";
-import montanaback from "./assets/images/montanaback.png";
-import montanafront from "./assets/images/montanafront.png";
+import lax from 'lax.js'
+import fondopart1 from "./assets/images/Web/FondoPart1.png";
+import fondopart1estrellas from "./assets/images/Web/estrellas.png";
+import fondoazul from "./assets/images/Web/fondoazul.png";
+import cloudscapa2 from "./assets/images/Web/NubesCapa2.png";
+import cloudscapa1 from "./assets/images/Web/NubesCapa1.png";
+import clouds2capa1 from "./assets/images/Web/Nubes2Capa1.png";
+import clouds2capa2 from "./assets/images/Web/Nubes2Capa2.png";
+import tinycloud from "./assets/images/Web/tinycloud.png";
 
-import hills from "./assets/images/hills.png"
-import arena from "./assets/images/arena.png"
-import shipwater from "./assets/images/shipwater.png"
+import clouds3capa1 from "./assets/images/Web/Nubes3Capa1.png";
+import clouds3capa2 from "./assets/images/Web/Nubes3Capa2.png";
+import clouds3capa3 from "./assets/images/Web/Nubes3Capa3.png";
+import montanaback from "./assets/images/Web/montanaback.png";
+import montanafront from "./assets/images/Web/montanafront.png";
 
-import watercapa1 from "./assets/images/watercapa1.png"
-import watercapa2 from "./assets/images/watercapa2.png"
-import watercapa3 from "./assets/images/watercapa3.png"
-import watercapa4 from "./assets/images/watercapa4.png"
-import deep from "./assets/images/deep.png"
+import hills from "./assets/images/Web/hills.png"
+import arena from "./assets/images/Web/arena.png"
+import shipwater from "./assets/images/Web/shipwater.png"
+
+import watercapa1 from "./assets/images/Web/watercapa1.png"
+import watercapa2 from "./assets/images/Web/watercapa2.png"
+import watercapa3 from "./assets/images/Web/watercapa3.png"
+import watercapa4 from "./assets/images/Web/watercapa4.png"
+import deep from "./assets/images/Web/deep.png"
 import './assets/styles/App.css';
 
+//Web
 const Header= header;
 const Moon=moon;
 const Triangleimage=triangleimage;
@@ -41,9 +59,11 @@ const Cardinfofigi= cardinfofigi;
 const Listparksfigi= listparksfigi;
 const Imgend= imgend;
 const Trendimg= trend;
+//Responsive
+const HeaderR=headerR;
+
 window.onload = function() {
 	lax.setup() // init
-
 	const updateLax = () => {
 		lax.update(window.scrollY)
 		window.requestAnimationFrame(updateLax)
@@ -55,6 +75,7 @@ class App extends Component {
   render() {
     return (
       <div>
+      <div className="Web">
         <div className="mainbackground">
             <div className="contentallcomponents">
               <div className="backgroundpart1">
@@ -128,6 +149,10 @@ class App extends Component {
               </div>
             </div>
         </div>
+      </div>
+      <div className="Responsive">
+        <HeaderR/>
+      </div>
       </div>
     );
   }

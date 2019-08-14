@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../assets/styles/whatis.css';
+import '../../assets/styles/whatis.css';
 import lax from 'lax.js'
 
 window.onload = function() {

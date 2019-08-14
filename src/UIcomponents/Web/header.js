@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import parquefigi from '../assets/images/NombreEmpresa.png';
-import innovacion from '../assets/images/innovacionydiver.png';
-import '../assets/styles/header.css';
+import parquefigi from '../../assets/images/Web/NombreEmpresa.png';
+import innovacion from '../../assets/images/Web/innovacionydiver.png';
+import '../../assets/styles/header.css';
 
 class header extends Component {
   render() {

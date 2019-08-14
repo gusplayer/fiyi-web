@@ -1,36 +1,36 @@
 import React, { Component } from 'react';
 
-import Card1 from '../assets/images/Card1.png';
-import Card1_1 from '../assets/images/Card1-1.png';
-import Card2 from '../assets/images/Card2.png';
-import Card2_2 from '../assets/images/Card2-2.png';
-import Card3 from '../assets/images/Card3.png';
-import Card3_3 from '../assets/images/Card3-3.png';
-import Card4 from '../assets/images/Card4.png';
-import Card4_4 from '../assets/images/Card4-4.png';
-import Card5 from '../assets/images/Card5.png';
-import Card5_5 from '../assets/images/Card5-5.png';
-import Card6 from '../assets/images/Card6.png';
-import Card6_6 from '../assets/images/Card6-6.png';
-import Card7 from '../assets/images/Card7.png';
-import Card7_7 from '../assets/images/Card7-7.png';
-import Card8 from '../assets/images/Card8.png';
-import Card8_8 from '../assets/images/Card8-8.png';
-import Card9 from '../assets/images/Card9.png';
-import Card9_9 from '../assets/images/Card9-9.png';
-import Card10 from '../assets/images/Card10.png';
-import Card10_10 from '../assets/images/Card10-10.png';
-import Card11 from '../assets/images/Card11.png';
-import Card11_11 from '../assets/images/Card11-11.png';
-import Card12 from '../assets/images/Card12.png';
-import Card12_12 from '../assets/images/Card12-12.png';
-import Card13 from '../assets/images/Card13.png';
-import Card13_13 from '../assets/images/Card13-13.png';
-import Card14 from '../assets/images/Card14.png';
-import Card14_14 from '../assets/images/Card14-14.png';
-import atracciones from '../assets/images/atracciones.png';
+import Card1 from '../../assets/images/Web/Card1.png';
+import Card1_1 from '../../assets/images/Web/Card1-1.png';
+import Card2 from '../../assets/images/Web/Card2.png';
+import Card2_2 from '../../assets/images/Web/Card2-2.png';
+import Card3 from '../../assets/images/Web/Card3.png';
+import Card3_3 from '../../assets/images/Web/Card3-3.png';
+import Card4 from '../../assets/images/Web/Card4.png';
+import Card4_4 from '../../assets/images/Web/Card4-4.png';
+import Card5 from '../../assets/images/Web/Card5.png';
+import Card5_5 from '../../assets/images/Web/Card5-5.png';
+import Card6 from '../../assets/images/Web/Card6.png';
+import Card6_6 from '../../assets/images/Web/Card6-6.png';
+import Card7 from '../../assets/images/Web/Card7.png';
+import Card7_7 from '../../assets/images/Web/Card7-7.png';
+import Card8 from '../../assets/images/Web/Card8.png';
+import Card8_8 from '../../assets/images/Web/Card8-8.png';
+import Card9 from '../../assets/images/Web/Card9.png';
+import Card9_9 from '../../assets/images/Web/Card9-9.png';
+import Card10 from '../../assets/images/Web/Card10.png';
+import Card10_10 from '../../assets/images/Web/Card10-10.png';
+import Card11 from '../../assets/images/Web/Card11.png';
+import Card11_11 from '../../assets/images/Web/Card11-11.png';
+import Card12 from '../../assets/images/Web/Card12.png';
+import Card12_12 from '../../assets/images/Web/Card12-12.png';
+import Card13 from '../../assets/images/Web/Card13.png';
+import Card13_13 from '../../assets/images/Web/Card13-13.png';
+import Card14 from '../../assets/images/Web/Card14.png';
+import Card14_14 from '../../assets/images/Web/Card14-14.png';
+import atracciones from '../../assets/images/Web/atracciones.png';
 
-import '../assets/styles/cardinfofigi.css';
+import '../../assets/styles/cardinfofigi.css';
 import lax from 'lax.js'
 
 window.onload = function() {

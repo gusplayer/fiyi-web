@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import planeprevideo from '../assets/images/AvioncitoPrevideo.png';
-import '../assets/styles/video.css';
+import planeprevideo from '../../assets/images/Web/AvioncitoPrevideo.png';
+import '../../assets/styles/video.css';
 class videoplane extends Component {
   render() {
     return (
