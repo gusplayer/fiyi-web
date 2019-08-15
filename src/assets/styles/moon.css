@@ -38,4 +38,49 @@
         width: 180px;
     }
 }
-
+/*Responsive*/
+@media screen and (max-width:700px){
+    .MoonR{
+        position: relative;
+        max-width: 700px;
+        overflow: hidden;
+        
+    }
+    .coheteluna{
+        max-width:700px;
+        position: relative;
+        overflow: visible;
+        /* z-index: 3 !important; */
+    }
+    .luna{
+        max-width: 450px;
+        margin:100px 0px 0px 70px;
+    }
+    .cohete{
+        max-width: 110px;
+        position: absolute;
+        left: 0;
+        top:0;
+        margin-left: 220px;
+    }
+    .nubes img{
+        
+        max-width: 850px;
+        position: absolute;
+        margin-top:50px;
+    }
+    .nubes .nubes1{
+        margin-top: 50px;
+    }
+    .nubes .nubes2{
+        margin-top: 125px;
+    }
+    .nubes .fondonubes{
+        margin-top: 80px;
+    }
+    .nubes{
+    position: relative;
+    max-width: 700px;
+    
+    }
+}

@@ -28,6 +28,7 @@
     .HeaderR .fondo{
       position: absolute;
       max-width: 700px;
+      height: fit-content;
       z-index: 0;
     }
     .HeaderR .estrella{
@@ -39,15 +40,20 @@
       position: relative;
       top: 0;
       z-index: 2;
+      width: 700px;
+      display: grid;
+      justify-items: right;
       
     }
     .logotitulo{
-      max-width: 450px;
-      padding:150px 50px 0px 150px;
+      max-width: 500px;
+      padding:170px 50px 0px 100px;
+      margin-right: 50px;
     }
     .entrete{
-      max-width: 450px;
-      float: right;
+      margin-top: -30px;
+      max-width: 350px;
+      /* float: right; */
     }
   }
   
