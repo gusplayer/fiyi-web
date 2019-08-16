@@ -6,33 +6,30 @@
 .contentimgsh #imgend{
     width:100%;
     position: absolute;
-    top: 98%;
+    top: 96.5%;
 }
 .contentimgsh #imgend2{
     padding-top: 600px;
     position: absolute; 
-    top: 98%;
-    width: 1000px;
+    top: 95.5%;
+    width: auto;
     padding-left: 450px;
 }
-@media screen and (max-width:1610px){
-    .contentimgsh #imgend2{
+@media screen and (max-width:1400px){
+    .contentimgsh #imgend{
         top: 97%;
-        padding-left: 300px;
     }
-}
-@media screen and (max-width:1370px){
     .contentimgsh #imgend2{
-        top: 96%;
-        padding-left: 210px;
+        top: 95%;
+        padding-left: 50px;
     }
 }
 @media screen and (max-width:1290px){
-    .contentimgsh #imgend2{
-        padding-top: 210px;
-        padding-left: 100px;
-    }
     .contentimgsh #imgend{
-        top: 94%;
+        top: 92.5%;
+    }
+    .contentimgsh #imgend2{
+        top: 90%;
+        padding-left: 110px;
     }
 }

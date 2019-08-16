@@ -11,9 +11,10 @@
 }
 .Contentwhat h1{
   margin-bottom: 5px;
-  font-size: 55px;
+  font-size: 50px;
   font-family: 'Luckiest Guy', cursive;
   color: #5e1a72;
+  letter-spacing: 2px;
   -webkit-text-stroke: 1px white;
   text-overflow: ellipsis;
 }
@@ -67,10 +68,38 @@
     font-size: 20px;
   }
   .Contentwhat h1{
-    font-size: 45px;
+    font-size: 50px;
     white-space: nowrap;
   }
   .Contentwhat h3{
     font-size: 25px;
+  }
+}
+@media screen and (max-width:700px){
+  .aboutfigi{
+    max-width: 700px;
+    margin-top: 25px;
+    position: relative;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+  }
+  .aboutfigi img{
+    max-width: 500px;
+  }
+  .textodeque{
+    width: 450px;
+
+  }
+  #textocolor{
+    color: #271552;
+  }
+  .aboutfigi p{
+    font-size: 20px;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    margin-top: 20px;
+    line-height: 35px;
+    text-align: center;
   }
 }

@@ -13,10 +13,13 @@
 .imagemoon{
     padding-top: 100px;
 }
-@media screen and (max-width:1280px){
-    #imagerocket{
-        padding-left: 200px;
-        width: 180px;
+@media screen and (max-width:1610px){
+    #imgmoon{
+        width: auto;
+    }
+    #imagerocket {
+        width: 200px;
+        padding-left: 350px;
     }
 }
 @media screen and (max-width:1370px){
@@ -29,12 +32,55 @@
     margin-bottom: 100px;
     }
 }
-@media screen and (max-width:1610px){
-    #imgmoon{
-        width: auto;
+@media screen and (max-width:1290px){
+    #imagerocket{
+        padding-left: 250px;
+        width: 180px;
     }
-    #imagerocket {
-        width: 200px;
-        padding-left: 350px;
+}
+/*Responsive*/
+@media screen and (max-width:700px){
+    .MoonR{
+        position: relative;
+        max-width: 700px;
+        overflow: hidden;
+        
+    }
+    .coheteluna{
+        max-width:700px;
+        position: relative;
+        overflow: visible;
+        /* z-index: 3 !important; */
+    }
+    .luna{
+        max-width: 450px;
+        margin:100px 0px 0px 70px;
+    }
+    .cohete{
+        max-width: 110px;
+        position: absolute;
+        left: 0;
+        top:0;
+        margin-left: 220px;
+    }
+    .nubes img{
+        
+        max-width: 850px;
+        position: absolute;
+        margin-top:50px;
+    }
+    .nubes .nubes1{
+        margin-top: 50px;
+    }
+    .nubes .nubes2{
+        margin-top: 125px;
+    }
+    .nubes .fondonubes{
+        margin-top: 80px;
+    }
+    .nubes{
+    position: relative;
+    max-width: 700px;
+    
     }
 }

@@ -3,7 +3,7 @@ display: grid;
 grid-template-columns: 450px 1fr+100px 50px;
 justify-content:center;
 z-index: 2;
-margin-top: 250px;
+margin-top: 200px;
 grid-column-gap: 150px;
 }
 .conceptimgs{
@@ -31,7 +31,6 @@ grid-template-rows: .2fr auto;
 .textcontentconcept{
     width: 650px;
     text-align: justify;
-    padding-top: 50px;
 }
 .concepttexts p{
     font-size: 27px;

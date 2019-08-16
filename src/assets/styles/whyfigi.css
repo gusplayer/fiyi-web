@@ -18,16 +18,17 @@ grid-column-gap: 80px;
 }
 #encanta{
   margin-bottom: 5px;
-  font-size: 45px;
+  font-size: 48px;
   font-family: 'Luckiest Guy', cursive;
-  color:#415f41 ;
+  color:#306035 ;
   -webkit-text-stroke: 1px #ffffff;
   width: 300px;
+  height: 50px;
   text-align: center;
 }
 .concepttextwhy{
   display:grid;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 80px 1fr;
 } 
 #imgtop{
   z-index: 1;
@@ -39,7 +40,7 @@ grid-column-gap: 80px;
   transform: rotate(360deg);
 }
 .contentwhytext{
-  width: 350px;
+  width: 400px;
   border-radius: 20px;
   background-color: #ffffff65;
   height: 200px;
@@ -60,7 +61,7 @@ grid-column-gap: 80px;
   text-align: center;
   font-size: 25px;
   font-family: 'Happy Monkey', cursive;
-  color: #20386b;
+  color: #01396c;
   margin-top: 0px;
   z-index: 0;
 }   
@@ -77,8 +78,7 @@ grid-column-gap: 80px;
 }
 
 #imgs{
-  transform: scale(1.2);
-  width: auto;
+  width: 120px;
   position: relative;
 }
 @media screen and (max-width:1290px){
@@ -93,7 +93,7 @@ grid-column-gap: 80px;
     grid-column-gap:350px;
   }
   .contentwhytext{
-    width: 300px;
+    width: 350px;
     height: 200px;
     padding: 25px;
   }  
