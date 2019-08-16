@@ -4,10 +4,16 @@ import fondopart1 from "../../../assets/images/Web/FondoPart1.png";
 import fondoestrellas from "../../../assets/images/Responsive/estrellas.png";
 import logoinicio from "../../../assets/images/Responsive/logoinicio.png";
 import Entretenimiento from "../../../assets/images/Responsive/Entretenimiento creativo.png";
-import luna from "./moonR.js"
-import aboutfigi from "./aboutfigiR.js"
+import luna from "./moonR.js";
+import aboutfigi from "./aboutfigiR.js";
+import triangleimg from "./triangleimgR.js";
+import video from "./videoR.js";
+import ourconcept from "./ourconceptR.js"
 const Lunar = luna;
 const Aboutfigi = aboutfigi;
+const Triangleimg = triangleimg;
+const VideoR = video;
+const Ourconcept = ourconcept;
 class header extends Component {
   render() {
     return (
@@ -23,7 +29,16 @@ class header extends Component {
           </div> 
           <div>
             <Aboutfigi/> 
-          </div>  
+          </div> 
+          <div>
+            <Triangleimg/>
+          </div> 
+          <div>
+            <VideoR/>
+          </div>
+          <div>
+          <Ourconcept/>
+          </div>
       </div>
     );
   }

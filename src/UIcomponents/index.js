@@ -14,6 +14,7 @@ import imgend from "./Web/imgend.js";
 import trend from "./Web/trends.js";
 //Responsive
 import headerR from "./Responsive/Header/headerR.js";
+import heavenR from "./Responsive/Heaven/heavenR.js";
  export { 
    //Web
    header, 
@@ -30,5 +31,6 @@ import headerR from "./Responsive/Header/headerR.js";
    imgend,
    trend,
    //Responsive
-   headerR
+   headerR,
+   heavenR
    };

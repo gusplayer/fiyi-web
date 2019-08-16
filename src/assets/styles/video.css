@@ -22,3 +22,53 @@
         height:500px;
     }
 }
+/*Responsive*/
+@media screen and (max-width:700px){
+    .contentvideo{
+        padding-top: 20px;
+        display: grid;
+        grid-gap: 0px;
+        justify-content: center;
+        position: relative;
+    }
+    .iframevideo{
+        width:550px;
+        height:300px;
+    }
+    .videoR{
+        max-width: 700px;
+        position: relative;
+        overflow: hidden;
+    }
+    .videoR img{
+        max-width: 700px;
+    }
+    .contentnubes{
+        position: absolute;
+        margin-top: 152px;
+    }
+    .contentnubes img{
+        max-width: 800px;    
+    }
+    .imgprevideoR{
+        position: relative;
+        display: grid;
+        justify-items: center;
+        margin-top: 50px;
+    }
+    .nubefrente{
+        position: absolute;
+        margin-top: 100px;
+    }
+    .nubreatras{
+        position: absolute;
+        margin-top: 100px;
+    }
+    .nubecitasvideo{
+        position:absolute;
+    }
+    #acompaname{
+        max-width: 550px;
+        padding-bottom: 30px;
+    }
+}

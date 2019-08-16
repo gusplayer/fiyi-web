@@ -1,0 +1,17 @@
+.HeavenR{
+    max-width: 700px;
+  }
+  .HeavenR .fondo{
+    position: absolute;
+    max-width: 700px;
+    /* height: fit-content; */
+    z-index: 0;
+  }
+.contentnubescielo{
+    max-width: 700px;
+    position: absolute;
+    overflow: hidden;
+}
+.contentnubescielo img{
+    max-width: 750px;
+}

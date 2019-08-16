@@ -46,7 +46,19 @@
     padding-left: 30px;
 } 
 }
+}
+/*Responsive*/
+@media screen and (max-width:700px){
+    .triangleimg{
+        max-width: 700px;
+        position: relative;
+        display: grid;
+        justify-content: center;
+    }
+    .triangleimg img{
+        max-width: 450px;
+    }
+}
 
- }
 
     

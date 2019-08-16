@@ -95,3 +95,38 @@ grid-template-rows: .2fr auto;
         display: none;
     }
   }
+  /*Responsive*/
+  @media screen and (max-width:700px){
+    .ourconceptR{
+        max-width: 700px;
+        margin-top: 50px;
+        position: relative;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .ourconceptR img{
+        max-width: 600px;
+    }
+    .textonuestro{
+        width: 500px;
+    }
+    .textonuestro p{
+        font-size: 22px;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    margin-top: 20px;
+    line-height: 35px;
+    text-align: center;
+    }
+    #grupo{
+        width: 550px;
+    }
+    .sol{
+        position: absolute;
+        width: 120px;
+        /* bottom: 0; */
+        right: 0;
+        margin: 320px 12px 0px 0px;  
+    }
+}
