@@ -6,12 +6,79 @@
     max-width: 700px;
     /* height: fit-content; */
     z-index: 0;
+    height: 1500px;
   }
 .contentnubescielo{
     max-width: 700px;
     position: absolute;
-    overflow: hidden;
+    /* overflow-y: scroll;
+overflow-x: hidden; */
 }
 .contentnubescielo img{
     max-width: 750px;
+}
+.nube3{
+  position: absolute;
+  margin-top: -100px;
+}
+.nube2{
+  position: absolute;
+  margin-top: -30px;
+}
+.nube1{
+  position: absolute;
+  margin-top: 30px;
+}
+.montanaback{
+  width: 300px;
+    position: absolute;
+    margin-top: -264px;
+    margin-left: 487px;
+}
+.montanafront{
+  margin-top: -81px;
+  width: 300px;
+  margin-left: 68px;
+  margin-bottom: -23px;
+  position: absolute;
+}
+.center{
+  position: relative;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 170px;
+}
+.textocenter{
+  font-size: 22px;
+    font-family: 'Happy Monkey', cursive;
+    color: #00386b;
+    margin-top: 20px;
+    line-height: 35px;
+    text-align: center;
+    max-width: 520px;
+}
+.logo{
+  max-width: 450px;
+}
+
+.Montanaverde{
+  position: absolute;
+}
+
+.fondomontanaverde img{
+  max-width: 750px;
+  position: absolute;
+}
+.nubesverde{
+  margin-top: 24px;
+}
+.montana3v{
+  margin-top: 5px;
+}
+.montana2v{
+  margin-top: 50px;
+}
+.montana1v{
+  margin-top: 100px;
 }

@@ -104,6 +104,7 @@ grid-template-rows: .2fr auto;
         display: grid;
         justify-content: center;
         justify-items: center;
+        margin-bottom: 150px;
     }
     .ourconceptR img{
         max-width: 600px;
@@ -120,7 +121,7 @@ grid-template-rows: .2fr auto;
     text-align: center;
     }
     #grupo{
-        width: 550px;
+        width: 500px;
     }
     .sol{
         position: absolute;
