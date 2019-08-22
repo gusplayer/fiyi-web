@@ -7,10 +7,8 @@ import Nubes3cielo from "../../../assets/images/Responsive/Nubes3Cielo.png";
 import Montana1 from "../../../assets/images/Responsive/Montana1.png";
 import Montana2 from "../../../assets/images/Responsive/Montana2.png";
 import logo from "../../../assets/images/Responsive/Logo figiCielo.png";
-import nubesfondoverde from "../../../assets/images/Responsive/nubesfondoverde.png";
-import montanaverde3 from "../../../assets/images/Responsive/Montana3verde.png";
-import montanaverde2 from "../../../assets/images/Responsive/Montana2verde.png";
-import montanaverde1 from "../../../assets/images/Responsive/Montana1verde.png";
+import montanaverde from "./montanaverdeR.js"
+const Montanaverde = montanaverde;
 class heavenR extends Component {
   render() {
     return (
@@ -44,14 +42,8 @@ class heavenR extends Component {
             </p>
           </div>
           </div>
-          <div className="Montanaverde">
-            <div className="fondomontanaverde">
-              <img src={nubesfondoverde} className="nubesverde" alt="fondo" />
-              <img src={montanaverde3} className="montana3v"  alt="fondo" />
-              <img src={montanaverde2} className="montana2v" alt="fondo" />
-              <img src={montanaverde1} className="montana1v" alt="fondo" />
-            </div> 
-            
+          <div>
+            <Montanaverde/>
           </div>
           
       </div>
