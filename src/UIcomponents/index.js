@@ -15,6 +15,7 @@ import trend from "./Web/trends.js";
 //Responsive
 import headerR from "./Responsive/Header/headerR.js";
 import heavenR from "./Responsive/Heaven/heavenR.js";
+import waterR from "./Responsive/Water/waterR.js";
  export { 
    //Web
    header, 
@@ -32,5 +33,6 @@ import heavenR from "./Responsive/Heaven/heavenR.js";
    trend,
    //Responsive
    headerR,
-   heavenR
+   heavenR,
+   waterR
    };

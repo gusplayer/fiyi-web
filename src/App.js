@@ -16,7 +16,8 @@ import {
   trend,
   //Responsive
   headerR,
-  heavenR
+  heavenR,
+  waterR
   }from "./UIcomponents";
 
 import lax from 'lax.js'
@@ -63,7 +64,7 @@ const Trendimg= trend;
 //Responsive
 const HeaderR=headerR;
 const HeavenR=heavenR;
-
+const WaterR=waterR;
 window.onload = function() {
 	lax.setup() // init
 	const updateLax = () => {
@@ -155,6 +156,7 @@ class App extends Component {
       <div className="Responsive">
         <HeaderR/>
         <HeavenR/>
+        <WaterR/>
       </div>
       </div>
     );

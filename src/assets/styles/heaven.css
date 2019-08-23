@@ -1,6 +1,7 @@
 @media screen and (max-width:700px){
 .HeavenR{
     max-width: 700px;
+    overflow: hidden;
   }
   .HeavenR .fondo{
     position: absolute;
@@ -10,9 +11,7 @@
   }
 .contentnubescielo{
     max-width: 700px;
-    position: absolute;
-    /* overflow-y: scroll;
-overflow-x: hidden; */
+    position: relative;
 }
 .contentnubescielo img{
     max-width: 750px;
@@ -63,10 +62,12 @@ overflow-x: hidden; */
 }
 
 .Montanaverde{
-  position: absolute;
+  position: relative;
   display: grid;
-  overflow: hidden;
   max-width: 700px;
+  justify-content: center;
+  justify-items: center;
+
 }
 
 .fondomontanaverde img{
@@ -85,7 +86,23 @@ overflow-x: hidden; */
   position: absolute;
 }
 .montana1v{
-  margin-top: 100px;
+  margin-top: 50px;
   position: relative;
+  height: 1000px;
+}
+.arenaR{
+  position: relative;
+  margin-top: -150px;
+  z-index: -1;
+  height: 1000px;
+  max-width: 700px;
+}
+.arbol{
+  position: absolute;
+    z-index: 5;
+    width: 150px;
+    left: 0;
+    margin-left: 20px;
+    margin-top: 150px;
 }
 }
