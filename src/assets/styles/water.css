@@ -7,6 +7,12 @@
     overflow: hidden;
     margin-left: -50px;
 }
+.contentwater3 img{
+    max-width: 1000px;
+}
+.contentwater3{
+    position: absolute;
+}
 #barco{
     max-width: 200px;
     z-index: 0;
@@ -28,6 +34,7 @@
 .mar2fondo{
     margin-top: 50px;
     margin-left: -50px;
+    height: 2500px;
 }
 .marfondo{
     z-index: -1;
@@ -42,6 +49,11 @@
 .marfondo2{
     margin-top: 0px;
     position: absolute;
+    
+}
+.marfondo0{
+    margin-top: 70px;
+    height: 3500px;
 }
 .parque{
     display: grid;
@@ -72,15 +84,19 @@
     margin-left: -62px;
     padding-right: 100px;
 }
+.contenticonos{
+    display: grid;
+    justify-content: center;
+}
 .iconos{
-    max-width: 100px;
+    max-width: 75px;
     display: grid;
 }
 
 .cardatraccion{
     margin-top: 80px;
     width: 450px;
-    background-color: #1d5394;
+    background-color: #1d539496;
     display: grid;
     grid-template-columns: 150px 275px;
     grid-gap: 5px;
