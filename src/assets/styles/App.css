@@ -348,6 +348,9 @@ padding-top: 100px;
 @media screen and (max-width:700px){
   .Responsive{
     display: grid;
+    overflow: hidden;
+    max-width: 700px;
+    width: 700px;
   }
   .Web{
     display: none;

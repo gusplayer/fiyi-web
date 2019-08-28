@@ -1,7 +1,8 @@
 @media screen and (max-width:700px){
 .WaterR{
     max-width: 700px;
-
+    position: relative;
+    z-index: 2;
 }
 .contentwater{
     overflow: hidden;
@@ -34,7 +35,7 @@
 .mar2fondo{
     margin-top: 50px;
     margin-left: -50px;
-    height: 2500px;
+    height: 2550px;
 }
 .marfondo{
     z-index: -1;
@@ -53,7 +54,8 @@
 }
 .marfondo0{
     margin-top: 70px;
-    height: 3500px;
+    height: 5650px;
+    margin-left: -50px;
 }
 .parque{
     display: grid;
@@ -114,10 +116,111 @@
     height:10px;
     margin-top: 30px;
     font-size: 20px;
+    white-space: nowrap;
 }
 .textatr{
     display: grid;
     justify-content: center;
     /* justify-items: center; */
+}
+.parques{
+    max-width: 700px;
+    display: grid;
+    justify-content: center;
+    justify-items:center;
+    position: relative;
+    margin-top: 70px;
+}
+.diseñoparque{
+    padding: 25px;
+    margin: 30px;
+    max-width: 500px;
+}
+.parque200{
+    max-width: 400px;
+    margin-top:50px;
+}
+.parque500{
+    max-width: 525px;
+    margin-top:50px;
+}
+.pez1{
+    max-width: 70px;
+    position: absolute;
+    top:950px;
+    left: 120px;   
+}
+.pez2{
+    max-width: 70px;
+    position: absolute;
+    top:1670px;
+    left: 150px;   
+}
+.pez3{
+    max-width: 75px;
+    position: absolute;
+    right: 70px;
+    margin-top: 280px;
+}
+.burbujas{
+    max-width:200px;
+    position: absolute;
+    top:1090px;
+    left: 25px;   
+}
+.burbujas2{
+    max-width:150px;
+    position: absolute;
+    left: 100px; 
+    margin-top: 50px;
+}
+.ballena{
+    max-width:270px;
+    position: absolute;
+    right: 50px;
+    margin-top: 50px;   
+}
+.tendeciascontent{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    max-width: 550px;
+    margin-top: 240px;
+}
+.tendeciascontent p{
+    font-size: 17px;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    margin-top: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.tendencias{
+    max-width: 300px;
+    z-index: 2;
+}
+.parque1000{
+    max-width: 600px;
+    margin-top:70px;
+}
+.fondoarena{
+    position:absolute;
+    max-width: 1000px;
+    margin-left: -150px;
+}
+.contentarena{
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+.grupofoto{
+    max-width: 500px;
+    margin-top: 280px;
+}
+.hello{
+    max-width: 500px;
+    margin-top: 50px;
+    padding-bottom: 80px;
 }
 }
