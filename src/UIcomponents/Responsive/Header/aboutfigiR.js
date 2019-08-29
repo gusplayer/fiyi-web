@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import '../../../assets/styles/whatis.css';
 import dequesetrata from "../../../assets/images/Responsive/dequesetrata.png";
+import lax from 'lax.js'
+
 class aboutfigiR extends Component {
   render() {
     return (
       <div>
         <div className="aboutfigi">
-            <img src={dequesetrata} className="dequesetrata" alt="texto" />
+            <img src={dequesetrata}  className="dequesetrata lax" data-lax-preset="fadeInOut zoomIn 800" alt="texto" />
             <div className="textodeque">
             <p>La palabra surge de la unión de Físico y
                 Digital… FiGi es un novedoso concepto de

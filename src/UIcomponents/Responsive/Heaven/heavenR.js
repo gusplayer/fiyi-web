@@ -15,11 +15,11 @@ class heavenR extends Component {
       <div className="HeavenR">
           <img src={fondocielo} className="fondo" alt="fondo" />
           <div className="contentnubescielo">
-            <img src={Montana2} className="montanaback" alt="fondo" />
-            <img src={Nubes3cielo} className="nube3" alt="fondo" />
+            <img src={Montana2} className="montanaback " alt="fondo" />
+            <img src={Nubes3cielo} className="nube3 lax" data-lax-preset="driftLeft | speed=0,5 " alt="fondo" />
             <img src={Nubes2cielo} className="nube2" alt="fondo" />
             <img src={Montana1} className="montanafront" alt="fondo" />
-            <img src={Nubes1cielo} className="nube1" alt="fondo" />
+            <img src={Nubes1cielo} className="nube1 lax " data-lax-preset="driftRight | speed=0,5 " alt="fondo" />
           </div>
           <div className="center">
           <img src={logo} className="logo" alt="fondo" />

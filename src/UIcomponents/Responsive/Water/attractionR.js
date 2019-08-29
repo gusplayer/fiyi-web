@@ -36,7 +36,7 @@ class attractionR extends Component {
     return (
       <div>
         <div className="atracciones">
-        <img src={atracciones} className="atraccionesimg" alt="atracciones" />
+        <img src={atracciones} className="atraccionesimg lax" data-lax-preset="fadeInOut"  alt="atracciones" />
         <div className="cardatraccion">
           <div>
             <img src={foto1} className="fotos" alt="fotos" />

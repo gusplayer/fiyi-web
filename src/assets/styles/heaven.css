@@ -15,11 +15,12 @@
     position: relative;
 }
 .contentnubescielo img{
-    max-width: 750px;
+    max-width: 850px;
 }
 .nube3{
   position: absolute;
   margin-top: -100px;
+  margin-left:-100px;
 }
 .nube2{
   position: absolute;
@@ -27,7 +28,8 @@
 }
 .nube1{
   position: absolute;
-  margin-top: 30px;
+  margin-top: 40px;
+  margin-left:-100px;
 }
 .montanaback{
   width: 300px;
@@ -36,7 +38,7 @@
     margin-left: 487px;
 }
 .montanafront{
-  margin-top: -125px;
+  margin-top: -100px;
   width: 320px;
   margin-left: 100px;
   margin-bottom: -23px;

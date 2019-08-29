@@ -116,7 +116,7 @@ class App extends Component {
               <div className="mountains">
                 <div id="containnubes3">
                   <div id="montanaback"  ><img  src={montanaback}></img></div>
-                  <div><img  id="nubes3capa3"  className="lax"  className="lax" data-lax-preset="driftLeft | speed=0.5 " src={clouds3capa3}></img></div>
+                  <div><img  id="nubes3capa3"  className="lax" data-lax-preset="driftLeft | speed=0.5 " src={clouds3capa3}></img></div>
                   <div ><img id="nubes3capa2"  src={clouds3capa2}></img></div>
                   <div id="montanafront"><img src={montanafront}></img></div>
                   <div ><img id="nubes3capa1" className="lax" data-lax-preset="driftRight | speed=0.5"  src={clouds3capa1}></img></div>

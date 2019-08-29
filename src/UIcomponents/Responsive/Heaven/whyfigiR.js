@@ -11,13 +11,13 @@ class whyfigiR extends Component {
     return (
       <div className="contentwhyfigi"> 
         <div>
-        <img id="encanta" src={encanta} alt="imgtext1"/>
+        <img id="encanta" className="lax" data-lax-preset="fadeInOut zoomIn 800" src={encanta} alt="imgtext1"/>
         </div>   
         <div className="content1">
 
           <div className="concepttextwhy">
             <div id="imgtop">
-              <img id="imgs" src={imgtext1} alt="imgtext1"/>
+              <img id="imgs" className="lax" data-lax-preset="fadeInOut zoomIn 800" src={imgtext1} alt="imgtext1"/>
             </div>
            <div className="contentwhytext">
              <p>
@@ -35,7 +35,7 @@ class whyfigiR extends Component {
           
           <div className="concepttextwhy">
             <div id="imgtop">
-              <img id="imgs"  src={imgtext2} alt="imgtext1"/>
+              <img id="imgs" className="lax" data-lax-preset="fadeInOut zoomIn 800"  src={imgtext2} alt="imgtext1"/>
             </div>
             <div className="contentwhytext">
              <p>
@@ -52,7 +52,7 @@ class whyfigiR extends Component {
         <div className="content2">
           <div className="concepttextwhy">
           <div id="imgtop">
-              <img id="imgs"  src={imgtext3} alt="imgtext1"/>
+              <img id="imgs" className="lax" data-lax-preset="fadeInOut zoomIn 800"  src={imgtext3} alt="imgtext1"/>
             </div>
           <div className="contentwhytext">
              <p>
@@ -70,7 +70,7 @@ class whyfigiR extends Component {
           </div>
           <div className="concepttextwhy">
           <div id="imgtop">
-              <img id="imgs" src={imgtext4} alt="imgtext1"/>
+              <img id="imgs" className="lax" data-lax-preset="fadeInOut zoomIn 800" src={imgtext4} alt="imgtext1"/>
             </div>
           <div className="contentwhytext">
              <p>
