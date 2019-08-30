@@ -35,6 +35,7 @@
       position: absolute;
       max-width: 700px;
       z-index: 1;
+      margin-left:-20px;
     }
     .logoparque{
       position: relative;
