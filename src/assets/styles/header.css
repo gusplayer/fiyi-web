@@ -37,6 +37,9 @@
       z-index: 1;
       margin-left:-20px;
     }
+    .contentlogoparque{
+      position: relative;
+    }
     .logoparque{
       position: relative;
       top: 0;

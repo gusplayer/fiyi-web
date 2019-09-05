@@ -121,7 +121,7 @@ grid-template-rows: .2fr auto;
     text-align: center;
     }
     #grupo{
-        max-width: 400px;
+        max-width: 500px;
     }
     .sol{
         position: absolute;

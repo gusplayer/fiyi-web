@@ -20,10 +20,12 @@ class header extends Component {
       <div className="HeaderR">
           <img src={fondopart1} className="fondo" alt="fondo" />
           <img src={fondoestrellas} className="estrella" alt="estrellas" />
+          <div className="contentlogoparque">
             <div className="logoparque">
                 <img src={logoinicio} className="logotitulo"/>
                 <img src={Entretenimiento} className="entrete"/>
             </div>
+           </div>
           <div>
               <Lunar/>
           </div> 

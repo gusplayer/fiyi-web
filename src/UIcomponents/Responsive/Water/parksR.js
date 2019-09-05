@@ -42,8 +42,8 @@ class parksR extends Component {
           <div>
             <img src={arena} className="fondoarena" alt="fotos" />
             <div className="contentarena">
-            <img src={grupofoto} className="grupofoto" alt="fotos" />
-            <img src={hello} className="hello" alt="fotos" />
+              <img src={grupofoto} className="grupofoto" alt="fotos" />
+              <img src={hello} className="hello" alt="fotos" />
             </div>
             </div>
         </div>

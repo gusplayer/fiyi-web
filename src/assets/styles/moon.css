@@ -43,14 +43,12 @@
     .MoonR{
         position: relative;
         max-width: 700px;
-        overflow: hidden;
         
     }
     .coheteluna{
         max-width:700px;
         position: relative;
         overflow: visible;
-        /* z-index: 3 !important; */
     }
     .luna{
         max-width: 450px;
