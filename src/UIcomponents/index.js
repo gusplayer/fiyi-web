@@ -15,7 +15,9 @@ import trend from "./Web/trends.js";
 //Responsive
 import headerR from "./Responsive/Header/headerR.js";
 import heavenR from "./Responsive/Heaven/heavenR.js";
-import waterR from "./Responsive/Water/waterR.js";
+import React, { lazy } from 'react';
+const waterR = lazy(() => import("./Responsive/Water/waterR.js"));
+// import waterR from "";
  export { 
    //Web
    header, 

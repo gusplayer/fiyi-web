@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component,Suspense,lazy } from 'react';
 import {
   //Web
   header,
@@ -64,7 +64,10 @@ const Trendimg= trend;
 //Responsive
 const HeaderR=headerR;
 const HeavenR=heavenR;
-const WaterR=waterR;
+
+const WaterR =waterR;
+// const WaterR= lazy(() => import('./UIComponents') );
+
 window.onload = function() {
 	lax.setup() // init
 	const updateLax = () => {
@@ -156,7 +159,9 @@ class App extends Component {
       <div className="Responsive">
         <HeaderR/>
         <HeavenR/>
+        <Suspense fallback={<div>Loading...</div>}>
         <WaterR/>
+        </Suspense>
       </div>
       </div>
     );
