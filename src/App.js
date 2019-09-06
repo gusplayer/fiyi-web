@@ -17,6 +17,7 @@ import {
   //Responsive
   headerR,
   heavenR,
+  waterR
   }from "./UIcomponents";
 
   
@@ -64,10 +65,7 @@ const Trendimg= trend;
 //Responsive
 const HeaderR=headerR;
 const HeavenR=heavenR;
-
-// const WaterR =waterR;
-// const WaterR= lazy(() => import('./UIComponents') );
-const WaterR = lazy(() => import("./UIcomponents/Responsive/Water/waterR.js"));
+const WaterR = waterR;
 window.onload = function() {
 	lax.setup() // init
 	const updateLax = () => {
@@ -159,9 +157,7 @@ class App extends Component {
       <div className="Responsive">
         <HeaderR/>
         <HeavenR/>
-        <Suspense fallback={<div>Loading...</div>}>
         <WaterR/>
-        </Suspense>
       </div>
       </div>
     );
