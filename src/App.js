@@ -17,9 +17,9 @@ import {
   //Responsive
   headerR,
   heavenR,
-  waterR
   }from "./UIcomponents";
 
+  
 import lax from 'lax.js'
 import fondopart1 from "./assets/images/Web/FondoPart1.png";
 import fondopart1estrellas from "./assets/images/Web/estrellas.png";
@@ -65,9 +65,9 @@ const Trendimg= trend;
 const HeaderR=headerR;
 const HeavenR=heavenR;
 
-const WaterR =waterR;
+// const WaterR =waterR;
 // const WaterR= lazy(() => import('./UIComponents') );
-
+const WaterR = lazy(() => import("./UIcomponents/Responsive/Water/waterR.js"));
 window.onload = function() {
 	lax.setup() // init
 	const updateLax = () => {
