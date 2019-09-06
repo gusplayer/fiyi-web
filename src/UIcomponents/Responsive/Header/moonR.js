@@ -16,7 +16,7 @@ class moonR extends Component {
         </div> 
         <div className="coheteluna">
         <img src={luna} className="luna" alt="luna" />
-          <img src={cohete} className="cohete lax" data-lax-translate-y="0 50, 300 -200, 400 -400" alt="cohete" />
+          <img src={cohete} className="cohete lax" data-lax-translate-y="0 50, 300 -200, 400 -400" data-lax-scale="0 1, 1000 0" alt="cohete" />
           
         </div>
           
