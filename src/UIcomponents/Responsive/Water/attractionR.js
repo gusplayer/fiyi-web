@@ -5,6 +5,7 @@ import atracciones from "../../../assets/images/Responsive/atracciones.png"
 import foto1 from "../../../assets/images/Responsive/foto1.png";
 import foto2 from "../../../assets/images/Responsive/foto2.png";
 import foto3 from "../../../assets/images/Responsive/foto3.png";
+import foto4 from "../../../assets/images/Responsive/foto4.png";
 import foto5 from "../../../assets/images/Responsive/foto5.png";
 import foto6 from "../../../assets/images/Responsive/foto6.png";
 import foto7 from "../../../assets/images/Responsive/foto7.png";
@@ -19,6 +20,7 @@ import foto14 from "../../../assets/images/Responsive/foto14.png";
 import icono1 from "../../../assets/images/Responsive/icono 1_lanzamiento.png";
 import icono2 from "../../../assets/images/Responsive/icono 2_dibujos.png";
 import icono3 from "../../../assets/images/Responsive/icono 3_robot.png";
+import icono4 from "../../../assets/images/Responsive/icono 6_saltando_sobre_fuego (1).png";
 import icono5 from "../../../assets/images/Responsive/icono 4_grandes.png";
 import icono6 from "../../../assets/images/Responsive/icono 5_micromundo.png";
 import icono7 from "../../../assets/images/Responsive/icono 6_que come la ballena.png";
@@ -93,7 +95,7 @@ class attractionR extends Component {
         </div>
         <div className="cardatraccion">
           <div>
-            <img src={foto3} className="fotos" alt="fotos" />
+            <img src={foto4} className="fotos" alt="fotos" />
           </div>
           <div className="textatr">
             <h2>SALTANDO SOBRE FUEGO</h2>
@@ -103,7 +105,7 @@ class attractionR extends Component {
                 obstáculos para pasar a otro nivel!
               </p>
             <div className="contenticonos" >
-              <img src={icono3} className="iconos" alt="iconos" />
+              <img src={icono4} className="iconos" alt="iconos" />
             </div>
           </div>
         </div>
