@@ -18,9 +18,9 @@ import {
   //Responsive
   headerR,
   heavenR,
-  // waterR
+  waterR
   }from "./UIcomponents";
-
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 import lax from 'lax.js'
 import fondopart1 from "./assets/images/Web/FondoPart1.png";
@@ -48,7 +48,7 @@ import watercapa3 from "./assets/images/Web/watercapa3.png"
 import watercapa4 from "./assets/images/Web/watercapa4.png"
 import deep from "./assets/images/Web/deep.png"
 import './assets/styles/App.css';
-const WaterR = React.lazy(() => import('./UIcomponents/Responsive/Water/waterR.js')); 
+
 //Web
 const Header= header;
 const Moon=moon;
@@ -66,7 +66,7 @@ const Trendimg= trend;
 //Responsive
 const HeaderR=headerR;
 const HeavenR=heavenR;
-
+const WaterR = waterR; 
 
 window.onload = function() {
 	lax.setup() // init
@@ -159,11 +159,11 @@ class App extends Component {
       <div className="Responsive">
         <HeaderR/>
         <HeavenR/>
-        <Suspense  fallback={<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur id augue in porta. Nullam lacinia augue et lectus dictum, vel auctor velit pellentesque. Ut lobortis arcu quis lacus efficitur, eu auctor urna tempor. Suspendisse odio tortor, pulvinar eu tempus iaculis, facilisis nec justo. Duis vel nunc tempor, iaculis turpis ac, feugiat lectus. Aliquam eget mi lacinia est tincidunt volutpat. Nam sit amet tempus massa, et tristique diam. Quisque lacinia arcu ac sapien luctus, sed gravida lacus accumsan. Nullam tincidunt suscipit elit, nec tempus augue facilisis in.
-
-Duis vestibulum lectus dignissim felis semper, eu lobortis augue porta. Aliquam elementum ligula ligula, vel egestas ex hendrerit nec. Pellentesque fermentum eros sit amet odio laoreet aliquet. Sed molestie turpis quis neque tristique sagittis. Vivamus tempor id tortor a suscipit. Curabitur volutpat suscipit lacus ut lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec arcu odio, aliquet nec aliquam consectetur, finibus in lacus.</div>}>
-          <WaterR/>
-        </Suspense>
+      <LazyLoadComponent>
+        <WaterR/>
+      </LazyLoadComponent>
+          
+      
         
       </div>
       </div>

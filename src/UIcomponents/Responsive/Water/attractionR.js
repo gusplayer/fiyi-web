@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../../assets/styles/water.css';
+
 import marfondo0 from "../../../assets/images/Responsive/watercapa1.png";
 import atracciones from "../../../assets/images/Responsive/atracciones.png"
 import foto1 from "../../../assets/images/Responsive/foto1.png";
