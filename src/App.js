@@ -20,7 +20,6 @@ import {
   heavenR,
   waterR
   }from "./UIcomponents";
-import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 import lax from 'lax.js'
 import fondopart1 from "./assets/images/Web/FondoPart1.png";
@@ -67,6 +66,7 @@ const Trendimg= trend;
 const HeaderR=headerR;
 const HeavenR=heavenR;
 const WaterR = waterR; 
+
 
 window.onload = function() {
 	lax.setup() // init
@@ -159,9 +159,7 @@ class App extends Component {
       <div className="Responsive">
         <HeaderR/>
         <HeavenR/>
-      <LazyLoadComponent>
         <WaterR/>
-      </LazyLoadComponent>
           
       
         
