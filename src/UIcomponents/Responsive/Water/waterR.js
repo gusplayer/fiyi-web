@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../../assets/styles/water.css';
-import { LazyLoadComponent,trackWindowScroll } from 'react-lazy-load-image-component';
+import { LazyLoadComponent} from 'react-lazy-load-image-component';
 import marfondo from "../../../assets/images/Responsive/mar fondo.png";
 import mar2fondo from "../../../assets/images/Responsive/fondomar2.png";
 import marfondo2 from "../../../assets/images/Responsive/mar 2.png";
@@ -13,15 +13,12 @@ import attractionsR from "./attractionR.js"
 import parksR from "./parksR.js"
 const AttractionsR = attractionsR;
 const ParksR = parksR;
-var scrollPosition;
-window.onload=function () {
-  scrollPosition= window.scrollY;
-}
+
 
 class waterR extends Component {
   render() {
     return (
-      <LazyLoadComponent scrollPosition={scrollPosition}>
+      
 
       
       <div className="WaterR">
@@ -38,11 +35,14 @@ class waterR extends Component {
         <div className="contentwater2">
         <img src={mar2fondo} className="mar2fondo" alt="fondo" />
         </div>
+        <LazyLoadComponent>
         <AttractionsR/>
         <ParksR/>
+        </LazyLoadComponent>
+        
       </div>
-      </LazyLoadComponent>
+      
     );
   }
 }
-export default trackWindowScroll( waterR);
+export default waterR;
