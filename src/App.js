@@ -1,5 +1,5 @@
 import React, { Component,Suspense,lazy } from 'react';
-
+import LazyLoad from 'react-lazyload';
 import {
   //Web
   header,
@@ -47,7 +47,7 @@ import watercapa3 from "./assets/images/Web/watercapa3.png"
 import watercapa4 from "./assets/images/Web/watercapa4.png"
 import deep from "./assets/images/Web/deep.png"
 import './assets/styles/App.css';
-const WaterR = React.lazy(() => import('./UIcomponents/Responsive/Water/waterR'));
+// const WaterR = React.lazy(() => import('./UIcomponents/Responsive/Water/waterR'));
 //Web
 const Header= header;
 const Moon=moon;
@@ -65,7 +65,7 @@ const Trendimg= trend;
 //Responsive
 const HeaderR=headerR;
 const HeavenR=heavenR;
-// const WaterR = waterR; 
+const WaterR = waterR; 
 
 
 window.onload = function() {
@@ -159,13 +159,9 @@ class App extends Component {
       <div className="Responsive">
         <HeaderR/>
         <HeavenR/>
-        <Suspense  fallback={<div>Loading...</div>}>
+        <LazyLoad height={200} once >
         <WaterR/>
-        </Suspense>
-        
-          
-      
-        
+        </LazyLoad>
       </div>
       </div>
     );

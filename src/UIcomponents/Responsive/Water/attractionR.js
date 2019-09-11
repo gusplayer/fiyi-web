@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../../../assets/styles/water.css';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import marfondo0 from "../../../assets/images/Responsive/watercapa1.png";
 import atracciones from "../../../assets/images/Responsive/atracciones.png"
 import foto1 from "../../../assets/images/Responsive/foto1.png";
@@ -39,19 +38,10 @@ class attractionR extends Component {
     return (
       <div>
         <div className="atracciones">
-        <LazyLoadImage
-        alt={"atracciones"}
-      src={atracciones}
-      className={"atraccionesimg lax"}
-      data-lax-preset="fadeInOut" />
-        {/* <img src={atracciones} className="atraccionesimg lax" data-lax-preset="fadeInOut"  alt="atracciones" /> */}
+          <img src={atracciones} className="atraccionesimg lax" data-lax-preset="fadeInOut"  alt="atracciones" />
         <div className="cardatraccion">
           <div>
-          <LazyLoadImage
-            src={foto1} 
-            className={"fotos"}
-            alt="fotos" />
-            {/* <img src={foto1} className="fotos" alt="fotos" /> */}
+            <img src={foto1} className="fotos" alt="fotos" />
           </div>
           <div className="textatr">
             <h2>LANZAMIENTO KIDALKI</h2>
@@ -63,21 +53,13 @@ class attractionR extends Component {
                 llegar al objetivo.
               </p>
             <div className="contenticonos" >
-            <LazyLoadImage
-            src={icono1} 
-            className={"iconos"}
-            alt="icono" />
-              {/* <img src={icono1} className="iconos" alt="iconos" /> */}
+              <img src={icono1} className="iconos" alt="iconos" />
             </div>
           </div>
         </div>
         <div className="cardatraccion">
           <div>
-          <LazyLoadImage
-            src={foto2} 
-            className={"fotos"}
-            alt="fotos" />
-            {/* <img src={foto2} className="fotos" alt="fotos" /> */}
+            <img src={foto2} className="fotos" alt="fotos" />
           </div>
           <div className="textatr">
             <h2>DIBUJOS ANIMADOS</h2>
@@ -89,11 +71,7 @@ class attractionR extends Component {
                 para interactuar contigo!
               </p>
             <div className="contenticonos" >
-            <LazyLoadImage
-            src={icono2} 
-            className={"iconos"}
-            alt="icono" />
-              {/* <img src={icono2} className="iconos" alt="iconos" /> */}
+              <img src={icono2} className="iconos" alt="iconos" />
             </div>
           </div>
         </div>
