@@ -35,7 +35,7 @@
 .mar2fondo{
     margin-top: 50px;
     margin-left: -50px;
-    height: 2650px;
+    height: 3000px;
 }
 .marfondo{
     z-index: -1;
@@ -54,7 +54,7 @@
 }
 .marfondo0{
     margin-top: 70px;
-    height: 6200px;
+    height: 6500px;
     margin-left: -50px;
 }
 .parque{
@@ -97,7 +97,7 @@
 
 .cardatraccion{
     margin-top: 80px;
-    width: 450px;
+    width: 500px;
     background-color: #1d539496;
     display: grid;
     grid-template-columns: 150px 275px;
@@ -106,7 +106,7 @@
     border-radius: 40px;
     -webkit-align-items: center;
     align-items: center;
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'Happy Monkey', cursive;
     color: #fff;
 }

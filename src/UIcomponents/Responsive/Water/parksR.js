@@ -21,7 +21,7 @@ class parksR extends Component {
             <img src={parque500} className="parque500" alt="fotos" />
             <img src={pez1} className="pez1" alt="fotos" />
             <img src={burbujas} className="burbujas" alt="fotos" />
-            <img src={pez1} className="pez2" alt="fotos" />
+            {/* <img src={pez1} className="pez2" alt="fotos" /> */}
             <img src={parque1000} className="parque1000" alt="fotos" />
             
           </div>
