@@ -100,7 +100,7 @@
     width: 500px;
     background-color: #1d539496;
     display: grid;
-    grid-template-columns: 150px 275px;
+    grid-template-columns: 150px 300px;
     grid-gap: 5px;
     padding: 10px;
     border-radius: 40px;
@@ -109,6 +109,7 @@
     font-size: 18px;
     font-family: 'Happy Monkey', cursive;
     color: #fff;
+    text-align: justify;
 }
 .cardatraccion h2{
     text-decoration:underline;
