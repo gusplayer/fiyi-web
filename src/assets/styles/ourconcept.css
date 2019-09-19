@@ -106,6 +106,9 @@ grid-template-rows: .2fr auto;
         justify-items: center;
         margin-bottom: -150px;
     }
+    .ourimg{
+        margin-bottom: 20px;
+    }
     .ourconceptR img{
         max-width: 600px;
     }
@@ -128,6 +131,6 @@ grid-template-rows: .2fr auto;
         width: 120px;
         /* bottom: 0; */
         right: 0;
-        margin: 320px 12px 0px 0px;  
+        margin: 360px 12px 0px 0px;  
     }
 }

@@ -78,7 +78,7 @@
 @media screen and (max-width:700px){
   .aboutfigi{
     max-width: 700px;
-    margin-top: 25px;
+    margin-top: 40px;
     position: relative;
     display: grid;
     justify-content: center;

@@ -38,7 +38,7 @@ class heavenR extends Component {
                 proyección, es una experiencia
                 completamente segura para los niños.
                 Wow ¡Aquí todo cobra vida! ¡Están dentro de la
-                caricatura!¡
+                caricatura!
             </p>
           </div>
           </div>
