@@ -54,7 +54,7 @@
 }
 .marfondo0{
     margin-top: 70px;
-    height: 6500px;
+    height: 6780px;
     margin-left: -50px;
 }
 .parque{
@@ -90,9 +90,13 @@
 .contenticonos{
     display: grid;
     justify-content: center;
+    height: 100px;
+    align-items: center;
+
 }
 .iconos{
-    max-width: 75px;
+    max-width: 100px;
+    max-height: 80px;
     display: grid;
 }
 
@@ -133,6 +137,12 @@
     position: relative;
     margin-top: 70px;
 }
+.contentparqueimgs{
+    display: grid;
+    justify-content: center;
+    z-index: 1;
+    justify-items: center;
+}
 .diseñoparque{
     padding: 25px;
     margin: 30px;
@@ -151,6 +161,10 @@
     max-width: 620px;
     margin-top:70px;
 }
+.parqueb{
+    max-width: 450px;
+    height: 45px;
+}
 .pez1{
     max-width: 70px;
     position: absolute;
@@ -166,8 +180,8 @@
 .pez3{
     max-width: 75px;
     position: absolute;
-    right: 70px;
-    margin-top: 280px;
+    right: 60px;
+    margin-top: 320px;
 }
 .burbujas{
     max-width:200px;
@@ -197,7 +211,7 @@
     margin-top: 240px;
 }
 .tendeciascontent p{
-    font-size: 20px;
+    font-size: 21px;
     font-family: 'Happy Monkey', cursive;
     color: #ffffff;
     margin-top: 20px;

@@ -4,6 +4,9 @@ import diferentesparques from "../../../assets/images/Responsive/diferentes dise
 import parque200 from "../../../assets/images/Responsive/parque 1_200m.png";
 import parque500 from "../../../assets/images/Responsive/parque 2_500m.png";
 import parque1000 from "../../../assets/images/Responsive/parque 3_1000m.png";
+import parque200b from "../../../assets/images/Responsive/parque 1_200mb.png";
+import parque500b from "../../../assets/images/Responsive/parque 2_500mb.png";
+import parque1000b from "../../../assets/images/Responsive/parque 3_1000mb.png";
 import pez1 from "../../../assets/images/Responsive/pez 1.png";
 import burbujas from "../../../assets/images/Responsive/burbujas.png";
 import ballena from "../../../assets/images/Responsive/ballena.png";
@@ -17,12 +20,24 @@ class parksR extends Component {
       <div>
         <div className="parques">
             <img src={diferentesparques} className="diseñoparque" alt="fotos" />
-            <img src={parque200} className="parque200" alt="fotos" />
-            <img src={parque500} className="parque500" alt="fotos" />
+            <div className="contentparqueimgs">
+              <img src={parque200} className="parque200" alt="fotos" />
+              <img src={parque200b} className="parqueb" alt="fotos" />
+            </div>
+           
+            <div className="contentparqueimgs">
+              <img src={parque500} className="parque500" alt="fotos" />
+              <img src={parque500b} className="parqueb" alt="fotos" />
+            </div>
+            
             <img src={pez1} className="pez1" alt="fotos" />
             <img src={burbujas} className="burbujas" alt="fotos" />
             {/* <img src={pez1} className="pez2" alt="fotos" /> */}
-            <img src={parque1000} className="parque1000" alt="fotos" />
+            <div className="contentparqueimgs">
+              <img src={parque1000} className="parque1000" alt="fotos" />
+              <img src={parque1000b} className="parqueb" alt="fotos" />
+            </div>
+            
             
           </div>
           <div>

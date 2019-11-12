@@ -246,7 +246,7 @@ class attractionR extends Component {
             <h2>FOTOZONA GIGANTE</h2>
             <p>Una zona de fotos dinámica interactiva
               en la que se deben completar tareas
-              como estallar burbu jas y atrapar
+              como estallar burbujas y atrapar
               estrellas para poder pasar de ser un
               enano a un gigante.
               El sistema toma automáticamente una
