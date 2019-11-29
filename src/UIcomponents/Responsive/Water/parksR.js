@@ -35,7 +35,7 @@ class parksR extends Component {
             {/* <img src={pez1} className="pez2" alt="fotos" /> */}
             <div className="contentparqueimgs">
               <img src={parque1000} className="parque1000" alt="fotos" />
-              <img src={parque1000b} className="parqueb" alt="fotos" />
+              <img src={parque1000b} className="parqueb parquebgrande" alt="fotos" />
             </div>
             
             
